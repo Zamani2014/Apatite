@@ -1,0 +1,1250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="clt_RecoverPasswordWizard_KeepPassword" xml:space="preserve">
+    <value>Ponechat heslo</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="clt_RecoverPasswordWizard_ResetPassword" xml:space="preserve">
+    <value>Vytvořit nové heslo</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="glb__EditMode" xml:space="preserve">
+    <value>Režim editace</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="glb__ViewMode" xml:space="preserve">
+    <value>Režim zobrazení</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_CreateUser" xml:space="preserve">
+    <value>Vytvořit uživatele</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_CreateUserSucessful" xml:space="preserve">
+    <value>Uživatel byl úspěšně vytvořen</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_DownloadList_RssTitle" xml:space="preserve">
+    <value>Soubory ke stažení</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_EventList_RssTitle" xml:space="preserve">
+    <value>Akce</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_Gallery_RssTitle" xml:space="preserve">
+    <value>Galerie</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_Guestbook_RssTitle" xml:space="preserve">
+    <value>Návštěvní kniha</value>
+    <comment>updated 1.1.1</comment>
+  </data>
+  <data name="ctl_HtmlContent_RssTitle" xml:space="preserve">
+    <value>Html</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_LinkList_RssTitle" xml:space="preserve">
+    <value>Odkazy</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_NewsList_RssTitle" xml:space="preserve">
+    <value>Novinky</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_PasswordRecovery_MailSubject" xml:space="preserve">
+    <value>Informace o uživateli</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_RecoverPasswordWizard_HeaderText" xml:space="preserve">
+    <value>Vyresetovat heslo pro uživatele</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_RecoverPasswordWizard_PasswordMailBody" xml:space="preserve">
+    <value>Informace o uživateli: {0}{2}{2}Vaše heslo bylo reserováno.{2}Vaše nové heslo je: {1}{2}{2}</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_RecoverPasswordWizard_PasswordMailFailed" xml:space="preserve">
+    <value>Nepodařilo se odeslat zprávu!</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_RecoverPasswordWizard_PasswordMailSent" xml:space="preserve">
+    <value>Zpráva byla úspěšně odeslána</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_RecoverPasswordWizard_PasswordMailSubject" xml:space="preserve">
+    <value>Informace pro uživatele</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_RecoverPasswordWizard_ResultUserNotFound" xml:space="preserve">
+    <value>Uživatel nebyl nalezen</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="glb__Cancel" xml:space="preserve">
+    <value>Storno</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="glb__Save" xml:space="preserve">
+    <value>Uložit</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="glb_Search_NoSearchResults" xml:space="preserve">
+    <value>Na váš dotaz nebyly nalezeny žádné výsledky.</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_Search_Rowtitle_Excerpt" xml:space="preserve">
+    <value>Výňatek</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_Search_Rowtitle_Title" xml:space="preserve">
+    <value>Titulek</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_Search_SearchQuery" xml:space="preserve">
+    <value>Vyhledávaný výraz</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_Search_StartSearch" xml:space="preserve">
+    <value>Hledej</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_AdminUser_DeleteSection" xml:space="preserve">
+    <value>Smazat sekci</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_Subpages_RssTitle" xml:space="preserve">
+    <value>Podstránky</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_CMS_Title" xml:space="preserve">
+    <value>Titulek</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_CMS_Language" xml:space="preserve">
+    <value>Jazyk</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_CMS_MailSenderAdress" xml:space="preserve">
+    <value>Odesílatel e-mailů</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_CMS_SmtpServer" xml:space="preserve">
+    <value>SMTP Server</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_CMS_FooterLine" xml:space="preserve">
+    <value>Text zápatí</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_CMS_WebsiteDescription" xml:space="preserve">
+    <value>Popis website</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_CMS_WebsiteKeywords" xml:space="preserve">
+    <value>Klíčová slova</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_CMS_EnableSectionRSS" xml:space="preserve">
+    <value>Povolit RSS sekcí</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_CMS_SelectTheme" xml:space="preserve">
+    <value>Vybrat skin</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_CMS_RESETWebsite" xml:space="preserve">
+    <value>Vyresetovat website</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_LoginAdmin_Login" xml:space="preserve">
+    <value>Přihlášení</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_LoginAdmin_Login_UserName" xml:space="preserve">
+    <value>Uživatelské jméno</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_LoginAdmin_Remember" xml:space="preserve">
+    <value>Pamatuj si mne.</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_LoginAdmin_ChangePassword" xml:space="preserve">
+    <value>Změna hesla</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_LoginAdmin_LogIn" xml:space="preserve">
+    <value>Přihlásit</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_LoginAdmin_LogOut" xml:space="preserve">
+    <value>Odhlásit</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_RecoverPassword_Legend" xml:space="preserve">
+    <value>Vyresetovat heslo</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_CreateUserButtonDone" xml:space="preserve">
+    <value>Pokračovat</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Navigation_NewSite" xml:space="preserve">
+    <value>Nová stránka</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Navigation_AllowAnonymous" xml:space="preserve">
+    <value>Anon. přístup</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Users_ChangeUser" xml:space="preserve">
+    <value>Změnit uživatele</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Users_Comment" xml:space="preserve">
+    <value>Komentář</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Users_CreateUser" xml:space="preserve">
+    <value>Vytvoření nového uživatele</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Users_Email" xml:space="preserve">
+    <value>E-mail</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Users_IsAdministrator" xml:space="preserve">
+    <value>Je administrátor</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Users_LastLogin" xml:space="preserve">
+    <value>Poslední přihlášení</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Navigation_Move" xml:space="preserve">
+    <value>Přesunout</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Sections_MoveSection" xml:space="preserve">
+    <value>Přesunout sekci mezi stránkami</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Navigation_Navigation" xml:space="preserve">
+    <value>Navigace</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Navigation_NewPageDefaultName" xml:space="preserve">
+    <value>Nová stránka</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Navigation_PageDeletionWarning" xml:space="preserve">
+    <value>Opravdu chcete tuto stránku smazat?</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Navigation_PageTitle" xml:space="preserve">
+    <value>Titulek stránky</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Sections_Section" xml:space="preserve">
+    <value>Sekce</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Sections_SourcePage" xml:space="preserve">
+    <value>Zdrojová stránka</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Sections_TargetPage" xml:space="preserve">
+    <value>Cílová stránka</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Users_UserName" xml:space="preserve">
+    <value>Uživatelské jméno</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Navigation_VirtualPath" xml:space="preserve">
+    <value>Virtuální cesta</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Navigation_Visible" xml:space="preserve">
+    <value>Viditelná</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Navigation_Homepage" xml:space="preserve">
+    <value>Domovská stránka</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="glb__Delete" xml:space="preserve">
+    <value>Smazat</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Website_EnableSectionRSS" xml:space="preserve">
+    <value>Povolit RSS v sekcích</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Website_FooterLine" xml:space="preserve">
+    <value>Text zápatí</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Website_Language" xml:space="preserve">
+    <value>Jazyk</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Website_MailSender" xml:space="preserve">
+    <value>Odesílatel e-mailů</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Website_Reset" xml:space="preserve">
+    <value>Vyresetovat website</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_SelectTheme" xml:space="preserve">
+    <value>Vybrat skin</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Website_SmtpServer" xml:space="preserve">
+    <value>SMTP server</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Website_Title" xml:space="preserve">
+    <value>Název webu</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Website_WebsiteDescription" xml:space="preserve">
+    <value>Popis webu</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Website_WebsiteKeywords" xml:space="preserve">
+    <value>Klíčová slova</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Navigation_VirtualPathErrorMessage" xml:space="preserve">
+    <value>Site s touto cestou již existuje</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_ChangePassword_Button" xml:space="preserve">
+    <value>Změna hesla</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_ChangePassword_ConfirmNewPassword" xml:space="preserve">
+    <value>Potvrďte nové heslo</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_ChangePassword_ConfirmNewPasswordRequired" xml:space="preserve">
+    <value>Musíte potvrdit nového hesla.</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_ChangePassword_NewPassword" xml:space="preserve">
+    <value>Zadejte nové heslo</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_ChangePassword_NewPasswordRequired" xml:space="preserve">
+    <value>Musíte zadat nové heslo.</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_ChangePassword_NotMatching" xml:space="preserve">
+    <value>Nové heslo se musí shodovat s potvrzením hesla.</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_ChangePassword_Password" xml:space="preserve">
+    <value>Heslo</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_ChangePassword_PasswordRequired" xml:space="preserve">
+    <value>Musíte zadat stávající heslo</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_ChangePassword_Title" xml:space="preserve">
+    <value>Změnit heslo</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_ChangePassword_UserName" xml:space="preserve">
+    <value>Uživatelské jméno</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_ChangePassword_UserNameRequired" xml:space="preserve">
+    <value>Musíte zadat uživatelské jméno</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_Login_ChangePassword" xml:space="preserve">
+    <value>Změnit heslo</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_Login_LogIn" xml:space="preserve">
+    <value>Přihlásit</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_Login_Password" xml:space="preserve">
+    <value>Heslo</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_Login_PasswordRequired" xml:space="preserve">
+    <value>Musíte zadat heslo.</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_Login_RememberMe" xml:space="preserve">
+    <value>Pamatuj si mne.</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_Login_Title" xml:space="preserve">
+    <value>Přihlášení</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_Login_UserName" xml:space="preserve">
+    <value>Uživatelské jméno</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_Login_UserNameRequired" xml:space="preserve">
+    <value>Musíte zadat uživatelské jméno.</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Users_DeleteUser" xml:space="preserve">
+    <value>Smazat tohoto uživatele</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Users_DeleteWarning" xml:space="preserve">
+    <value>Opravdu chcete tohoto uživatele smazat?</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Users_Exception" xml:space="preserve">
+    <value>Došlo k následující chybě:</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Users_LastAdminRemains" xml:space="preserve">
+    <value>Nemůžete odstranit jediného uživatele s administrátorskými právy!</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="cls_SitemapEditor_Administration" xml:space="preserve">
+    <value>Administrace</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="cls_SitemapEditor_CMSSetup" xml:space="preserve">
+    <value>Nastavení CMS</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="cls_SitemapEditor_Management" xml:space="preserve">
+    <value>Správa uživatelů</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="cls_SitemapEditor_Sections" xml:space="preserve">
+    <value>Přiřazení stránek do sekcí</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="cls_SitemapEditor_SectionsPages" xml:space="preserve">
+    <value>Stránky a navigace</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_ComparePassword" xml:space="preserve">
+    <value>Heslo a potvrzení hesla se musejí shodovat</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_ConfirmPassword" xml:space="preserve">
+    <value>Potvrzení hesla:</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_ConfirmPasswordRequired" xml:space="preserve">
+    <value>Musíte zadat potvrzení hesla</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_DuplicateUserName" xml:space="preserve">
+    <value>Uživatel se zadaným jménem již existuje.</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_Email" xml:space="preserve">
+    <value>E-mail:</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_EmailRequired" xml:space="preserve">
+    <value>Musíte zadat e-mail.</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_Password" xml:space="preserve">
+    <value>Heslo:</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_PasswordRequired" xml:space="preserve">
+    <value>Musíte zadat heslo.</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_UserName" xml:space="preserve">
+    <value>Uživatelské jméno.</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_UserNameRequired" xml:space="preserve">
+    <value>Musíte zadat uživatelské jméno.</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_RecoverPassword_FinishButton" xml:space="preserve">
+    <value>Vyresetovat</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="glb__Search" xml:space="preserve">
+    <value>Vyhledávání</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="glb__DeleteSection" xml:space="preserve">
+    <value>Smazat sekci</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="glb__RemoveFromSidebar" xml:space="preserve">
+    <value>Odstranit z menu</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="glb__SendToSidebar" xml:space="preserve">
+    <value>Zobrazit v menu</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="glb__Submit" xml:space="preserve">
+    <value>Odeslat</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_Guestbook_AntiBotImage" xml:space="preserve">
+    <value>Obrázek proti robotům</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_Guestbook_Input" xml:space="preserve">
+    <value>Komentář</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_Guestbook_Name" xml:space="preserve">
+    <value>Jméno</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_ContactForm_Name" xml:space="preserve">
+    <value>Jméno</value>
+    <comment>added 1.1.2 Beta</comment>
+  </data>
+  <data name="ctl_ContactForm_RssTitle" xml:space="preserve">
+    <value>Kontaktní formulář</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_EasyControl_RssTitle" xml:space="preserve">
+    <value>Easy Control</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Sections_Move" xml:space="preserve">
+    <value>Přesunout</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Users_Admin" xml:space="preserve">
+    <value>Admin</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_ContactForm_CopyTo" xml:space="preserve">
+    <value>Kopie</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_ContactForm_EMailAddress" xml:space="preserve">
+    <value>E-mailová adresa:</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_ContactForm_ErrorMessageEmail" xml:space="preserve">
+    <value>Prosím zadejte e-mailovou adresu</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_ContactForm_ErrorMessageMessage" xml:space="preserve">
+    <value>Prosím zadejte text zprávy</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_ContactForm_ErrorMessageSubject" xml:space="preserve">
+    <value>Prosím zadejte předmět zprávy</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_ContactForm_ErrorMessageValidEmail" xml:space="preserve">
+    <value>Prosím zadejte platnou e-mailovou adresu</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_ContactForm_IntroPart1" xml:space="preserve">
+    <value>Abyste mohli používat sekci kontaktního formuláře, musíte nejprve nastavit SMTP server na</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_ContactForm_IntroPart2" xml:space="preserve">
+    <value>administrační stránce</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_ContactForm_Introtext" xml:space="preserve">
+    <value>Úvodní text</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_ContactForm_Message" xml:space="preserve">
+    <value>Zpráva</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_ContactForm_RecipientEMail" xml:space="preserve">
+    <value>Příjemce</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_ContactForm_Subject" xml:space="preserve">
+    <value>Předmět</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_ContactForm_ThankYouMessage" xml:space="preserve">
+    <value>Potvrzovací zpráva</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_Downloadlist_Comment" xml:space="preserve">
+    <value>Komentář</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_Downloadlist_File" xml:space="preserve">
+    <value>Soubor</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_Downloadlist_Title" xml:space="preserve">
+    <value>Titulek</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_EasyControl_Choose" xml:space="preserve">
+    <value>Zvolte control</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_EasyControl_SelectControl" xml:space="preserve">
+    <value>Prosím zvolte control</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_ErrorMessageMissingFile" xml:space="preserve">
+    <value>Vyberte soubor k uploadu</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_EventList_Date" xml:space="preserve">
+    <value>Datum</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_EventList_Description" xml:space="preserve">
+    <value>Popis</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_EventList_ErrorMessageEventDate" xml:space="preserve">
+    <value>Prosím zadejte datum konání akce</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_EventList_ErrorMessageEventLocation" xml:space="preserve">
+    <value>Prosím zadejte místo konání akce</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_EventList_ErrorMessageEventName" xml:space="preserve">
+    <value>Prosím zadejte název akce</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_EventList_Event" xml:space="preserve">
+    <value>Akce</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_EventList_EventDate" xml:space="preserve">
+    <value>Datum konání</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_EventList_EventName" xml:space="preserve">
+    <value>Název akce</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_EventList_EventTime" xml:space="preserve">
+    <value>Čas konání</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_EventList_Location" xml:space="preserve">
+    <value>Místo</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_EventList_ShowFrom" xml:space="preserve">
+    <value>Ukázat od</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_Gallery_Comment" xml:space="preserve">
+    <value>Komentář</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_Gallery_ErrorMessageImage" xml:space="preserve">
+    <value>Prosím vyberte obrázek k uploadu</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_Gallery_File" xml:space="preserve">
+    <value>Soubor</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_Gallery_Title" xml:space="preserve">
+    <value>Titulek</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_Guestbook_Author" xml:space="preserve">
+    <value>Autor</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_Guestbook_Date" xml:space="preserve">
+    <value>Datum</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_Guestbook_ErrorMessageAntibot" xml:space="preserve">
+    <value>Prosím opište text z obrázku</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_Guestbook_ErrorMessageAntibotInvalid" xml:space="preserve">
+    <value>Chybný kód proti robotům</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_Guestbook_ErrorMessageAuthorName" xml:space="preserve">
+    <value>Musíte zadat jméno autora</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_Guestbook_ErrorMessageText" xml:space="preserve">
+    <value>Musíte zadat text</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_LinkList_Comment" xml:space="preserve">
+    <value>Komentář</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_LinkList_ErrorMessageUrl" xml:space="preserve">
+    <value>Prosím zadejte URL</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_LinkList_ErrorMessageValidUrl" xml:space="preserve">
+    <value>Prosím zadejte správné URL</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_LinkList_Target" xml:space="preserve">
+    <value>Cílové okno</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_LinkList_Title" xml:space="preserve">
+    <value>Titulek</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_LinkList_Url" xml:space="preserve">
+    <value>Url</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_NewsList_Content" xml:space="preserve">
+    <value>Obsah</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_NewsList_Date" xml:space="preserve">
+    <value>Datum</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_NewsList_ErrorMessageHeadline" xml:space="preserve">
+    <value>Prosím zadejte nadpis</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_NewsList_Headline" xml:space="preserve">
+    <value>Nadpis</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_NewsList_News" xml:space="preserve">
+    <value>Novinky</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_NewsList_ShowFrom" xml:space="preserve">
+    <value>Zobrazit od</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_NewsList_ShowUntil" xml:space="preserve">
+    <value>Zobrazit do</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_SectionAdmin_Info" xml:space="preserve">
+    <value>Informace</value>
+    <comment>updated 1.1.1</comment>
+  </data>
+  <data name="glb__Add" xml:space="preserve">
+    <value>Přidat</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_Default_AddSection" xml:space="preserve">
+    <value>Přidat sekci</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_Search_ErrorMessageKeyword" xml:space="preserve">
+    <value>Prosím zadejte klíčové slovo, které se má hledat</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_Search_View" xml:space="preserve">
+    <value>Zobrazit</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Website_SelectTheme" xml:space="preserve">
+    <value>Vyberte skin</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_DuplicateEmail" xml:space="preserve">
+    <value>Uživatel se zadanou e-mailovou adresou již existuje.</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_EventList_ShowPastEvents" xml:space="preserve">
+    <value>Zobrazit již proběhlé události</value>
+    <comment>updated 1.1.1</comment>
+  </data>
+  <data name="ctl_SectionAdmin_DeleteWarning" xml:space="preserve">
+    <value>Jste si jist a opravdu chcete smazat sekci "{0}"?</value>
+    <comment>updated 1.1.1</comment>
+  </data>
+  <data name="adm_Website_SmtpDomain" xml:space="preserve">
+    <value>SMTP domain</value>
+    <comment>added 1.1.1</comment>
+  </data>
+  <data name="adm_Website_SmtpPassword" xml:space="preserve">
+    <value>SMTP heslo</value>
+    <comment>added 1.1.1</comment>
+  </data>
+  <data name="adm_Website_SmtpUser" xml:space="preserve">
+    <value>SMTP uživatel</value>
+    <comment>added 1.1.1</comment>
+  </data>
+  <data name="pge_Login_Failure" xml:space="preserve">
+    <value>Váš pokus o přihlášení nebyl úspěšný.Prosím zkuste to znovu.</value>
+    <comment>updated 1.2.0</comment>
+  </data>
+  <data name="ctl_Gallery_HTMLVersion" xml:space="preserve">
+    <value>HTML verze</value>
+    <comment>added 1.1.2 Beta</comment>
+  </data>
+  <data name="ctl_Gallery_SilverlightVersion" xml:space="preserve">
+    <value>Silverlight verze</value>
+    <comment>added 1.1.2 Beta</comment>
+  </data>
+  <data name="pge_ChangePassword_PasswordFailureText" xml:space="preserve">
+    <value>Chybně zadané, nebo neplatné heslo.</value>
+    <comment>updated 1.2.0</comment>
+  </data>
+  <data name="adm_Navigation_EditPowerUser" xml:space="preserve">
+    <value>Editovatelné Power userem</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="adm_Users_IsPowerUser" xml:space="preserve">
+    <value>Je Power user</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="adm_Users_PowerUser" xml:space="preserve">
+    <value>Power user</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_TagCloud_RssTitle" xml:space="preserve">
+    <value>Tagy</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_ErrorMessageUrl" xml:space="preserve">
+    <value>Zadejte URL</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_ErrorMessageValidUrl" xml:space="preserve">
+    <value>Zadejte platnou URL</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_RssTitle" xml:space="preserve">
+    <value>Blogroll</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_Title" xml:space="preserve">
+    <value>Název</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_Url" xml:space="preserve">
+    <value>URL</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_ErrorMessageValidOrder" xml:space="preserve">
+    <value>Zadejte platné pořadí (0-9999)</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_Order" xml:space="preserve">
+    <value>Pořadí</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_Description" xml:space="preserve">
+    <value>Popis</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_FeedUrl" xml:space="preserve">
+    <value>URL RSS kanálu</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_TagCloud_DefaultTitle" xml:space="preserve">
+    <value>Tagy</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_TagCloud_ErrorMessageTitle" xml:space="preserve">
+    <value>Zadejte název skupiny tagů</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_Comments" xml:space="preserve">
+    <value>Komentáře</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_CommentsAuthor" xml:space="preserve">
+    <value>Autor</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_CommentsErrorMessageAuthor" xml:space="preserve">
+    <value>Zadejte jméno</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_CommentsErrorMessageTitle" xml:space="preserve">
+    <value>Zadejte název</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_CommentsFooter" xml:space="preserve">
+    <value>Zasláno {0} od {1}</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_CommentsTitle" xml:space="preserve">
+    <value>Název</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_Configuration" xml:space="preserve">
+    <value>Konfigurace</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_Entry" xml:space="preserve">
+    <value>Příspěvek do blogu</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_Tags" xml:space="preserve">
+    <value>Tagy</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_Title" xml:space="preserve">
+    <value>Název</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_TagCloud_ConfigSafed" xml:space="preserve">
+    <value>Změny uloženy</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_TagCloud_ConfigTitle" xml:space="preserve">
+    <value>Informace o skupině tagů</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_TagCloud_Title" xml:space="preserve">
+    <value>Název skupiny tagů</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="glb__Back" xml:space="preserve">
+    <value>Zpět</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="glb__Close" xml:space="preserve">
+    <value>Zavřít</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="pge_Keywords_SelectionSafed" xml:space="preserve">
+    <value>Výběr uložen</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="pge_Keywords_TagCreated" xml:space="preserve">
+    <value>Tag vytvořen a výběr uložen</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="pge_Keywords_Title" xml:space="preserve">
+    <value>Výběr tagu</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_Comment" xml:space="preserve">
+    <value>Komentář</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_Config" xml:space="preserve">
+    <value>Konfigurace blogu</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_ConfigBlogName" xml:space="preserve">
+    <value>Název blogu</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_ConfigPing" xml:space="preserve">
+    <value>Zaslat ping na Weblogs.com</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_ConfigSafed" xml:space="preserve">
+    <value>Změny uloženy</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_ErrorMessageComment" xml:space="preserve">
+    <value>Zadejte komentář</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_TagsNumber" xml:space="preserve">
+    <value>Číslo</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_Tag" xml:space="preserve">
+    <value>Tag</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_TagsDescription" xml:space="preserve">
+    <value>Popis</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_TagsErrorMessage" xml:space="preserve">
+    <value>Specifikujte název tagu</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_CommentsDate" xml:space="preserve">
+    <value>Datum</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_ErrorMessageEntry" xml:space="preserve">
+    <value>Zadejte příspěvek do blogu</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_ErrorMessageTitle" xml:space="preserve">
+    <value>Zadejte název</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_NoComments" xml:space="preserve">
+    <value>Žádné komentáře</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_ConfigName" xml:space="preserve">
+    <value>Roll name</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_ConfigSafed" xml:space="preserve">
+    <value>Konfigurace zabezpečena</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_Configuration" xml:space="preserve">
+    <value>Konfigurace</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_ConfigVisible" xml:space="preserve">
+    <value>Viditelné</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_Config" xml:space="preserve">
+    <value>Konfigurace blogrollu</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="pge_BlogSearch_Title" xml:space="preserve">
+    <value>Příspěvky o: {0}</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="pge_Keywords_ErrorMessageTagExists" xml:space="preserve">
+    <value>Tag už existuje</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_RssDisplay_RssTitle" xml:space="preserve">
+    <value>Zobrazit RSS kanál</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="ctl_TwitterStatusFeed_RssTitle" xml:space="preserve">
+    <value>Kanál statusu Twitteru</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="adm_Website_EnableIE8CompatibilityMetatag" xml:space="preserve">
+    <value>Povolit mód kompatibility IE8 (meta-tag)</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="ctl_TwitterStatusFeed_LabelFollowers" xml:space="preserve">
+    <value>Následovníci:</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="ctl_TwitterStatusFeed_LabelFriends" xml:space="preserve">
+    <value>Přátelé:</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="ctl_TwitterStatusFeed_LabelTweets" xml:space="preserve">
+    <value>Tweety:</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="ctl_TwitterStatusFeed_LabelTwitterPage" xml:space="preserve">
+    <value>Stránka Twitteru</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="ctl_TwitterStatusFeed_LabelWebsite" xml:space="preserve">
+    <value>Stránka</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="ctl_TwitterStatusFeed_AdminMaxItems" xml:space="preserve">
+    <value>Maximální počet položek k zobrazení:</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="ctl_TwitterStatusFeed_AdminTemplate" xml:space="preserve">
+    <value>Šablona:</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="ctl_TwitterStatusFeed_AdminTwitterUsername" xml:space="preserve">
+    <value>Uživatelské jméno Twitteru:</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="ctl_RssDisplay_AdminFeedUrl" xml:space="preserve">
+    <value>URL RSS kanálu:</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="ctl_RssDisplay_AdminMaxItems" xml:space="preserve">
+    <value>Maximální počet položek k zobrazení:</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="pge_UserRegistration_Title" xml:space="preserve">
+    <value>Vytvořit uživatele</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="pge_Login_CreateUser" xml:space="preserve">
+    <value>Vytvořit uživatele</value>
+  </data>
+  <data name="adm_Users_IsApproved" xml:space="preserve">
+    <value>Je ověřen</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="pge_UserRegistration_EmailRegex" xml:space="preserve">
+    <value>E-mail je neplatný.</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="pge_UserRegistration_WizardTitle" xml:space="preserve">
+    <value>Registrace</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="pge_Login_ActivationSuccess" xml:space="preserve">
+    <value>Uživatel aktivován!</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="pge_UserRegistration_ActivationEmailBody" xml:space="preserve">
+    <value>Děkujeme za registraci s {0}!
+
+K aktivaci vašeho účtu klikněte na následující odkaz:
+{1}{2}
+
+Děkujeme</value>
+    <comment>added 1.3.0
+
+{0} je název stránky
+{1} je URL na stránku Login.aspx
+{2} je parametr pro aktivaci</comment>
+  </data>
+  <data name="pge_UserRegistration_ActivationEmailSubject" xml:space="preserve">
+    <value>E-mailová aktivace z {0}</value>
+    <comment>added 1.3.0
+
+{0} is the WebSiteTitle</comment>
+  </data>
+  <data name="adm_Website_AllowUserSelfRegistration" xml:space="preserve">
+    <value>Povolit self-service registraci uživatelů</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="pge_UserRegistration_ContinueButton" xml:space="preserve">
+    <value>Pokračovat</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="pge_UserRegistration_ConfirmationText" xml:space="preserve">
+    <value>Váš účet byl úspěšně vytvořen a byl vám zaslán e-mail. Klikněte v něm na odkaz k aktivaci.</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="pge_UserRegistration_ConfirmationTitle" xml:space="preserve">
+    <value>Registrace úspěšná</value>
+    <comment>added 1.3.0</comment>
+  </data>
+</root>

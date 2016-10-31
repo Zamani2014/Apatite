@@ -1,0 +1,66 @@
+/*default CSS for SAG scroller*/
+
+.sagscroller
+{
+float:left;
+width: 215px;  /*default width of scroller*/
+height:200px;
+overflow:hidden;
+position:relative;
+border:1px solid #e0cfc2;
+background-color : #f4f0ec;
+background-image: url(~/App_Themes/DarvazehMelal/humanity/images/ui-bg_inset-soft_100_f4f0ec_1x100.png) 50% bottom repeat-x; 
+color: #1e1b1d;
+border-radius: 6px; /*css3 round corners*/
+-moz-border-radius: 6px; /*css3 round corners*/
+-webkit-border-radius: 6px; /*css3 round corners*/
+direction:rtl;
+top: 0px;
+left: 3px; margin-bottom:3px;
+}
+
+        div#mysagscroller #sagTable
+        {
+            padding: 5px;
+            margin-bottom: 5px; 
+        }
+        
+<%--        div#mysagscroller ul li:first-letter
+        {
+            font-size: 28px;
+            background-color:#CF8F45;
+            color: black;
+            padding: 0 2px;
+            margin-right: 2px;
+        }
+--%>        
+
+
+.sagscroller a{
+font-weight:bold;
+}
+
+.sagscroller ul{
+position:absolute;
+margin:0;
+padding:0;
+list-style:none;
+width: 100%;
+    top: -25px;
+    left: 1px;
+}
+
+.sagscroller ul li{
+display:block;
+}
+
+.sagscroller ul li .rsscontent{ /*div containing body of each RSS entry*/
+font-size:90%;
+}
+
+.sagscroller ul li .rsslabel{ /*div containing label of each RSS entry*/
+margin-top:5px;
+background: #eee;
+font-size:12px;
+clear: both;
+}

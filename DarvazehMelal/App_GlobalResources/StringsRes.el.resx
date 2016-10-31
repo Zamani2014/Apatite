@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="clt_RecoverPasswordWizard_KeepPassword" xml:space="preserve">
+    <value>Διατήρηση κωδικού πρόσβασης</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="clt_RecoverPasswordWizard_ResetPassword" xml:space="preserve">
+    <value>Νέος κωδικός πρόσβασης</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__EditMode" xml:space="preserve">
+    <value>Επεξεργασία</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__ViewMode" xml:space="preserve">
+    <value>Προβολή</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_CreateUser" xml:space="preserve">
+    <value>Δημιουργία χρήστη</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_CreateUserSucessful" xml:space="preserve">
+    <value>Ο χρήστης δημιουργήθηκε επιτυχώς</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_DownloadList_RssTitle" xml:space="preserve">
+    <value>Downloads</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_RssTitle" xml:space="preserve">
+    <value>Γεγονότα</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Gallery_RssTitle" xml:space="preserve">
+    <value>Φωτογραφίες</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Guestbook_RssTitle" xml:space="preserve">
+    <value>Βιβλίο επισκεπτών</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_HtmlContent_RssTitle" xml:space="preserve">
+    <value>HTML Περιεχόμενο</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_LinkList_RssTitle" xml:space="preserve">
+    <value>Σύνδεσμοι</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_NewsList_RssTitle" xml:space="preserve">
+    <value>Ειδήσεις</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_PasswordRecovery_MailSubject" xml:space="preserve">
+    <value>Πληροφορίες χρήστη</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_RecoverPasswordWizard_HeaderText" xml:space="preserve">
+    <value>Μηδενισμός κωδικού πρόσβασης για τον χρήστη</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_RecoverPasswordWizard_PasswordMailBody" xml:space="preserve">
+    <value>Πληροφορίες χρήστη: {0}{2}{2}Ο κωδικός πρόσβασής σας έχει μηδενιστεί.{2}Ο νέος σας κωδικός πρόσβασης είναι: {1}{2}{2}Ευχαριστούμε</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_RecoverPasswordWizard_PasswordMailFailed" xml:space="preserve">
+    <value>Αποτυχία αποστολής e-mail!</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_RecoverPasswordWizard_PasswordMailSent" xml:space="preserve">
+    <value>Το e-mail εστάλη επιτυχώς</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_RecoverPasswordWizard_PasswordMailSubject" xml:space="preserve">
+    <value>Πληροφορίες χρήστη</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_RecoverPasswordWizard_ResultUserNotFound" xml:space="preserve">
+    <value>Ο χρήστης δεν βρέθηκε</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__Cancel" xml:space="preserve">
+    <value>Άκυρο</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__Save" xml:space="preserve">
+    <value>Αποθήκευση</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb_Search_NoSearchResults" xml:space="preserve">
+    <value>Δεν βρέθηκαν στοιχεία που να ταιριάζουν με τα κριτήρια της αναζήτησής σας</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Search_Rowtitle_Excerpt" xml:space="preserve">
+    <value>Απόσπασμα</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Search_Rowtitle_Title" xml:space="preserve">
+    <value>Τίτλος</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Search_SearchQuery" xml:space="preserve">
+    <value>Κριτήρια αναζήτησης</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Search_StartSearch" xml:space="preserve">
+    <value>Αναζήτηση</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_AdminUser_DeleteSection" xml:space="preserve">
+    <value>Διαγραφή τμήματος</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Subpages_RssTitle" xml:space="preserve">
+    <value>Υπο-σελίδες</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_CMS_Title" xml:space="preserve">
+    <value>Τίτλος</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_CMS_Language" xml:space="preserve">
+    <value>Γλώσσα</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_CMS_MailSenderAdress" xml:space="preserve">
+    <value>E-mail αποστολέα</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_CMS_SmtpServer" xml:space="preserve">
+    <value>SMTP Server</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_CMS_FooterLine" xml:space="preserve">
+    <value>Υποσέλιδο</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_CMS_WebsiteDescription" xml:space="preserve">
+    <value>Περιγραφή ιστοχώρου</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_CMS_WebsiteKeywords" xml:space="preserve">
+    <value>Λέξεις-κλειδιά ιστοχώρου</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_CMS_EnableSectionRSS" xml:space="preserve">
+    <value>Ενεργοποίηση RSS τμήματος</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_CMS_SelectTheme" xml:space="preserve">
+    <value>Επιλογή θέματος</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_CMS_RESETWebsite" xml:space="preserve">
+    <value>Αρχικές ρυθμίσεις</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_LoginAdmin_Login" xml:space="preserve">
+    <value>Σύνδεση</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_LoginAdmin_Login_UserName" xml:space="preserve">
+    <value>Όνομα χρήστη</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_LoginAdmin_Remember" xml:space="preserve">
+    <value>Υπενθύμιση κωδικού πρόσβασης</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_LoginAdmin_ChangePassword" xml:space="preserve">
+    <value>Αλλαγή κωδικού πρόσβασης</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_LoginAdmin_LogIn" xml:space="preserve">
+    <value>Συνδεση</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_LoginAdmin_LogOut" xml:space="preserve">
+    <value>Αποσυνδεση</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_RecoverPassword_Legend" xml:space="preserve">
+    <value>Μηδενισμός κωδικού πρόσβασης χρήστη</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_CreateUserButtonDone" xml:space="preserve">
+    <value>Συνέχεια</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_NewSite" xml:space="preserve">
+    <value>Νέα σελίδα</value>
+    <comment>updated 1.0.2</comment>
+  </data>
+  <data name="adm_Navigation_AllowAnonymous" xml:space="preserve">
+    <value>Επιτρέπονται ανώνυμοι χρήστες</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_ChangeUser" xml:space="preserve">
+    <value>Αλλαγή χρήστη</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_Comment" xml:space="preserve">
+    <value>Σχόλια</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_CreateUser" xml:space="preserve">
+    <value>Δημιουργία νέου χρήστη</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_Email" xml:space="preserve">
+    <value>Διεύθυνση e-mail</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_IsAdministrator" xml:space="preserve">
+    <value>Διαχειριστής</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_LastLogin" xml:space="preserve">
+    <value>Τελευταία σύνδεση</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_Move" xml:space="preserve">
+    <value>Μετακίνηση</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Sections_MoveSection" xml:space="preserve">
+    <value>Μετακίνηση του τμήματος μεταξύ σελίδων</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_Navigation" xml:space="preserve">
+    <value>Πλοήγηση</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_NewPageDefaultName" xml:space="preserve">
+    <value>Νέα σελίδα</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_PageDeletionWarning" xml:space="preserve">
+    <value>Διαγραφή σελίδας;</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_PageTitle" xml:space="preserve">
+    <value>Τίτλος σελίδας</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Sections_Section" xml:space="preserve">
+    <value>Τμήμα</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Sections_SourcePage" xml:space="preserve">
+    <value>Πηγαία σελίδα</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Sections_TargetPage" xml:space="preserve">
+    <value>Σελίδα στόχος</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_UserName" xml:space="preserve">
+    <value>Όνομα χρήστη</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_VirtualPath" xml:space="preserve">
+    <value>Εικονική διαδρομή</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_Visible" xml:space="preserve">
+    <value>Ορατό</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_Homepage" xml:space="preserve">
+    <value>Κεντρική σελίδα</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__Delete" xml:space="preserve">
+    <value>Διαγραφή</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Website_EnableSectionRSS" xml:space="preserve">
+    <value>Ενεργοποίηση RSS τμήματος</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Website_FooterLine" xml:space="preserve">
+    <value>Υποσέλιδο</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Website_Language" xml:space="preserve">
+    <value>Γλώσσα</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Website_MailSender" xml:space="preserve">
+    <value>Διεύθυνση αποστολέα</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Website_Reset" xml:space="preserve">
+    <value>Αρχικές ρυθμίσεις</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_SelectTheme" xml:space="preserve">
+    <value>Επιλογή θέματος</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Website_SmtpServer" xml:space="preserve">
+    <value>SMTP Server</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Website_Title" xml:space="preserve">
+    <value>Τίτλος</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Website_WebsiteDescription" xml:space="preserve">
+    <value>Περιγραφή ιστοχώρου</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Website_WebsiteKeywords" xml:space="preserve">
+    <value>Λέξεις-κλειδιά ιστοχώρου</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_VirtualPathErrorMessage" xml:space="preserve">
+    <value>Η διαδρομή υπάρχει ήδη</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_Button" xml:space="preserve">
+    <value>Αλλαγή κωδικού πρόσβασης</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_ConfirmNewPassword" xml:space="preserve">
+    <value>Επιβεβαίωση νέου κωδικού</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_ConfirmNewPasswordRequired" xml:space="preserve">
+    <value>Απαιτείται επιβεβαίωση του νέου κωδικού.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_NewPassword" xml:space="preserve">
+    <value>Νέος κωδικός πρόσβασης</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_NewPasswordRequired" xml:space="preserve">
+    <value>Απαιτείται νέος κωδικός πρόσβασης.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_NotMatching" xml:space="preserve">
+    <value>Η επιβεβαίωση του νέου κωδικού πρέπει να συμπίπτει με το νέο κωδικό πρόσβασης.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_Password" xml:space="preserve">
+    <value>Κωδικός πρόσβασης</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_PasswordRequired" xml:space="preserve">
+    <value>Απαιτείται κωδικός πρόσβασης.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_Title" xml:space="preserve">
+    <value>Αλλαγή κωδικού πρόσβασης</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_UserName" xml:space="preserve">
+    <value>Όνομα χρήστη</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_UserNameRequired" xml:space="preserve">
+    <value>Απαιτείται όνομα χρήστη.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Login_ChangePassword" xml:space="preserve">
+    <value>Αλλαγή κωδικού πρόσβασης</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Login_LogIn" xml:space="preserve">
+    <value>Σύνδεση</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Login_Password" xml:space="preserve">
+    <value>Κωδικός πρόσβασης</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Login_PasswordRequired" xml:space="preserve">
+    <value>Απαιτείται κωδικός πρόσβασης.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Login_RememberMe" xml:space="preserve">
+    <value>Την επόμενη φορά να με θυμάσαι.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Login_Title" xml:space="preserve">
+    <value>Σύνδεση</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Login_UserName" xml:space="preserve">
+    <value>Όνομα χρήστη</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Login_UserNameRequired" xml:space="preserve">
+    <value>Απαιτείται όνομα χρήστη.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_DeleteUser" xml:space="preserve">
+    <value>Διαγραφή τρέχοντος χρήστη</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_DeleteWarning" xml:space="preserve">
+    <value>Διαγραφή τρέχοντος χρήστη;</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_Exception" xml:space="preserve">
+    <value>Ανέκυψε το ακόλουθο σφάλμα:</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_LastAdminRemains" xml:space="preserve">
+    <value>Ο τελευταίος διαχειριστής δεν μπορεί να διαγραφεί!</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="cls_SitemapEditor_Administration" xml:space="preserve">
+    <value>Διαχειριση</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="cls_SitemapEditor_CMSSetup" xml:space="preserve">
+    <value>Ρυθμισεις CMS συστηματος</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="cls_SitemapEditor_Management" xml:space="preserve">
+    <value>Διαχειριση χρηστων</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="cls_SitemapEditor_Sections" xml:space="preserve">
+    <value>Αναθεση τμηματων/σελιδων</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="cls_SitemapEditor_SectionsPages" xml:space="preserve">
+    <value>Σελιδες και Πλοηγηση</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_ComparePassword" xml:space="preserve">
+    <value>Ο κωδικός πρόσβασης δεν συμπίπτει με τον κωδικό επιβεβαίωσης.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_ConfirmPassword" xml:space="preserve">
+    <value>Επιβεβαίωση κωδικού:</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_ConfirmPasswordRequired" xml:space="preserve">
+    <value>Απαιτείται η επιβεβαίωση του κωδικού πρόσβασης.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_DuplicateUserName" xml:space="preserve">
+    <value>Εισάγετε ένα διαφορετικό όνομα χρήστη.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_Email" xml:space="preserve">
+    <value>E-mail:</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_EmailRequired" xml:space="preserve">
+    <value>Απαιτείται e-mail.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_Password" xml:space="preserve">
+    <value>Κωδικός πρόσβασης:</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_PasswordRequired" xml:space="preserve">
+    <value>Απαιτείται κωδικός πρόσβασης.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_UserName" xml:space="preserve">
+    <value>Όνομα χρήστη:</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_UserNameRequired" xml:space="preserve">
+    <value>Απαιτείται όνομα χρήστη.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_RecoverPassword_FinishButton" xml:space="preserve">
+    <value>Μηδενισμός</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__Search" xml:space="preserve">
+    <value>Αναζητηση</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__DeleteSection" xml:space="preserve">
+    <value>Διαγραφή τμήματος</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__RemoveFromSidebar" xml:space="preserve">
+    <value>Διαγραφή από την μπάρα</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__SendToSidebar" xml:space="preserve">
+    <value>Αποστολή στην μπάρα</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__Submit" xml:space="preserve">
+    <value>Αποστολή</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Guestbook_AntiBotImage" xml:space="preserve">
+    <value>Εικόνα ασφαλείας</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Guestbook_Input" xml:space="preserve">
+    <value>Εισαγωγή</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Guestbook_Name" xml:space="preserve">
+    <value>Όνομα</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_Name" xml:space="preserve">
+    <value>Όνομα</value>
+    <comment>added 1.1.2 Beta</comment>
+  </data>
+  <data name="ctl_ContactForm_RssTitle" xml:space="preserve">
+    <value>Φόρμα επικοινωνίας</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EasyControl_RssTitle" xml:space="preserve">
+    <value>Easy Control</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Sections_Move" xml:space="preserve">
+    <value>Μετακίνηση</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_Admin" xml:space="preserve">
+    <value>Διαχειριστής</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_CopyTo" xml:space="preserve">
+    <value>Αντιγραφή σε</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_EMailAddress" xml:space="preserve">
+    <value>Διεύθυνση e-mail</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_ErrorMessageEmail" xml:space="preserve">
+    <value>Εισάγετε μια e-mail διεύθυνση</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_ErrorMessageMessage" xml:space="preserve">
+    <value>Εισάγετε ένα μήνυμα</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_ErrorMessageSubject" xml:space="preserve">
+    <value>Εισάγετε ένα θέμα</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_ErrorMessageValidEmail" xml:space="preserve">
+    <value>Εισάγετε μια έγκυρη e-mail διεύθυνση</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_IntroPart1" xml:space="preserve">
+    <value>Για να χρησιμοποιήσετε το τμήμα "Φόρμα επικοινωνίας" , πρέπει να ρυθμίσετε έναν έγκυρο SMTP Server</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_IntroPart2" xml:space="preserve">
+    <value> στη σελίδα διαχείρισης</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_Introtext" xml:space="preserve">
+    <value>Κείμενο εισαγωγής</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_Message" xml:space="preserve">
+    <value>Μήνυμα</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_RecipientEMail" xml:space="preserve">
+    <value>E-mail παραλήπτη</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_Subject" xml:space="preserve">
+    <value>Θέμα</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_ThankYouMessage" xml:space="preserve">
+    <value>Μήνυμα ευχαριστίας</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Downloadlist_Comment" xml:space="preserve">
+    <value>Σχόλια</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Downloadlist_File" xml:space="preserve">
+    <value>Αρχείο</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Downloadlist_Title" xml:space="preserve">
+    <value>Τίτλος</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EasyControl_Choose" xml:space="preserve">
+    <value>Επιλογή στοιχείου ελέγχου</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EasyControl_SelectControl" xml:space="preserve">
+    <value>Επιλέξτε ένα στοιχείο ελέγχου</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ErrorMessageMissingFile" xml:space="preserve">
+    <value>Επιλέξτε το προς upload αρχείο</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_Date" xml:space="preserve">
+    <value>Ημερομηνία</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_Description" xml:space="preserve">
+    <value>Περιγραφή</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_ErrorMessageEventDate" xml:space="preserve">
+    <value>Ορίστε μια ημερομηνία γεγονότος</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_ErrorMessageEventLocation" xml:space="preserve">
+    <value>Ορίστε μια τοποθεσία γεγονότος</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_ErrorMessageEventName" xml:space="preserve">
+    <value>Ορίστε ένα όνομα γεγονότος</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_Event" xml:space="preserve">
+    <value>Γεγονός</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_EventDate" xml:space="preserve">
+    <value>Ημερομηνία γεγονότος</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_EventName" xml:space="preserve">
+    <value>Όνομα γεγονότος</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_EventTime" xml:space="preserve">
+    <value>Ώρα γεγονότος</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_Location" xml:space="preserve">
+    <value>Τοποθεσία</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_ShowFrom" xml:space="preserve">
+    <value>Εμφάνιση από</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Gallery_Comment" xml:space="preserve">
+    <value>Σχόλια</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Gallery_ErrorMessageImage" xml:space="preserve">
+    <value>Επιλέξτε την προς upload εικόνα</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Gallery_File" xml:space="preserve">
+    <value>Αρχείο</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Gallery_Title" xml:space="preserve">
+    <value>Τίτλος</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Guestbook_Author" xml:space="preserve">
+    <value>Εκδότης</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Guestbook_Date" xml:space="preserve">
+    <value>Ημερομηνία</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Guestbook_ErrorMessageAntibot" xml:space="preserve">
+    <value>Εισάγετε τους χαρακτήρες που εμφανίζονται στην εικόνα</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Guestbook_ErrorMessageAntibotInvalid" xml:space="preserve">
+    <value>Λανθασμένος κωδικός ασφαλείας</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Guestbook_ErrorMessageAuthorName" xml:space="preserve">
+    <value>Απαιτείται όνομα εκδότη</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Guestbook_ErrorMessageText" xml:space="preserve">
+    <value>Απαιτείται κείμενο</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_LinkList_Comment" xml:space="preserve">
+    <value>Σχόλια</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_LinkList_ErrorMessageUrl" xml:space="preserve">
+    <value>Εισάγετε ένα URL</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_LinkList_ErrorMessageValidUrl" xml:space="preserve">
+    <value>Εισάγετε ένα έγκυρο URL</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_LinkList_Target" xml:space="preserve">
+    <value>Στόχος</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_LinkList_Title" xml:space="preserve">
+    <value>Τίτλος</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_LinkList_Url" xml:space="preserve">
+    <value>URL</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_NewsList_Content" xml:space="preserve">
+    <value>Περιεχόμενο</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_NewsList_Date" xml:space="preserve">
+    <value>Ημερομηνία</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_NewsList_ErrorMessageHeadline" xml:space="preserve">
+    <value>Εισάγετε μια επικεφαλίδα</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_NewsList_Headline" xml:space="preserve">
+    <value>Επικεφαλίδα</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_NewsList_News" xml:space="preserve">
+    <value>Νέα</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_NewsList_ShowFrom" xml:space="preserve">
+    <value>Εμφάνιση από</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_NewsList_ShowUntil" xml:space="preserve">
+    <value>Εμφάνιση έως</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_SectionAdmin_Info" xml:space="preserve">
+    <value>Πληροφορίες</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__Add" xml:space="preserve">
+    <value>Προσθήκη</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Default_AddSection" xml:space="preserve">
+    <value>Προσθήκη τμήματος</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Search_ErrorMessageKeyword" xml:space="preserve">
+    <value>Εισάγετε τα κριτήρια αναζήτησης.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Search_View" xml:space="preserve">
+    <value>Εμφάνιση</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Website_SelectTheme" xml:space="preserve">
+    <value>Επιλογή θέματος</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_DuplicateEmail" xml:space="preserve">
+    <value>Η διεύθυνση e-mail χρησιμοποιείται ήδη. Εισάγετε μια διαφορετική διεύθυνση e-mail.</value>
+    <comment>added 1.0.2</comment>
+  </data>
+  <data name="ctl_EventList_ShowPastEvents" xml:space="preserve">
+    <value>Εμφάνιση παρελθόντων γεγονότων</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_SectionAdmin_DeleteWarning" xml:space="preserve">
+    <value>Διαγραφή του τμήματος "{0}";</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Website_SmtpDomain" xml:space="preserve">
+    <value>SMTP Domain</value>
+    <comment>added 1.1.1</comment>
+  </data>
+  <data name="adm_Website_SmtpPassword" xml:space="preserve">
+    <value>SMTP κωδικός πρόσβασης</value>
+    <comment>added 1.1.1</comment>
+  </data>
+  <data name="adm_Website_SmtpUser" xml:space="preserve">
+    <value>SMTP όνομα χρήστη</value>
+    <comment>added 1.1.1</comment>
+  </data>
+  <data name="pge_Login_Failure" xml:space="preserve">
+    <value>Ανεπιτυχής απόπειρα σύνδεσης. Προσπαθήστε ξανά.</value>
+    <comment>added 1.1.1</comment>
+  </data>
+  <data name="adm_Website_Reset_Confirmation" xml:space="preserve">
+    <value>Εφαρμογή αρχικών ρυθμίσεων; Όλα τα δεδομένα πρόκειται να χαθούν.</value>
+    <comment>added 1.1.2</comment>
+  </data>
+  <data name="ctl_Gallery_HTMLVersion" xml:space="preserve">
+    <value>HTML έκδοση</value>
+    <comment>added 1.1.2 Beta</comment>
+  </data>
+  <data name="ctl_Gallery_SilverlightVersion" xml:space="preserve">
+    <value>Silverlight έκδοση</value>
+    <comment>added 1.1.2 Beta</comment>
+  </data>
+  <data name="pge_ChangePassword_PasswordFailureText" xml:space="preserve">
+    <value>Λανθασμένος κωδικός πρόσβασης ή νέος κωδικός.</value>
+    <comment>added 1.1.2 Beta</comment>
+  </data>
+  <data name="glb_Tanslator" xml:space="preserve">
+    <value>Ioannis Goutsidis (http://www.goutsidis.gr)</value>
+    <comment>added 1.1.2 Beta</comment>
+  </data>
+  <data name="adm_Navigation_EditPowerUser" xml:space="preserve">
+    <value>Editable by Power User</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="adm_Users_IsPowerUser" xml:space="preserve">
+    <value>Is Power User</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="adm_Users_PowerUser" xml:space="preserve">
+    <value>Power User</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+</root>

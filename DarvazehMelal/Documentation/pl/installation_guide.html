@@ -1,0 +1,620 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="pl">
+<head>
+    <title>Microsoft - My Web Pages Starter Kit - Installation Guide</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <style type="text/css">
+	
+	BODY {background-color: #E7F1FA; margin:0; }
+	
+	A, A:visited, A:active, A:hover, A:link {
+		color: #000000;
+		text-decoration: underline;
+	}
+	
+	TD {
+		vertical-align: top;
+	}
+	
+	.tit {
+		font-family: Verdana,Arial,sans-serif;
+		font-size: 20px;
+		color: #003399;
+	}
+	
+	.titsub {
+		font-family: Verdana,Arial,sans-serif;
+		font-size: 11px;
+		font-weight: bold;
+		color: #003399;
+		
+		line-height: 17px;
+	}
+	
+	.txt {
+		font-family: Verdana,Arial,sans-serif;
+		font-size: 11px;
+		color: #000000;
+		
+		line-height: 17px;
+	}
+	
+	.desctit {
+		font-family: Verdana,Arial,sans-serif;
+		font-size: 14px;
+		font-weight: bold;
+		color: #003399;
+	}
+	
+	.desctitsub {
+		font-family: Verdana,Arial,sans-serif;
+		font-size: 11px;
+		font-weight: bold;
+		color: #003399;
+		line-height: 17px;
+	}
+	
+	.desctxt {
+		font-family: Verdana,Arial,sans-serif;
+		font-size: 11px;
+		color: #003399;
+		line-height: 17px;
+	}
+	
+	.style1 {
+	font-family: monospace;
+}
+	
+	</style>
+</head>
+<body>
+    <table width="795" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td colspan="3">
+                <img src="../_img/header_starterkit.jpg" width="795" height="184" alt="" /></td>
+        </tr>
+        <tr>
+            <td width="20">
+                <img src="../_img/spacer.gif" width="20" height="1" alt="" /></td>
+            <td width="755">
+                <table width="755" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td width="528" height="1">
+                            <img src="../_img/spacer.gif" width="528" height="1" alt="" /></td>
+                        <td width="20">
+                            <img src="../_img/spacer.gif" width="20" height="1" alt="" /></td>
+                        <td width="207">
+                            <img src="../_img/spacer.gif" width="207" height="1" alt="" /></td>
+                    </tr>
+                    <tr>
+                        <td class="tit">
+                            Instalacja, pierwsze kroki oraz wa&#380;ne informacje (Wersja 1.0)
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt" style="height: 238px">
+                            My Web Pages Starter Kit jest podstawowym pakietem do zarz&#261;dzania tre&#347;ci&#261;
+                            (CMS) bazuj&#261;cym na ASP.NET 2.0. Jako aplikacja webowa umo&#380;liwia on u&#380;ytkownikowi
+                            tworzenie i konserwacj&#281; stron internetowych za pomoc&#261; przegl&#261;darki
+                            WWW poprzez interfejs administracyjny.
+                            <br />
+                            <br />
+                            Pakiet My Web Pages Starter Kit jest zbudowany modularnie i &#322;atwy do rozszerzenia.
+                            Administratorzy mog&#261; go rozpakowa&#263; bezpo&#347;rednio na serwerze i natychmiast
+                            rozpocz&#261;&#263; robienie stron WWW. Za pomoc&#261; Visual Studio lub wersji
+                            ekspresowej Visual Studio Web Developer Express Edition deweloperzy mog&#261; dokonywa&#263;
+                            indywidualnych rozszerze&#324; i dopasowa&#324;.
+                            <br />
+                            <br />
+                            Poni&#380;szy dokument wprowadza w instalacj&#281; i pokazuje, w jaki sposób mo&#380;na
+                            rozszerzy&#263;&nbsp; My Web Pages Starter Kit .
+                            <br />
+                            <br />
+                            Najaktualniejsze wersje, aktualizacje, wiadomo&#347;ci i inne wa&#380;ne informacje
+                            znajduj&#261; si&#281; na stronie <a href="http://www.codeplex.com/Wiki/View.aspx?ProjectName=MyWebPagesStarterKit">
+                                Codeplex.com, Projekt &quot;My Web Pages Starter Kit&quot;</a>.
+                        </td>
+                        <td style="height: 238px">
+                        </td>
+                        <td style="height: 238px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="40" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tit">
+                            1 Instalacja lokalna</td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td class="txt">
+                                        -&nbsp;</td>
+                                    <td class="txt">
+                                        Rozpakować na dysku twardym wszystkie pliki zawarte w pliku ZIP.</td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        -</td>
+                                    <td class="txt">
+                                        Uruchomić Visual Studio 2005 lub Visual Studio Web Developer Express</td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        -</td>
+                                    <td class="txt">
+                                        Otworzyć stronę WWW przez „Plik -&gt; Otwieranie strony WWW“
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        -</td>
+                                    <td class="txt">
+                                        Nacisnąć F5, aby pokazać stronę WWW w przeglądarce.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                    </td>
+                                    <td class="txt">
+                                        (Jeżeli nie ma się zamiaru przeprowadzać żadnych zmian w pakiecie My Web Pages Starter
+                                        Kit, nie trzeba go instalować lokalnie. Wystarczy wtedy tylko rozpakować pliki i
+                                        załadować je na swój hoster webowy. Zobacz punkt 2.)</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="40" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tit">
+                            2 Publikowanie stron WWW</td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td class="txt">
+                                        -</td>
+                                    <td class="txt">
+                                        Pakiet My Web Pages Starter Kit wymaga parntera hostingowego pacującego na ASP.NET
+                                        2.0 <a href="http://msdn.microsoft.com/asp.net/info/hosters/">(Wybór)</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        -&nbsp;</td>
+                                    <td class="txt">
+                                        Ładowanie plików
+                                        <br />
+                                        <ul>
+                                            <li>Otworzyć konto hostingowe u partnera hostingowqego, który podtrzymuje technologię
+                                                webową&nbsp; Microsoft ASP.NET 2.0 <a href="http://msdn.microsoft.com/asp.net/info/hosters/">
+                                                    (Wybór)</a>. Hostingodawca podaje dane dostępu, które są potrzebne do przejęcia
+                                                roli webmastera. </li>
+                                            <li>Pakiet My Web Pages Starter Kit można opublikować przez załadowanie wszystkich plików
+                                                (oprócz App_Data) na serwer partnera hostingowego. Przeprowadza się to normalnie
+                                                za pomocą aplikacji <a href="http://en.wikipedia.org/wiki/Ftp_client">FTP Client</a>.
+                                                Do tego celu potrzebna jest od hostingodawcy nazwa serwera oraz dane dostępu do
+                                                konta (login/hasło). Uwaga: Katalog App_Data jest specjalnym katalogiem aplikacji
+                                                ASP.NET 2.0 i wymaga szczególnych uprawnień (Windows 2000: uprawnienie do zapisu
+                                                dla konta &quot;ASPNET&quot;, Windows 2003: Dla konta &quot;Network Service&quot;
+                                                konieczne jest uprawnienie do zapisu i ponadto do czytania atrybutów nadrzędnych
+                                                katalogów). Jeżeli hostingodawca przygotował już taki katalog, nie wolno w żadnym
+                                                wypadku skasować go przez nowy zapis, ponieważ można w ten sposób utracić tego rodzaju
+                                                szczególne uprawnienia. Jeżeli katalog ten nie istnieje, należy zwrócić się do hostingodawcy
+                                                z prośbą o utworzenie katalogu App_Data. Bez zezwolenia na dostęp&nbsp; My Web Pages
+                                                Starter Kit nie może zapisywać żadnych informacji. </li>
+                                            <li>Pakiet My Web Pages Starter Kit wymaga dostępu typu „Medium Trust&quot; <a href="http://msdn.microsoft.com/library/en-us/dnpag2/html/paght000020.asp?frame=true&amp;_r=1">
+                                                Dalsze informacje</a>). Ponieważ partner hostingowy umieścił z reguły „Medium Trust”
+                                                w pliku&nbsp; machine.config, specyfikacja ta jest skomentowana w pliku web.config
+                                                aplikacji. Aktywuje się tą linijkę kodu tylko wtedy, kiedy stosuje się system CMS
+                                                lokalnie lub pracuje na serwerze, który nie był skonfigurowany dla dostępu „Medium
+                                                Trust”. Uwaga: Należy się zawczasu upewnić, czy partner hostingowy zezwala na dostęp
+                                                „Medium Trust&quot;. </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        -</td>
+                                    <td class="txt">
+                                        Uruchomić przeglądarkę WWW i podać adres URL swojej strony My Web Pages Starter
+                                        Kit. W ciągu kilku sekund My Web Pages Starter Kit&nbsp; przygotuje potrzebne pliki
+                                        w katalogu App_Code i pokaże stronę standardową.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        -</td>
+                                    <td class="txt">
+                                        Zmienić hasło administratora pod „Administracja-&gt;Zarządzanie użytkownikami &quot;.
+                                        (pierwotnie skonfigurowana nazwa użytkownika to: admin, a hasło: admin) Zameldować
+                                        się jako administrator (admin/twojenowehasło).
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        -</td>
+                                    <td class="txt">
+                                        Skonfigurować swoją stronę WWW kliknięciem na &quot;Administracja -&gt;Ustawienia
+                                        CMS&quot;
+                                        <br />
+                                        <ul>
+                                            <li>UWAGA: Dopóki nie podało się serwera SMTP lub adresu e-mail nadawcy, nie ma się
+                                                dostępu do funkcji z wysyłaniem poczty elektronicznej (np. „Podaj nowe hasło”, formularz
+                                                kontaktowy itp). </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="40" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tit">
+                            3 Architektura</td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="titsub">
+                            3.1 Warstwa UI
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            Strony dostępne dla użytkownika znajdują się w katalogu głównym „root”, strony administracyjne
+                            w katalogu „administration”. Default.aspx przejmuje utworzenie wszelkich stron dających
+                            się dopasować (np. strony zawierające Twoje własne treści lub kontrolki). Ponadto
+                            istnieją jeszcze specjalne strony ASPX do szukania, logowania i zmiany haseł.
+                            <br />
+                            <br />
+                            Strona może zawierać tak zwane sekcje. Sekcje to specjalnie dla My Web Pages Starter
+                            Kit rozwinięte kontrolki (<a href="http://msdn2.microsoft.com/en-us/library/y6wb1a0e.aspx">Dalsze
+                                informacje</a>). Aby umożliwić używanie&nbsp; kontrolki w pakiecie My Web Pages
+                            Starter Kit, trzeba ją zmienić w następujący sposób:
+                            <ul>
+                                <li>Wyprowadzić kontrolkę z <code>My Web Pages Starter Kit.Controls.SectionControlBaseClass</code>.
+                                </li>
+                                <li>Oprócz kontrolki należy utworzyć dla każdej sekcji klasę dla logiki biznesowej i
+                                    klasę dla&nbsp;&nbsp; danych (zob. poniżej: Warstwa dostępu do danych). </li>
+                            </ul>
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="titsub">
+                            3.2 Logika biznesowa
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            Klasy standardowe: zwracamy uwagę, że klas tych nie można używać jako obiektów danych
+                            i nie należy dodawać w ich obrębie żadnego kodu dla layoutu lub UI.
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="titsub">
+                            3.3 Warstwa dostępu do danych</td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            ASP.NET 2.0 z dostępem „Medium Trust” (i dlatego również pakiet My Web Pages Starter
+                            Kit) posiadają niezbędne upoważnienia do zapisywania plików w katalogu <span class="style1">
+                                App_Data</span>. Wygenerowana klasa Sekcja ułatwia dostęp do danych.
+                            <br />
+                            <br />
+                            Aby utworzyć nową sekcję (np. MySection), która może przechowywać własne dane, należy
+                            wyprowadzić swoją klasę z Sekcji<t>. <T> należy przyporządkować do&nbsp; <br />
+		<span class="style1">MySection.MySectionData (MojaSekcja.MojaSekcjaDane) 
+		</span> <br />
+		<br />
+		Klasa powinna zaczynać się następująco: <br />
+		<span class="style1">MySection : Section<MySection.MySectionData>  MojaSekcja : Sekcja</span><MojaSekcja.MojaSekcjaDane>
+		<br />
+		<br />
+		Klasa MySectionData musi być klasą wewnętrzną MySection. Wszystkie pola, 
+		które mają być zachowane, mają znajdować się w klasie wewnętrznej jako 
+		użytkownicy publiczni (public members). W klasie MySection można czytać 
+		i zapisywać dane stałe klasy wewnętrznej przez pole _data odziedziczone 
+		z Sekcji<T>. <br />
+		<br />
+		Jeżeli utworzy się instancję własnej klasy MySection&nbsp; i przekaże się 
+		identyfikator GUID konstruktorowi, dane pasujące do identyfikatora GUID 
+		ładują się automatycznie z katalogu App_Data i można się nimi posługiwać 
+		prze pole <code>_data</code>. <br />
+		<br />
+		Jeżeli chce się w jakiejś części własnego kodu zapisać zmienione 
+		parametry własnej sekcji, można użyć do tego metody <span class="style1">SaveData()(Metoda ta 
+		odziedziczona została z Sekcji<T>)</span>. <br />
+		<br />
+                            Dobrym punktem wyjściowym do tworzenia własnych sekcji jest dostarczana z pakietem
+                            My Web Pages Starter Kit sekcja HtmlContent, ponieważ pokazuje ona podstawowe zasady
+                            tylko przy pomocy kilku linijek kodu.
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="40" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tit">
+                            4 Bezpieczeństwo
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="titsub">
+                            4.1 Webmaster</td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            Jako webmaster należy zwrócić uwagę na następujące ważne punkty:
+                            <br />
+                            <ol>
+                                <li>Bezpośrednio po instalacji własnej strony webowej My Web Pages Starter Kit zmienić
+                                    hasło z „admin“ na inne. </li>
+                                <li>Zameldować się jako administrator i skonfigurować serwer SMTP (adresu dostarcza
+                                    hostingodawca). Oprócz tego podać adres e-mail dla konta administracyjnego. </li>
+                                <li>Zaabonować My Web Pages Starter Kit <a href="http://www.codeplex.com/Project/ProjectRss.aspx?ProjectName=MyWebPagesStarterKit">
+                                    Nowości pod Codeplex.com</a>, aby uzyskiwać ważne informacje dotyczące bezpieczeństwa.
+                                </li>
+                                <li>Sprawdzić bezpieczeństwo swojego środowiska współdzielonego (Shared Hosting) przed
+                                    wybraniem My Web Pages Starter Kit, partnera hostingowego oraz konta.
+                                    <br />
+                                    <ol type="a">
+                                        <li>Nigdy nie przechowywać żadnych informacji osobowych na stronie WWW w środowisku
+                                            współdzielonym, jak np.:
+                                            <br />
+                                            <ul>
+                                                <li>&nbsp;danych personalnych innych osób,</li>
+                                                <li>informacji o zdrowiu, </li>
+                                                <li>informacji o kartach kredytowych </li>
+                                            </ul>
+                                        </li>
+                                        <li>Sprawdzić, czy środowisko współdzielone jest wystarczająco bezpieczne do zamierzonych
+                                            celów. </li>
+                                        <li>Zastanowić się, czy komunikacja zakodowana (nazwy użytkownika, hasła) byłaby bardziej
+                                            trafna. </li>
+                                    </ol>
+                                </li>
+                                <li>Robić regularne backupy danych pobierając zawartość katalogu App_Data na swój dysk
+                                    twardy stosując FTP. </li>
+                                <li>Wyznaczyć jasne stosunki odpowiedzialności za konserwację strony WWW:
+                                    <br />
+                                    <ol type="a">
+                                        <li>Kto otrzymuje zawiadomienia o problemach z bezpieczeństwem? </li>
+                                        <li>Kto przeprowadza regularne backupy? </li>
+                                    </ol>
+                                </li>
+                            </ol>
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="titsub">
+                            4.2 Deweloperzy</td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            Jako deweloper należy zwrócić uwagę na następujące ważne punkty:
+                            <br />
+                            <ol>
+                                <li>Nigdy nie zmieniać sposobu, w jaki sposób hasła są zhashowane. </li>
+                                <li>Nie poszerzać aplikacji&nbsp; w sposób, który umożliwiałby zapisywanie danych osobowych
+                                    bez kodowania, jak np.:
+                                    <br />
+                                    <ul>
+                                        <li>danych personalnych innych osób,</li>
+                                        <li>informacji o zdrowiu, </li>
+                                        <li>informacji o kartach kredytowych </li>
+                                    </ul>
+                                </li>
+                                <li>Wziąć pod uwagę optymalne procedury bezpieczeństwa przy rozszerzaniu pakietu lub
+                                    wprowadzaniu do niego zmian. </li>
+                                <li>Upewnić się, że zaabonowało się nowości do My Web Pages Starter Kit pod <a href="http://www.codeplex.com/Project/ProjectRss.aspx?ProjectName=MyWebPagesStarterKit">
+                                    Nowości pod Codeplex.com</a>, aby otrzymywać nowości do pakietu i informacje dotyczące
+                                    bezpieczeństwa. </li>
+                                <li>Pozostawać w kontakcie ze zleceniodawcami, dla których wimplementowało się My Web
+                                    Pages Starter Kit, dokonało w nim zmian lub rozszerzyło go oraz informować ich w
+                                    przypadku wystąpienia problemów z bezpieczeństwem. </li>
+                                <li>Zapewnić, żeby zawsze istniała kopia awaryjna (dopasowanego) kodu źdródłowego, gdyż
+                                    w przyszłości zaistnieje ewentualnie potrzeba przetestowania lub integracji rozwiązań
+                                    zabezpieczających. </li>
+                            </ol>
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="40" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tit">
+                            5 Configuring IIS for the Silverlight gallery</td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            Dopóki XAML nie będzie zdefiniowany jako rozszerzenie MIME w IIS, plugin Silverlight
+                            nie będzie ładowany prawidłowo. Aby możliwe było wyświetlanie galerii Silverlight
+                            należy skonfigurować serwer IIS w sposób opisany poniżej: (Te kroki nie sa potrzebne
+                            jeśli używany jest IIS7 lub wyższy o ile już jest zdefiniowane tam rozszerzenie
+                            XAML MIME)
+                            <br />
+                            <ol>
+                                <li>Wybierz swoją witrynę w IIS</li>
+                                <li>Otwórz menu kontekstowe i wybierz właściowści ("Properties")</li>
+                                <li>Wybierz "register "HTTP-Header""</li>
+                                <li>kliknij na klawisz oznaczony "MIME Types..."</li>
+                                <li>Jeśli .xaml nie jest jeszcze wylistowany to wybierz "New"</li>
+                                <li>Wprowadź następujące oznaczenie:
+                                    <br />
+                                    <table cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td>
+                                                Extension:</td>
+                                            <td width="15px">
+                                            </td>
+                                            <td>
+                                                .xaml</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                MIME type:</td>
+                                            <td width="15px">
+                                            </td>
+                                            <td>
+                                                application/xaml+xml</td>
+                                        </tr>
+                                    </table>
+                                </li>
+                                <li>Wcisnij "Ok" a nastęnie "Apply"</li>
+                            </ol>
+                            <a href="http://msdn2.microsoft.com/en-us/library/ms752346.aspx" target="_blank">Więcej
+                                informacji</a>
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

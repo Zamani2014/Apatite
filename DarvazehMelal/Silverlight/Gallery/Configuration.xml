@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration background="Black">
+
+	<module name="Transition">
+		<option name="WaitTime" value="5000" />
+		<option name="TransitionDuration" value="500" />
+	</module>
+
+	<module name="DataProvider">
+		<option name="Type" value="XmlDataProvider" />
+	</module>
+
+	<module name="Preloader">
+		<option name="PreloadAhead" value="5" />
+	</module>
+
+	<module name="LoadingProgressIndicator">
+		<option name="Enabled" value="true" />
+		<option name="Type" value="bar" />
+		<option name="Height" value="3" />
+		<option name="Width" value="75" />
+		<option name="Foreground" value="White" />
+		<option name="Background" value="Black" />
+	</module>
+
+	<module name="SlideNavigation">
+		<option name="Enabled" value="true" />
+		<option name="PlayPathData"  value="F1 M 101.447,284.834L 101.447,274.714L 106.906,279.774L 101.447,284.834 Z" />
+		<option name="PausePathData" value="M 100.048,736.889L 98.5482,736.889C 97.9959,736.889 97.5482,736.441 97.5482,735.889L 97.5482,727.889C 97.5482,727.337 97.9959,726.889 98.5482,726.889L 100.048,726.889C 100.6,726.889 101.048,727.337 101.048,727.889L 101.048,735.889C 101.048,736.441 100.6,736.889 100.048,736.889 Z M 106.922,736.889L 105.422,736.889C 104.87,736.889 104.422,736.441 104.422,735.889L 104.422,727.889C 104.422,727.337 104.87,726.889 105.422,726.889L 106.922,726.889C 107.475,726.889 107.922,727.337 107.922,727.889L 107.922,735.889C 107.922,736.441 107.475,736.889 106.922,736.889 Z" />
+		<option name="PreviousPathData" value="F1 M6.0000005,1.473075E-06 L6.0000005,10.000002 5.9604696E-07,5.0000014 6.0000005,1.473075E-06 z M-1.3709068E-06,4.0019114E-07 L-1.3709068E-06,10.000006 -6.0000029,5.0000029 -1.3709068E-06,4.0019114E-07 Z" />
+		<option name="NextPathData" value="F1 M-5.9999976,1.0552602E-05 L-1.9073478E-06,4.9999938 -1.9073478E-06,1.8062785E-05 5.9999981,5.0000033 -1.9073478E-06,10.000018 -1.9073478E-06,5.0000024 -5.9999976,9.9999857 -5.9999976,1.0552602E-05 Z" />
+		<option name="Foreground" value="#F2C29F" />
+		<option name="ForegroundHover" value="White" />
+		<option name="Background1Brush" value="#7F2D12" />
+		<option name="Background2Brush" value="#E9A16B" />
+		<option name="RadiusX" value="4" />
+		<option name="RadiusY" value="4" />
+		<option name="Width" value="66" />
+		<option name="Height" value="20" />
+
+		<option name="PlayPauseButtonWidth" value="22" />
+		<option name="PlayPauseButtonHeight" value="20" />
+		<option name="NextButtonWidth" value="22" />
+		<option name="NextButtonHeight" value="20" />
+		<option name="PreviousButtonWidth" value="22" />
+		<option name="PreviousButtonHeight" value="20" />
+
+		<option name="PlayPauseButtonPathWidth" value="10" />
+		<option name="PlayPauseButtonPathHeight" value="12" />
+		<option name="NextButtonPathWidth" value="10" />
+		<option name="NextButtonPathHeight" value="8" />
+		<option name="PreviousButtonPathWidth" value="10" />
+		<option name="PreviousButtonPathHeight" value="8" />
+	</module>
+
+	<module name="EmbedViewer">
+		<option name="Enabled" value="false" />
+		<option name="Background" value="Black" />
+		<option name="BackgroundOpacity" value=".5" />
+
+		<option name="DialogBackground" value="#536987" />
+		<option name="DialogBackgroundOpacity" value=".8" />
+		<option name="DialogBorderBrush" value="#000080" />
+		<option name="DialogBorderThickness" value="2" />
+		<option name="DialogWidth" value="620" />
+		<option name="DialogHeight" value="225" />
+
+		<option name="CloseButtonBackground1Brush" value="#273B5B" />
+		<option name="CloseButtonBackground2Brush" value="#6A75A2" />
+		<option name="CloseButtonForegroundBrush" value="#8D9AB4" />
+		<option name="CloseButtonForegroundHoverBrush" value="White" />
+		<option name="CloseButtonRadiusX" value="4" />
+		<option name="CloseButtonRadiusY" value="4" />
+		<option name="CloseButtonMargin" value="3" />
+		<option name="CloseButtonWidth" value="15" />
+		<option name="CloseButtonHeight" value="15" />
+		<option name="CloseButtonPathWidth" value="10" />
+		<option name="CloseButtonPathHeight" value="10" />
+		<option name="CloseButtonPathData" value="M59.156,59.156 L81.073,81.073 C81.073,81.073 82.635,85.167 81.07,86.729 L26.573,141.228 L84.072,198.728 C85.634,200.290 85.634,202.822 84.072,204.384 L62.155,226.301 C60.593,227.863 58.061,227.863 56.499,226.301 L-1.000,168.801 L-57.499,225.301 C-59.061,226.863 -61.593,226.863 -63.155,225.301 L-85.072,203.384 C-86.634,201.822 -86.634,199.290 -85.072,197.728 L-28.573,141.228 L-82.073,87.729 C-83.635,86.167 -83.635,83.635 -82.073,82.073 L-60.156,60.156 C-58.594,58.594 -56.062,58.594 -54.500,60.156 L-1.000,113.655 L53.500,59.156 C55.062,57.594 57.594,57.594 59.156,59.156 z" />
+
+		<option name="HyperlinkButtonText" value="Copy to clipboard"/>
+		<option name="HyperlinkButtonForeground" value="White"/>
+		<option name="HyperlinkButtonBackground" value="#536987"/>
+		<option name="HyperlinkButtonMargin" value="12"/>
+		<option name="HyperlinkButtonWidth" value="200"/>
+		<option name="HyperlinkButtonHeight" value="20"/>
+		<option name="HyperlinkButtonFontSize" value="14"/>
+
+		<option name="TextBlockFontSize" value="14" />
+		<option name="TitleText" value="Use this HTML to embed this slideshow into your webpage:" />
+		<option name="TextBlockMargin" value="12" />
+		<option name="TextBlockForeground" value="White" />
+
+		<option name="TextBoxWidth" value="600" />
+		<option name="TextBoxHeight" value="120" />
+		<option name="TextBoxBackground" value="White" />
+		<option name="TextBoxForeground" value="Black" />
+	</module>
+
+	<module name="NavigationTray">
+		<option name="Enabled" value="true" />
+		<option name="BackgroundOpacity" value="0" />
+		<option name="Background" value="White" />
+	</module>
+
+	<module name="ToggleAlbumViewButton">
+		<option name="Enabled" value="false" />
+		<option name="Width" value="22" />
+		<option name="Height" value="20" />
+		<option name="PathWidth" value="11" />
+		<option name="PathHeight" value="11" />
+		<option name="PathData" value="M0.3068684,6.6970766E-23 L4.8691305,6.6970766E-23 C5.0380702,3.6356173E-08 5.1759998,0.13792887 5.1759998,0.30690225 L5.1759998,2.6368366 C5.1759998,2.8058099 5.0380702,2.9437565 4.8691305,2.9437565 L0.3068684,2.9437565 C0.13680684,2.9437565 1.2251062E-13,2.8058099 -3.3276147E-30,2.6368366 L-3.3276147E-30,0.30690225 C1.2251062E-13,0.13792887 0.13680684,3.6356173E-08 0.3068684,6.6970766E-23 z M6.5989051,3.4025645E-07 L11.162244,3.4025645E-07 C11.331214,2.5640611E-07 11.468,0.13793494 11.468,0.30690496 L11.468,2.6368515 C11.468,2.8058217 11.331214,2.9437562 11.162244,2.9437562 L6.5989051,2.9437562 C6.4299352,2.9437562 6.2920002,2.8058217 6.2920002,2.6368515 L6.2920002,0.30690496 C6.2920002,0.13793494 6.4299352,2.5640611E-07 6.5989051,3.4025645E-07 z M0.30690471,4.0560001 L4.8690952,4.0560001 C5.0380656,4.0560001 5.1760002,4.1927856 5.1760002,4.3617556 L5.1760002,6.6928522 C5.1760002,6.861822 5.0380656,6.9997566 4.8690952,6.9997566 L0.30690471,6.9997566 C0.1367853,6.9997566 4.0662732E-08,6.861822 -3.3276153E-30,6.6928522 L-3.3276153E-30,4.3617556 C4.0662732E-08,4.1927856 0.1367853,4.0560001 0.30690471,4.0560001 z M6.5989051,4.0560005 L11.162244,4.0560005 C11.331214,4.0560005 11.468,4.192786 11.468,4.3617559 L11.468,6.6928519 C11.468,6.8618216 11.331214,6.9997562 11.162244,6.9997562 L6.5989051,6.9997562 C6.4299352,6.9997562 6.2920002,6.8618216 6.2920002,6.6928519 L6.2920002,4.3617559 C6.2920002,4.192786 6.4299352,4.0560005 6.5989051,4.0560005 z M0.30690471,8.1120001 L4.8690952,8.1120001 C5.0380656,8.1120001 5.1760002,8.2487856 5.1760002,8.4177556 L5.1760002,10.748852 C5.1760002,10.917822 5.0380656,11.055757 4.8690952,11.055757 L0.30690471,11.055757 C0.1367853,11.055757 4.0662732E-08,10.917822 -3.3276153E-30,10.748852 L-3.3276153E-30,8.4177556 C4.0662732E-08,8.2487856 0.1367853,8.1120001 0.30690471,8.1120001 z M6.5989051,8.1120005 L11.162244,8.1120005 C11.331214,8.1120005 11.468,8.248786 11.468,8.4177559 L11.468,10.748852 C11.468,10.917822 11.331214,11.055756 11.162244,11.055756 L6.5989051,11.055756 C6.4299352,11.055756 6.2920002,10.917822 6.2920002,10.748852 L6.2920002,8.4177559 C6.2920002,8.248786 6.4299352,8.1120005 6.5989051,8.1120005 Z" />
+		<option name="Background1Brush" value="#273B5B" />
+		<option name="Background2Brush" value="#6A75A2" />
+		<option name="ForegroundBrush" value="#8D9AB4" />
+		<option name="ForegroundHoverBrush" value="White" />
+		<option name="RadiusX" value="4" />
+		<option name="RadiusY" value="4" />
+		<option name="Margin" value="0,0,5,0" />
+	</module>
+
+	<module name="ToggleFullScreenButton">
+		<option name="Enabled" value="true" />
+		<option name="Width" value="22" />
+		<option name="Height" value="20" />
+		<option name="PathWidth" value="12" />
+		<option name="PathHeight" value="10" />
+		<option name="GoToFullPathData" value="M 7.90548,1.32341L 14.6458,1.32341L 14.6458,8.02661L 12.3811,5.78146L 8.43281,9.72004L 6.21009,7.42345L 10.1668,3.57935L 7.90548,1.32341 Z M -1.60064e-007,1.35265L 6.66667,1.35265L 6.66667,2.68583L 1.32284,2.68583L 1.32284,13.3317L 13.323,13.3317L 13.323,9.33174L 14.6562,9.33174L 14.6562,13.6585L 14.6458,13.6585L 14.6458,14.6963L -8.30604e-007,14.6963L -2.59563e-008,14.6651L -8.30604e-007,13.3317L -1.60064e-007,2.68583L -2.59563e-008,2.32351L -1.60064e-007,1.35265 Z" />
+		<option name="EscapeFullPathData" value="M 12.9504,9.72004L 6.21009,9.72004L 6.21009,3.01684L 8.47481,5.26199L 12.4231,1.32341L 14.6458,3.62L 10.6891,7.4641L 12.9504,9.72004 Z M 3.51898e-007,1.35265L 6.66667,1.35265L 6.66667,2.68583L 1.32284,2.68583L 1.32284,13.3317L 13.323,13.3317L 13.323,9.33174L 14.6562,9.33174L 14.6562,13.6585L 14.6458,13.6585L 14.6458,14.6963L -1.79383e-006,14.6963L 3.51898e-007,14.6651L -1.79383e-006,13.3317L 3.51898e-007,2.68583L 3.51898e-007,2.32351L 3.51898e-007,1.35265 Z" />
+		<option name="Background1Brush" value="#273B5B" />
+		<option name="Background2Brush" value="#6A75A2" />
+		<option name="ForegroundBrush" value="#8D9AB4" />
+		<option name="ForegroundHoverBrush" value="White" />
+		<option name="RadiusX" value="4" />
+		<option name="RadiusY" value="4" />
+		<option name="Margin" value="0" />
+	</module>
+
+	<module name="ToggleEmbedViewButton">
+		<option name="Enabled" value="false" />
+		<option name="Width" value="22" />
+		<option name="Height" value="20" />
+		<option name="PathWidth" value="13" />
+		<option name="PathHeight" value="11" />
+		<option name="PathData" value="M14.863486,7.5777659 L17.268641,8.2222252 L14.359774,19.078266 L11.954618,18.433807 L14.863486,7.5777659 z M21.529634,7.5262961 L27.602283,13.599229 L26.256895,14.944682 L26.256739,14.944526 L21.529394,19.672092 L20.184,18.326633 L24.911343,13.599068 L20.184246,8.871748 L21.529634,7.5262961 z" />
+		<option name="Background1Brush" value="#273B5B" />
+		<option name="Background2Brush" value="#6A75A2" />
+		<option name="ForegroundBrush" value="#8D9AB4" />
+		<option name="ForegroundHoverBrush" value="White" />
+		<option name="RadiusX" value="4" />
+		<option name="RadiusY" value="4" />
+		<option name="Margin" value="0,0,5,0" />
+	</module>
+
+	<module name="SlideDescription">
+		<option name="Enabled" value="true" />
+
+		<option name="TitleForeground" value="White" />
+		<option name="TitleBackground" value="Black" />
+		<option name="TitleBackgroundOpacity" value="0" />
+		<option name="TitleFontSize" value="13" />
+		<option name="TitleMargin" value="5, 8, 0, 0" />
+
+		<option name="DescriptionForeground" value="White" />
+		<option name="DescriptionBackground" value="DarkGray" />
+		<option name="DescriptionBackgroundOpacity" value="0" />
+		<option name="DescriptionFontSize" value="11" />
+		<option name="DescriptionMargin" value="6.5, 8, 0, 0" />
+
+		<option name="Background" value="#536987" />
+		<option name="BackgroundOpacity" value=".5" />
+		<option name="BackgroundRadiusX" value="4" />
+		<option name="BackgroundRadiusY" value="4" />
+		<option name="BackgroundMargin" value="2" />
+
+		<option name="CloseButtonBackground1Brush" value="Transparent" />
+		<option name="CloseButtonBackground2Brush" value="Transparent" />
+		<option name="CloseButtonForegroundBrush" value="#6A75A2" />
+		<option name="CloseButtonForegroundHoverBrush" value="White" />
+		<option name="CloseButtonRadiusX" value="4" />
+		<option name="CloseButtonRadiusY" value="4" />
+		<option name="CloseButtonMargin" value="3,-2,5,3" />
+		<option name="CloseButtonWidth" value="15" />
+		<option name="CloseButtonHeight" value="15" />
+		<option name="CloseButtonPathWidth" value="10" />
+		<option name="CloseButtonPathHeight" value="10" />
+		<option name="CloseButtonPathData" value="M59.156,59.156 L81.073,81.073 C81.073,81.073 82.635,85.167 81.07,86.729 L26.573,141.228 L84.072,198.728 C85.634,200.290 85.634,202.822 84.072,204.384 L62.155,226.301 C60.593,227.863 58.061,227.863 56.499,226.301 L-1.000,168.801 L-57.499,225.301 C-59.061,226.863 -61.593,226.863 -63.155,225.301 L-85.072,203.384 C-86.634,201.822 -86.634,199.290 -85.072,197.728 L-28.573,141.228 L-82.073,87.729 C-83.635,86.167 -83.635,83.635 -82.073,82.073 L-60.156,60.156 C-58.594,58.594 -56.062,58.594 -54.500,60.156 L-1.000,113.655 L53.500,59.156 C55.062,57.594 57.594,57.594 59.156,59.156 z" />
+	</module>
+
+	<module name="AlbumViewer">
+		<option name="Enabled" value="false" />
+		<option name="ScrollButtonForeground" value="#777" />
+		<option name="ScrollButtonForegroundHover" value="White" />
+		<option name="ScrollButtonWidth" value="10" />
+		<option name="ScrollButtonHeight" value="10" />
+		<option name="ScrollButtonMargin" value="5" />
+		<option name="LeftScrollButtonData" value="M0.05,0.8 C0.05,0.4 0.4,0.05 0.8,0.05 L2.7,0 C3.2,0 3.5,0.4 3.5,0.8 L3.5,9.2 C3.5,9.6 3.2,10 2.7,10 L0.8,10 C0.4,10 0,9.6 0,9.2 z M-3.4,0 L-9.4,5 -3.4,10 Z" />
+		<option name="RightScrollButtonData" value="M0,0.8 C0.05,0.4 0.4,0.05 0.8,0.05 L2.7,0 C3.2,0 3.5,0.4 3.5,0.8 L3.5,9.2 C3.5,9.6 3.2,10 2.7,10 L0.8,10 C0.4,10 0,9.6 0,9.2 z M6.9,0 L13,5 6.9,10 Z" />
+		<option name="PageNumberFontSize" value="14" />
+		<option name="PageNumberForeground" value="White" />
+	</module>
+
+	<module name="ThumbnailViewer">
+		<option name="Enabled" value="true" />
+		<option name="Background" value="#DEE1E5" />
+		<option name="BackgroundOpacity" value="1" />
+		<option name="BackgroundRadiusX" value="4" />
+		<option name="BackgroundRadiusY" value="4" />
+		<option name="Width" value="310" />
+		<option name="Margin" value="5" />
+		<option name="ThumbSpacing" value="5" />
+		<option name="ScrollIncrement" value="310" />
+		<option name="ScrollButtonBrush" value="#8D9AB4" />
+		<option name="ScrollButtonHoverBrush" value="White" />
+		<option name="ScrollButtonWidth" value="10" />
+		<option name="ScrollButtonHeight" value="10" />
+		<option name="ScrollButtonMargin" value="5" />
+		<option name="ScrollRepeatButtonInterval" value="75" />
+		<option name="LeftScrollButtonData" value="M0.05,0.8 C0.05,0.4 0.4,0.05 0.8,0.05 L2.7,0 C3.2,0 3.5,0.4 3.5,0.8 L3.5,9.2 C3.5,9.6 3.2,10 2.7,10 L0.8,10 C0.4,10 0,9.6 0,9.2 z M-3.4,0 L-9.4,5 -3.4,10 Z" />
+		<option name="RightScrollButtonData" value="M0,0.8 C0.05,0.4 0.4,0.05 0.8,0.05 L2.7,0 C3.2,0 3.5,0.4 3.5,0.8 L3.5,9.2 C3.5,9.6 3.2,10 2.7,10 L0.8,10 C0.4,10 0,9.6 0,9.2 z M6.9,0 L13,5 6.9,10 Z" />
+	</module>
+
+	<module name="SlideThumbnail">
+		<option name="Height" value="28" />
+		<option name="BorderBrush" value="Transparent" />
+		<option name="BorderHighlightBrush" value="White" />
+		<option name="BorderThickness" value="1" />
+	</module>
+
+	<module name="AlbumPage">
+		<option name="Background" value="Silver" />
+	</module>
+
+	<module name="AlbumButton">
+		<option name="Background" value="#273B5B" />
+		<option name="BackgroundHover" value="#6A75A2" />
+
+		<option name="TitleFontSize" value="12" />
+		<option name="TitleForeground" value="#F3F4F8" />
+		<option name="TitleMargin" value="0,6,0,0" />
+
+		<option name="DescriptionFontSize" value="10" />
+		<option name="DescriptionForeground" value="Silver" />
+		<option name="DescriptionMargin" value="0" />
+
+		<option name="Width" value="222" />
+		<option name="Height" value="84" />
+		<option name="Padding" value="5" />
+		<option name="BackgroundRadiusX" value="6" />
+		<option name="BackgroundRadiusY" value="6" />
+
+		<option name="ThumbnailWidth" value="78" />
+		<option name="ThumbnailHeight" value="68" />
+		<option name="ThumbnailRadiusX" value="4" />
+		<option name="ThumbnailRadiusY" value="4" />
+		<option name="ThumbnailMargin" value="6" />
+		<option name="ThumbnailBorderStroke" value="Silver" />
+		<option name="ThumbnailBorderThickness" value="1" />
+	</module>
+
+	<module name="SlidePreview">
+		<option name="Enabled" value="true" />
+		<option name="Height" value="150" />
+		<option name="BorderBrush" value="White" />
+		<option name="BorderWidth" value="2" />
+		<option name="RadiusX" value="4" />
+		<option name="RadiusY" value="4" />
+	</module>
+
+	<module name="SlideViewer">
+		<option name="Stretch" value="UniformToFill" />
+	</module>
+
+	<module name="ImageViewer">
+	</module>
+
+	<module name="VideoViewer">
+		<option name="AutoPlay" value="true" />
+	</module>
+
+	<module name="VideoTray">
+		<option name="Enabled" value="true" />
+		<option name="Width" value="300" />
+		<option name="Height" value="30" />
+		<option name="Margin" value="0,-6,0,0" />
+		<option name="PlayPauseButtonWidth" value="20" />
+		<option name="PlayPauseButtonHeight" value="20" />
+		<option name="PlayPauseButtonPathWidth" value="10" />
+		<option name="PlayPauseButtonPathHeight" value="10" />
+		<option name="RadiusX" value="4" />
+		<option name="RadiusY" value="4" />
+		<option name="Foreground" value="Black" />
+		<option name="ForegroundHover" value="White" />
+		<option name="Background" value="White" />
+		<option name="TextForegroundBrush" value="Black" />
+		<option name="TextFontSize" value="10" />
+		<option name="BackgroundOpacity" value="0.5" />
+		<option name="VolumeWidth" value="50" />
+		<option name="PlayPathData" value="F1 M 101.447,284.834L 101.447,274.714L 106.906,279.774L 101.447,284.834 Z" />
+		<option name="PausePathData" value="M 100.048,736.889L 98.5482,736.889C 97.9959,736.889 97.5482,736.441 97.5482,735.889L 97.5482,727.889C 97.5482,727.337 97.9959,726.889 98.5482,726.889L 100.048,726.889C 100.6,726.889 101.048,727.337 101.048,727.889L 101.048,735.889C 101.048,736.441 100.6,736.889 100.048,736.889 Z M 106.922,736.889L 105.422,736.889C 104.87,736.889 104.422,736.441 104.422,735.889L 104.422,727.889C 104.422,727.337 104.87,726.889 105.422,726.889L 106.922,726.889C 107.475,726.889 107.922,727.337 107.922,727.889L 107.922,735.889C 107.922,736.441 107.475,736.889 106.922,736.889 Z" />
+	</module>
+</configuration>

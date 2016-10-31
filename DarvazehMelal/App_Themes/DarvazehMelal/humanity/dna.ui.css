@@ -1,0 +1,13 @@
+﻿/*
+* DNA UI CSS Framework 
+* Copyright (c) 2009 Ray Liang (http://www.dotnetage.com)
+*  Dual licensed under the MIT and GPL licenses:
+*  http://www.opensource.org/licenses/mit-license.php
+*  http://www.gnu.org/licenses/gpl.html
+*/
+.dna-ui-navview { padding: 5px !important; overflow: hidden !important; background-color: #ffffff; }
+.dna-ui-navview ul li { position: relative; margin: 2px; height: 25px; font-size: 11px; border: none; }
+.dna-ui-navview ul li:hover { border: none; background: #f5f0e5 url(images/ui-bg_glass_100_f5f0e5_1x400.png) 50% 50% repeat-x; color: #a46313; outline: none; }
+.dna-ui-navview ul li .ui-icon { position: absolute; left: .5em; top: 50%; margin-top: -8px; }
+.dna-ui-navview ul li a { display: block; font-size: 1em; padding: .5em .5em .5em 2.2em; }
+.dna-ui-navview ul li a:hover { color: #a46313; }

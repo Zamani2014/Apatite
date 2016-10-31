@@ -1,0 +1,371 @@
+﻿/* CSS Reset */
+* { margin:0; padding:0; }
+
+
+body 
+{
+    font-size: 13px;
+	background: url('../Images/Header_Bg.jpg') repeat-x 0px 0px;
+	font-family: B Traffic, Traffic, Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    color: #7F0000;
+}
+
+h1
+{
+    font-size: 18px;
+}
+
+h2
+{
+    font-size: 16px;
+}
+
+a:link
+{
+    color:#7F0000;
+}
+
+#container {
+	width:960px;
+	margin:0 auto;
+	padding: 0 10px;
+}
+
+#header{
+	position:relative;
+	width: 100%;
+}
+
+#header h1{
+	display:block;
+	float:right;
+	width:198px;
+	height:155px;
+	background:url('../Images/Logo.jpg') no-repeat 0 0;
+	text-indent: 100%;
+white-space: nowrap;
+overflow: hidden;
+}
+
+#header h1 a{
+    display:block;
+    height:100%;
+    width:100%;
+}
+
+#header #ahoura{
+	background: url('../images/Ahoura.jpg') no-repeat center 0px;
+	height: 155px;
+	position: absolute;
+	padding: 5px 0px 0px 940px;
+	z-index: -1;
+}
+
+#header #symbol{
+	background: url('../images/SymbolLeft.jpg') no-repeat left 0px;
+	height: 155px;
+	position: absolute;
+	padding: 5px 915px 0 0;
+}
+
+#maincol{
+	clear: both;
+      margin: 0px;
+	background: #ffffff;
+	padding-top: 10px;
+	height: auto;
+	width: 945px;
+}
+
+#maincol #sidebar {
+	clear: both;
+	float: right;
+	width: 150px;
+	height: auto;
+	display: block;
+	text-align:right;
+	direction:rtl;
+	padding-bottom:10px
+}
+
+#maincol #sidebar ul
+{
+    margin-top:10px;
+	float: right;
+	background-image:url('../Images/Menu_Bg.jpg');
+	background-repeat:repeat-x;
+	width: 150px;
+	list-style-type: none;
+	display: block;
+	text-align:right;
+	direction:rtl;
+}
+
+#maincol #sidebar ul li{
+	list-style-type: none;
+	display: block;
+	padding: 0px 0px 0px 0px;
+	height:13px
+}
+
+#maincol #sidebar ul a {
+	color: #000;
+	display: block;
+	text-decoration: none;
+}
+
+#maincol #sidebar li a span{
+	display: block;
+	height: 100%;
+	padding: 0 2px 0 0;
+}
+
+#maincol #sidebar li a:hover, #maincol li.active a{
+	background: url('../images/Btn_hover.jpg') no-repeat right;
+	color: #fff;
+	cursor: pointer;
+	text-decoration: none
+}
+
+#maincol #sidebar li.active a span, #maincol li a:hover span {
+	background: url('../images/Btn_hover.jpg') no-repeat right;
+}
+
+#maincol #sidebar #links {
+	margin-top:10px;
+      margin-bottom: 10px;
+}
+
+#maincol #sidebar #building {
+      clear:both;
+      width:150px;
+      height:115px;
+	background-image:url('../Images/building.jpg');
+	background-repeat:no-repeat;
+	padding:0px;
+	margin:0px;
+}
+
+#maincol #leftcol{
+	float: left;
+      width:785px;
+      padding-bottom:10px
+}
+
+#maincol #leftcol #breadcrumbs 
+{
+	background: url('../images/col_bg.jpg') repeat-x;
+	direction:rtl;
+	text-align:right;
+	border: 1px solid #b38a18;
+	margin-bottom:10px;
+}
+
+#maincol #leftcol #contentContainer
+{
+	margin-bottom:10px;
+}
+
+#maincol #leftcol .col {
+	float:right;
+	width:366px;
+	background: url('../images/col_bg.jpg') repeat-x;
+	height: 270px;
+	border: 1px solid #b38a18;
+	padding: 10px;
+	margin-right: 0px;
+	text-align:right;
+	direction:rtl;
+}
+
+#maincol #leftcol .col h2 {
+	font-size:16px;
+	color:#b38a18;
+	text-decoration: none;
+	margin-bottom: 18px;
+	border-bottom:medium #b38a18 double;
+}
+
+#maincol #leftcol .col.noMargin {
+	float: left;
+	margin-left:0px;
+}
+
+#maincol #leftcol .col.noMargin.top {
+      margin-top:10px;
+	float: right;
+	margin-left:0px;
+}
+
+#maincol #leftcol .col.noMargin.left {
+	margin-top:10px;
+}
+
+.clear {
+	clear: both;
+}
+
+#footer{
+	clear: both;
+	background: url('../Images/Footer_Bg.jpg');
+	height: 156px;
+	width: 100%;
+	margin-top: 40px;
+}
+
+#footerContainer{
+	margin: 0px auto 0;
+	width: 960px;
+	font-size: 11px;
+	font-weight:bold;
+	color: #fff;
+	position: relative;
+}
+
+#footerContainer p{
+      padding-top: 0px;
+}
+
+#footerContainer a{
+	color:#edd58d;
+	text-decoration:none;
+}
+
+#footerContainer a:hover {
+	color:#fff;
+	text-decoration: underline;
+}
+
+#footercol1 {
+      float:left;
+      width:320px;
+      height:156px;
+}
+
+#footercol1 ul {
+	padding-top:10px;
+}
+
+#footercol1 ul li{
+      float:left;
+	list-style-type:none;
+	display:block;
+	padding-right:4px;
+}
+
+#footercol1 ul li#facebook 
+{
+    background-image: url('../Images/SocialIcons/facebook_32.png');
+    background-repeat:no-repeat;
+    width:32px; height:32px;
+    text-indent:-99999px;
+}
+
+#footercol1 ul li#twitter 
+{
+    background-image: url('../Images/SocialIcons/twitter_32.png');
+    background-repeat:no-repeat;
+    width:32px; height:32px;
+    text-indent:-99999px;
+}
+
+#footercol1 ul li#plus 
+{
+    background-image: url('../Images/SocialIcons/google_32.png');
+    background-repeat:no-repeat;
+    width:32px; height:32px;
+    text-indent:-99999px;
+}
+
+#footercol1 ul li#picasa 
+{
+    background-image: url('../Images/SocialIcons/picasa_32.png');
+    background-repeat:no-repeat;
+    width:32px; height:32px;
+    text-indent:-99999px;
+}
+
+#footercol1 ul li#rss 
+{
+    background-image: url('../Images/SocialIcons/rss_32.png');
+    background-repeat:no-repeat;
+    width:32px; height:32px;
+    text-indent:-99999px;
+}
+
+#footercol1 ul#validators {
+    clear:both;
+    margin-top:30px;
+}
+
+#footercol1 ul#validators li#xhtml 
+{
+    background-image: url('../Images/W3CValidators/valid-xhtml10.png');
+    background-repeat:no-repeat;
+    width:88px; height:31px;
+    text-indent:-99999px;
+}
+
+#footercol1 ul#validators li#css 
+{
+    background-image: url('../Images/W3CValidators/valid-css.png');
+    background-repeat:no-repeat;
+    width:88px; height:31px;
+    text-indent:-99999px;
+}
+
+#footercol1 ul#validators li#rssvalid 
+{
+    background-image: url('../Images/W3CValidators/valid-rss.png');
+    background-repeat:no-repeat;
+    width:88px; height:31px;
+    text-indent:-99999px;
+}
+
+#footercol1 ul li a
+{
+    display:block; height:100%; width:100%;
+}
+
+
+#footercol1 ul#validators li{
+      float:left;
+	list-style-type:none;
+	display:block;
+}
+
+#footercol1 p
+{
+    margin-top:40px;
+     direction:ltr
+}
+
+#footercol2 {
+	float:left;
+      width:320px;
+      height:156px;
+      background-image:url('../Images/Com.jpg');
+	background-repeat:no-repeat;
+	background-position:center bottom;
+	padding-bottom:0px;
+}
+
+#footer #footermenu {
+	 padding-top:5px;
+	 text-align:center;
+	 
+}
+
+#footercol3 {
+	float:right;
+      width:320px;
+      height:156px;
+	background-image:url('../Images/Contact.jpg');
+	background-repeat:no-repeat;
+	background-position:right 0.49px;
+}

@@ -1,0 +1,27 @@
+﻿body
+{
+    font-family: B Traffic, Traffic, Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #000000;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    color: #2A416F;
+}
+
+h1
+{
+    font-size: 18px;
+}
+
+h2
+{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+a, a:visited, a:active, a:hover, a:link 
+{
+    color: #000000;
+}

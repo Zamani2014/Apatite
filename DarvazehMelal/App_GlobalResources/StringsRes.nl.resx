@@ -1,0 +1,1182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="clt_RecoverPasswordWizard_KeepPassword" xml:space="preserve">
+    <value>Onthoud wachtwoord</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="clt_RecoverPasswordWizard_ResetPassword" xml:space="preserve">
+    <value>Aanmaken nieuw wachtwoord</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="glb__EditMode" xml:space="preserve">
+    <value>Wijzig-weergave</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="glb__ViewMode" xml:space="preserve">
+    <value>Normale weergave</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_CreateUserWizard_CreateUser" xml:space="preserve">
+    <value>Maak gebruiker aan</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_CreateUserWizard_CreateUserSucessful" xml:space="preserve">
+    <value>De gebruiker is succesvol aangemaakt.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_DownloadList_RssTitle" xml:space="preserve">
+    <value>Downloads</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_EventList_RssTitle" xml:space="preserve">
+    <value>Evenementen</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_Gallery_RssTitle" xml:space="preserve">
+    <value>Fotoalbum</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_Guestbook_RssTitle" xml:space="preserve">
+    <value>Gastenboek</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_HtmlContent_RssTitle" xml:space="preserve">
+    <value>Html</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_LinkList_RssTitle" xml:space="preserve">
+    <value>Links</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_NewsList_RssTitle" xml:space="preserve">
+    <value>Nieuws Overzicht</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_PasswordRecovery_MailSubject" xml:space="preserve">
+    <value>Gebruikersinformatie</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_RecoverPasswordWizard_HeaderText" xml:space="preserve">
+    <value>Reset wachtwoord voor gebruikersnaam</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_RecoverPasswordWizard_PasswordMailBody" xml:space="preserve">
+    <value>Gebruikersinformatie voor: {0}{2}{2}Je wachtwoord is gereset.{2}Je nieuwe wachtwoord is: {1}{2}{2}Bedankt</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_RecoverPasswordWizard_PasswordMailFailed" xml:space="preserve">
+    <value>Het versturen van de email is mislukt!</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_RecoverPasswordWizard_PasswordMailSent" xml:space="preserve">
+    <value>De email is succesvol verstuurd</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_RecoverPasswordWizard_PasswordMailSubject" xml:space="preserve">
+    <value>Gebruikersinformatie</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_RecoverPasswordWizard_ResultUserNotFound" xml:space="preserve">
+    <value>De gebruiker is niet gevonden</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="glb__Cancel" xml:space="preserve">
+    <value>Annuleren</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="glb__Save" xml:space="preserve">
+    <value>Opslaan</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="glb_Search_NoSearchResults" xml:space="preserve">
+    <value>Er zijn geen resultaten die voldoen aan de zoekcriteria</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="pge_Search_Rowtitle_Excerpt" xml:space="preserve">
+    <value>Resultaat</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="pge_Search_Rowtitle_Title" xml:space="preserve">
+    <value>Titel</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="pge_Search_SearchQuery" xml:space="preserve">
+    <value>Zoek term</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="pge_Search_StartSearch" xml:space="preserve">
+    <value>Zoek</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="adm_AdminUser_DeleteSection" xml:space="preserve">
+    <value>Verwijder Onderdeel</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_Subpages_RssTitle" xml:space="preserve">
+    <value>Subpagina's</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="pge_CMS_Title" xml:space="preserve">
+    <value>Titel</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="pge_CMS_Language" xml:space="preserve">
+    <value>Taal</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="pge_CMS_MailSenderAdress" xml:space="preserve">
+    <value>Email Afzender Adres</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="pge_CMS_SmtpServer" xml:space="preserve">
+    <value>Smtp-server</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="pge_CMS_FooterLine" xml:space="preserve">
+    <value>Onderschrift</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="pge_CMS_WebsiteDescription" xml:space="preserve">
+    <value>Website omschrijving</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="pge_CMS_WebsiteKeywords" xml:space="preserve">
+    <value>Website sleutelwoorden</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="pge_CMS_EnableSectionRSS" xml:space="preserve">
+    <value>Toestaan onderdeel RSS</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="pge_CMS_SelectTheme" xml:space="preserve">
+    <value>Selecteer thema</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="pge_CMS_RESETWebsite" xml:space="preserve">
+    <value>RESET Website</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="pge_LoginAdmin_Login" xml:space="preserve">
+    <value>Inloggen</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="pge_LoginAdmin_Login_UserName" xml:space="preserve">
+    <value>Gebruikersnaam</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="pge_LoginAdmin_Remember" xml:space="preserve">
+    <value>Onthoud mijn gegevens</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="pge_LoginAdmin_ChangePassword" xml:space="preserve">
+    <value>Wijzig wachtwoord</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_LoginAdmin_LogIn" xml:space="preserve">
+    <value>Inloggen</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_LoginAdmin_LogOut" xml:space="preserve">
+    <value>Uitloggen</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_RecoverPassword_Legend" xml:space="preserve">
+    <value>Reset gebruikerswachtwoord</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_CreateUserWizard_CreateUserButtonDone" xml:space="preserve">
+    <value>Verder</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="adm_Navigation_NewSite" xml:space="preserve">
+    <value>Nieuwe Pagina</value>
+    <comment>updated 1.0.2</comment>
+  </data>
+	<data name="adm_Navigation_AllowAnonymous" xml:space="preserve">
+    <value>Anonieme gebruiker toestaan</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="adm_Users_ChangeUser" xml:space="preserve">
+    <value>Wijzig Gebruiker</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="adm_Users_Comment" xml:space="preserve">
+    <value>Commentaar</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="adm_Users_CreateUser" xml:space="preserve">
+    <value>Een nieuwe gebruiker aanmaken</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="adm_Users_Email" xml:space="preserve">
+    <value>Email</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="adm_Users_IsAdministrator" xml:space="preserve">
+    <value>Is Administrator</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="adm_Users_LastLogin" xml:space="preserve">
+    <value>Laatste Login</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="adm_Navigation_Move" xml:space="preserve">
+    <value>Verplaats</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="adm_Sections_MoveSection" xml:space="preserve">
+    <value>Onderdelen verplaatsen over pagina's</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="adm_Navigation_Navigation" xml:space="preserve">
+    <value>Navigatie</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="adm_Navigation_NewPageDefaultName" xml:space="preserve">
+    <value>Nieuwe Pagina</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="adm_Navigation_PageDeletionWarning" xml:space="preserve">
+    <value>Weet u zeker dat u deze pagina wilt verwijderen?</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="adm_Navigation_PageTitle" xml:space="preserve">
+    <value>Pagina Titel</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="adm_Sections_Section" xml:space="preserve">
+    <value>Onderdeel</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="adm_Sections_SourcePage" xml:space="preserve">
+    <value>Bronpagina</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="adm_Sections_TargetPage" xml:space="preserve">
+    <value>Doelpagina</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="adm_Users_UserName" xml:space="preserve">
+    <value>Gebruikersnaam</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="adm_Navigation_VirtualPath" xml:space="preserve">
+    <value>Virtueel pad</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="adm_Navigation_Visible" xml:space="preserve">
+    <value>Zichtbaar</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="adm_Navigation_Homepage" xml:space="preserve">
+    <value>Home</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="glb__Delete" xml:space="preserve">
+    <value>Verwijderen</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="adm_Website_EnableSectionRSS" xml:space="preserve">
+    <value>Toestaan onderdeel RSS</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="adm_Website_FooterLine" xml:space="preserve">
+    <value>Onderschrift</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="adm_Website_Language" xml:space="preserve">
+    <value>Taal</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="adm_Website_MailSender" xml:space="preserve">
+    <value>Email Afzender Adres</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="adm_Website_Reset" xml:space="preserve">
+    <value>RESET Website</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="adm_SelectTheme" xml:space="preserve">
+    <value>Selecteer thema</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="adm_Website_SmtpServer" xml:space="preserve">
+    <value>Smtp-server</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="adm_Website_Title" xml:space="preserve">
+    <value>Titel</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="adm_Website_WebsiteDescription" xml:space="preserve">
+    <value>Website omschrijving</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="adm_Website_WebsiteKeywords" xml:space="preserve">
+    <value>Website sleutelwoorden</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="adm_Navigation_VirtualPathErrorMessage" xml:space="preserve">
+    <value>Er bestaat al een site met dit pad.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="pge_ChangePassword_Button" xml:space="preserve">
+    <value>Wijzig wachtwoord</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="pge_ChangePassword_ConfirmNewPassword" xml:space="preserve">
+    <value>Bevestig nieuw wachtwoord</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="pge_ChangePassword_ConfirmNewPasswordRequired" xml:space="preserve">
+    <value>Bevestigingswachtwoord is verplicht.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="pge_ChangePassword_NewPassword" xml:space="preserve">
+    <value>Nieuw wachtwoord</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="pge_ChangePassword_NewPasswordRequired" xml:space="preserve">
+    <value>Nieuw wachtwoord is verplicht.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="pge_ChangePassword_NotMatching" xml:space="preserve">
+    <value>De twee nieuw opgegeven wachtwoorden komen niet overeen.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="pge_ChangePassword_Password" xml:space="preserve">
+    <value>Wachtwoord</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="pge_ChangePassword_PasswordRequired" xml:space="preserve">
+    <value>Wachtwoord is verplicht.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="pge_ChangePassword_Title" xml:space="preserve">
+    <value>Wijzig wachtwoord</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="pge_ChangePassword_UserName" xml:space="preserve">
+    <value>Gebruikersnaam</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="pge_ChangePassword_UserNameRequired" xml:space="preserve">
+    <value>Gebruikersnaam is verplicht.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="pge_Login_ChangePassword" xml:space="preserve">
+    <value>Wijzig wachtwoord</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="pge_Login_LogIn" xml:space="preserve">
+    <value>Inloggen</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="pge_Login_Password" xml:space="preserve">
+    <value>Wachtwoord</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="pge_Login_PasswordRequired" xml:space="preserve">
+    <value>Wachtwoord is verplicht.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="pge_Login_RememberMe" xml:space="preserve">
+    <value>Onthoud mijn gegevens</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="pge_Login_Title" xml:space="preserve">
+    <value>Inloggen</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="pge_Login_UserName" xml:space="preserve">
+    <value>Gebruikersnaam</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="pge_Login_UserNameRequired" xml:space="preserve">
+    <value>Gebruikersnaam is verplicht.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="adm_Users_DeleteUser" xml:space="preserve">
+    <value>Verwijder huidige gebruiker</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="adm_Users_DeleteWarning" xml:space="preserve">
+    <value>Weet je zeker dat je de huidige gebruiker wilt verwijderen?</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="adm_Users_Exception" xml:space="preserve">
+    <value>De volgende fout heeft zich voorgedaan:</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="adm_Users_LastAdminRemains" xml:space="preserve">
+    <value>De laatste administrator kan niet verwijderd worden</value>
+    <comment>added 1.1.0</comment>
+  </data>
+	<data name="cls_SitemapEditor_Administration" xml:space="preserve">
+    <value>Beheer</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="cls_SitemapEditor_CMSSetup" xml:space="preserve">
+    <value>CMS Instellen</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="cls_SitemapEditor_Management" xml:space="preserve">
+    <value>Gebruikersbeheer</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="cls_SitemapEditor_Sections" xml:space="preserve">
+    <value>Onderdelen/Pagina verwijzingen</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="cls_SitemapEditor_SectionsPages" xml:space="preserve">
+    <value>Pagina's en Navigatie</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_CreateUserWizard_ComparePassword" xml:space="preserve">
+    <value>Het wachtwoord en het bevestigingswachtwoord  moeten overeenkomen.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_CreateUserWizard_ConfirmPassword" xml:space="preserve">
+    <value>Bevestigingswachtwoord:</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_CreateUserWizard_ConfirmPasswordRequired" xml:space="preserve">
+    <value>Bevestigingswachtwoord is verplicht. </value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_CreateUserWizard_DuplicateUserName" xml:space="preserve">
+    <value>Geef een andere gebruikersnaam op.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_CreateUserWizard_Email" xml:space="preserve">
+    <value>Email:</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_CreateUserWizard_EmailRequired" xml:space="preserve">
+    <value>Emailadres is verplicht.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_CreateUserWizard_Password" xml:space="preserve">
+    <value>Wachtwoord:</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_CreateUserWizard_PasswordRequired" xml:space="preserve">
+    <value>Wachtwoord is verplicht.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_CreateUserWizard_UserName" xml:space="preserve">
+    <value>Gebruikersnaam:</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_CreateUserWizard_UserNameRequired" xml:space="preserve">
+    <value>Gebruikersnaam is verplicht.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_RecoverPassword_FinishButton" xml:space="preserve">
+    <value>Reset</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="glb__Search" xml:space="preserve">
+    <value>Zoeken</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="glb__DeleteSection" xml:space="preserve">
+    <value>Verwijder onderdeel</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="glb__RemoveFromSidebar" xml:space="preserve">
+    <value>Verwijder van het zijpaneel</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="glb__SendToSidebar" xml:space="preserve">
+    <value>Plaats op het zijpaneel</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="glb__Submit" xml:space="preserve">
+    <value>Verstuur</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_Guestbook_AntiBotImage" xml:space="preserve">
+    <value>Anti-Bot Afbeelding</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_Guestbook_Input" xml:space="preserve">
+    <value>Bericht</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_Guestbook_Name" xml:space="preserve">
+    <value>Naam</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_ContactForm_RssTitle" xml:space="preserve">
+    <value>Contact Formulier</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_EasyControl_RssTitle" xml:space="preserve">
+    <value>Easy Control</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="adm_Sections_Move" xml:space="preserve">
+    <value>Verplaats</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="adm_Users_Admin" xml:space="preserve">
+    <value>Admin</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_ContactForm_CopyTo" xml:space="preserve">
+    <value>Kopiëer naar</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_ContactForm_EMailAddress" xml:space="preserve">
+    <value>Email adres</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_ContactForm_ErrorMessageEmail" xml:space="preserve">
+    <value>Vul uw email adres in</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_ContactForm_ErrorMessageMessage" xml:space="preserve">
+    <value>Vul een bericht in</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_ContactForm_ErrorMessageSubject" xml:space="preserve">
+    <value>Vul een onderwerp in</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_ContactForm_ErrorMessageValidEmail" xml:space="preserve">
+    <value>Vul een geldig email adres in</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_ContactForm_IntroPart1" xml:space="preserve">
+    <value>Om gebruik te kunnen maken van het Contact Formulier Onderdeel, dien je een geldige SMTP-Server te configureren op de</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_ContactForm_IntroPart2" xml:space="preserve">
+    <value>Beheer-Pagina</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_ContactForm_Introtext" xml:space="preserve">
+    <value>Intro-tekst</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_ContactForm_Message" xml:space="preserve">
+    <value>Bericht</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_ContactForm_RecipientEMail" xml:space="preserve">
+    <value>Emailadres ontvanger</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_ContactForm_Subject" xml:space="preserve">
+    <value>Onderwerp</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_ContactForm_ThankYouMessage" xml:space="preserve">
+    <value>Bedankbericht</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_Downloadlist_Comment" xml:space="preserve">
+    <value>Opmerking</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_Downloadlist_File" xml:space="preserve">
+    <value>Bestand</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_Downloadlist_Title" xml:space="preserve">
+    <value>Titel</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_EasyControl_Choose" xml:space="preserve">
+    <value>Kies een onderdeel</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_EasyControl_SelectControl" xml:space="preserve">
+    <value>Selecteer een onderdeel</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_ErrorMessageMissingFile" xml:space="preserve">
+    <value>Selecteer een bestand om te uploaden</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_EventList_Date" xml:space="preserve">
+    <value>Datum</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_EventList_Description" xml:space="preserve">
+    <value>Omschrijving</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_EventList_ErrorMessageEventDate" xml:space="preserve">
+    <value>Specificeer de datum van het evenement</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_EventList_ErrorMessageEventLocation" xml:space="preserve">
+    <value>Specificeer de lokatie van het evenement</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_EventList_ErrorMessageEventName" xml:space="preserve">
+    <value>Specificeer de naam van het evenement</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_EventList_Event" xml:space="preserve">
+    <value>Evenement</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_EventList_EventDate" xml:space="preserve">
+    <value>Evenement datum</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_EventList_EventName" xml:space="preserve">
+    <value>Evenement naam</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_EventList_EventTime" xml:space="preserve">
+    <value>Evenement tijdstip</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_EventList_Location" xml:space="preserve">
+    <value>Lokatie</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_EventList_ShowFrom" xml:space="preserve">
+    <value>Laat zien vanaf</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_Gallery_Comment" xml:space="preserve">
+    <value>Opmerking</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_Gallery_ErrorMessageImage" xml:space="preserve">
+    <value>Selecteer een afbeelding om te uploaden</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_Gallery_File" xml:space="preserve">
+    <value>Bestand</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_Gallery_Title" xml:space="preserve">
+    <value>Titel</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_Guestbook_Author" xml:space="preserve">
+    <value>Auteur</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_Guestbook_Date" xml:space="preserve">
+    <value>Datum</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_Guestbook_ErrorMessageAntibot" xml:space="preserve">
+    <value>Vul hier de tekens uit de afbeelding in</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_Guestbook_ErrorMessageAntibotInvalid" xml:space="preserve">
+    <value>Ongeldige Anti-Bot Code</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_Guestbook_ErrorMessageAuthorName" xml:space="preserve">
+    <value>Geef een auteurnaam op</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_Guestbook_ErrorMessageText" xml:space="preserve">
+    <value>Vul een bericht in</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_LinkList_Comment" xml:space="preserve">
+    <value>Opmerking</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_LinkList_ErrorMessageUrl" xml:space="preserve">
+    <value>Geef een URL op</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_LinkList_ErrorMessageValidUrl" xml:space="preserve">
+    <value>Geef een geldige URL op</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_LinkList_Target" xml:space="preserve">
+    <value>Doel</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_LinkList_Title" xml:space="preserve">
+    <value>Titel</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_LinkList_Url" xml:space="preserve">
+    <value>Url</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_NewsList_Content" xml:space="preserve">
+    <value>Inhoud</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_NewsList_Date" xml:space="preserve">
+    <value>Datum</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_NewsList_ErrorMessageHeadline" xml:space="preserve">
+    <value>Geef een titel op</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_NewsList_Headline" xml:space="preserve">
+    <value>Titel</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_NewsList_News" xml:space="preserve">
+    <value>Nieuws</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_NewsList_ShowFrom" xml:space="preserve">
+    <value>Laat zien vanaf</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_NewsList_ShowUntil" xml:space="preserve">
+    <value>Laat zien tot</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_SectionAdmin_Info" xml:space="preserve">
+    <value>Info</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="glb__Add" xml:space="preserve">
+    <value>Toevoegen</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="pge_Default_AddSection" xml:space="preserve">
+    <value>Onderdeel toevoegen</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="pge_Search_ErrorMessageKeyword" xml:space="preserve">
+    <value>Geef je zoekcriteria op</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="pge_Search_View" xml:space="preserve">
+    <value>Overzicht</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="adm_Website_SelectTheme" xml:space="preserve">
+    <value>Selecteer thema</value>
+    <comment>added 1.0.0</comment>
+  </data>
+	<data name="ctl_CreateUserWizard_DuplicateEmail" xml:space="preserve">
+    <value>Het e-mail adres dat je opgegeven hebt is reeds in gebruik. Geef a.u.b. een ander e-mail adres.</value>
+    <comment>added 1.0.2</comment>
+  </data>
+	<data name="ctl_EventList_ShowPastEvents" xml:space="preserve">
+    <value>Laat eerdere evenementen zien</value>
+    <comment>added 1.1.0</comment>
+  </data>
+	<data name="ctl_SectionAdmin_DeleteWarning" xml:space="preserve">
+    <value>Weet je zeker dat je de onderdeel "{0}" wilt verwijderen?</value>
+    <comment>added 1.1.0</comment>
+  </data>
+	<data name="adm_Website_SmtpDomain" xml:space="preserve">
+    <value>Smtp domein</value>
+    <comment>added 1.1.1</comment>
+  </data>
+	<data name="adm_Website_SmtpPassword" xml:space="preserve">
+    <value>Smtp wachtwoord</value>
+    <comment>added 1.1.1</comment>
+  </data>
+	<data name="adm_Website_SmtpUser" xml:space="preserve">
+    <value>Smtp gebruiker</value>
+    <comment>added 1.1.1</comment>
+  </data>
+	<data name="pge_Login_Failure" xml:space="preserve">
+    <value>Uw poging om in te loggen was niet succesvol. Probeer het nogmaals.</value>
+    <comment>added 1.1.1</comment>
+  </data>
+	<data name="adm_Navigation_EditPowerUser" xml:space="preserve">
+    <value>Aanpasbaar door Power Gebruiker</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+	<data name="adm_Users_IsPowerUser" xml:space="preserve">
+    <value>Is Power Gebruiker</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+	<data name="adm_Users_PowerUser" xml:space="preserve">
+    <value>Power Gebruiker</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+	<data name="adm_Website_Reset_Confirmation" xml:space="preserve">
+    <value>Weet je zeker dat je de website wilt resetten? Alle data gegevens zullen verloren gaan.</value>
+    <comment>added 1.2.0</comment>
+  </data>
+	<data name="ctl_ContactForm_Name" xml:space="preserve">
+    <value>Naam</value>
+    <comment>added 1.2.0</comment>
+  </data>
+	<data name="ctl_Gallery_HTMLVersion" xml:space="preserve">
+    <value>HTML Versie</value>
+    <comment>added 1.2.0</comment>
+  </data>
+	<data name="ctl_Gallery_SilverlightVersion" xml:space="preserve">
+    <value>Silverlight versie</value>
+    <comment>added 1.2.0</comment>
+  </data>
+	<data name="pge_ChangePassword_PasswordFailureText" xml:space="preserve">
+    <value>Wachtwoord in niet correct of nieuw wachtwoord is ongeldig.</value>
+    <comment>added 1.2.0</comment>
+  </data>
+	<data name="ctl_Blog_RssTitle" xml:space="preserve">
+    <value>Blog</value>
+  </data>
+	<data name="adm_Navigation_Description" xml:space="preserve">
+    <value>Meta Tag Omschrijving</value>
+  </data>
+	<data name="adm_Navigation_Keywords" xml:space="preserve">
+    <value>Meta Tag Sleutelwoorden</value>
+  </data>
+	<data name="ctl_TagCloud_RssTitle" xml:space="preserve">
+    <value>TagCloud</value>
+  </data>
+	<data name="ctl_Blogroll_ErrorMessageUrl" xml:space="preserve">
+    <value>Geef een URL op</value>
+  </data>
+	<data name="ctl_Blogroll_ErrorMessageValidUrl" xml:space="preserve">
+    <value>Geef een geldige URL op</value>
+  </data>
+	<data name="ctl_Blogroll_RssTitle" xml:space="preserve">
+    <value>Blogroll</value>
+  </data>
+	<data name="ctl_Blogroll_Title" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+	<data name="ctl_Blogroll_Url" xml:space="preserve">
+    <value>Url</value>
+  </data>
+	<data name="ctl_Blogroll_ErrorMessageValidOrder" xml:space="preserve">
+    <value>Vul een geldige volgorde op (0-9999)</value>
+  </data>
+	<data name="ctl_Blogroll_Order" xml:space="preserve">
+    <value>Volgorde</value>
+  </data>
+	<data name="ctl_Blogroll_Description" xml:space="preserve">
+    <value>Omschrijving</value>
+  </data>
+	<data name="ctl_Blogroll_FeedUrl" xml:space="preserve">
+    <value>Rss URL</value>
+  </data>
+	<data name="ctl_TagCloud_DefaultTitle" xml:space="preserve">
+    <value>Tag Cloud</value>
+  </data>
+	<data name="ctl_TagCloud_ErrorMessageTitle" xml:space="preserve">
+    <value>Geef een naam voor de TagCloud</value>
+  </data>
+	<data name="ctl_Blog_Comments" xml:space="preserve">
+    <value>Reactie's</value>
+  </data>
+	<data name="ctl_Blog_CommentsAuthor" xml:space="preserve">
+    <value>Auteur</value>
+  </data>
+	<data name="ctl_Blog_CommentsErrorMessageAuthor" xml:space="preserve">
+    <value>Vul je naam in</value>
+  </data>
+	<data name="ctl_Blog_CommentsErrorMessageTitle" xml:space="preserve">
+    <value>Vul een titel in</value>
+  </data>
+	<data name="ctl_Blog_CommentsFooter" xml:space="preserve">
+    <value>Geplaatst op {0} door {1}</value>
+  </data>
+	<data name="ctl_Blog_CommentsTitle" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+	<data name="ctl_Blog_Configuration" xml:space="preserve">
+    <value>Configuratie</value>
+  </data>
+	<data name="ctl_Blog_Entry" xml:space="preserve">
+    <value>Blog</value>
+  </data>
+	<data name="ctl_Blog_Tags" xml:space="preserve">
+    <value>Label's</value>
+  </data>
+	<data name="ctl_Blog_Title" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+	<data name="ctl_TagCloud_ConfigSafed" xml:space="preserve">
+    <value>Aanpassingen zijn opgeslagen</value>
+  </data>
+	<data name="ctl_TagCloud_ConfigTitle" xml:space="preserve">
+    <value>TagCloud Configuratie</value>
+  </data>
+	<data name="ctl_TagCloud_Title" xml:space="preserve">
+    <value>TagCloud titel</value>
+  </data>
+	<data name="glb__Back" xml:space="preserve">
+    <value>Terug</value>
+  </data>
+	<data name="glb__Close" xml:space="preserve">
+    <value>Sluiten</value>
+  </data>
+	<data name="pge_Keywords_SelectionSafed" xml:space="preserve">
+    <value>Selectie opgeslagen</value>
+  </data>
+	<data name="pge_Keywords_TagCreated" xml:space="preserve">
+    <value>Label is aangemaakt en de selectie is opgeslagen</value>
+  </data>
+	<data name="pge_Keywords_Title" xml:space="preserve">
+    <value>Label selectie</value>
+  </data>
+	<data name="ctl_Blog_Comment" xml:space="preserve">
+    <value>Reactie</value>
+  </data>
+	<data name="ctl_Blog_Config" xml:space="preserve">
+    <value>Blog Configuratie</value>
+  </data>
+	<data name="ctl_Blog_ConfigBlogName" xml:space="preserve">
+    <value>Blog naam</value>
+  </data>
+	<data name="ctl_Blog_ConfigPing" xml:space="preserve">
+    <value>Stuur Ping naar WebLogs.com</value>
+  </data>
+	<data name="ctl_Blog_ConfigSafed" xml:space="preserve">
+    <value>Aanpassingen zijn opgeslagen</value>
+  </data>
+	<data name="ctl_Blog_ErrorMessageComment" xml:space="preserve">
+    <value>Vul je reactie in</value>
+  </data>
+	<data name="ctl_Blog_TagsNumber" xml:space="preserve">
+    <value>Nummer</value>
+  </data>
+	<data name="ctl_Blog_Tag" xml:space="preserve">
+    <value>Label</value>
+  </data>
+	<data name="ctl_Blog_TagsDescription" xml:space="preserve">
+    <value>Omschrijving</value>
+  </data>
+	<data name="ctl_Blog_TagsErrorMessage" xml:space="preserve">
+    <value>Specificeer de naam voor het label</value>
+  </data>
+	<data name="ctl_Blog_CommentsDate" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+	<data name="ctl_Blog_ErrorMessageEntry" xml:space="preserve">
+    <value>Vul de Blog in</value>
+  </data>
+	<data name="ctl_Blog_ErrorMessageTitle" xml:space="preserve">
+    <value>Vul een titel in</value>
+  </data>
+	<data name="ctl_Blog_NoComments" xml:space="preserve">
+    <value>Geen reactie's</value>
+  </data>
+	<data name="ctl_Blogroll_ConfigName" xml:space="preserve">
+    <value>Rolnaam</value>
+  </data>
+	<data name="ctl_Blogroll_ConfigSafed" xml:space="preserve">
+    <value>Configuratie is opgeslagen</value>
+  </data>
+	<data name="ctl_Blogroll_Configuration" xml:space="preserve">
+    <value>Configuratie</value>
+  </data>
+	<data name="ctl_Blogroll_ConfigVisible" xml:space="preserve">
+    <value>Zichtbaar</value>
+  </data>
+	<data name="ctl_Blogroll_Config" xml:space="preserve">
+    <value>Blogroll Configuratie</value>
+  </data>
+	<data name="pge_BlogSearch_Title" xml:space="preserve">
+    <value>Blog's over: {0}</value>
+  </data>
+	<data name="pge_Keywords_ErrorMessageTagExists" xml:space="preserve">
+    <value>Label bestaat al</value>
+  </data>
+	<data name="ctl_RssDisplay_RssTitle" xml:space="preserve">
+		<value>RSS feed weergave</value>
+	</data>
+	<data name="ctl_TwitterStatusFeed_RssTitle" xml:space="preserve">
+		<value>Twitter status feed</value>
+	</data>
+	<data name="adm_Website_EnableIE8CompatibilityMetatag" xml:space="preserve">
+		<value>Activeer IE8 compatibiliteitsmode (meta-tag)</value>
+	</data>
+	<data name="ctl_TwitterStatusFeed_LabelFollowers" xml:space="preserve">
+		<value>Volgers: </value>
+	</data>
+	<data name="ctl_TwitterStatusFeed_LabelFriends" xml:space="preserve">
+		<value>Vrienden:</value>
+	</data>
+	<data name="ctl_TwitterStatusFeed_LabelTweets" xml:space="preserve">
+		<value>Tweets:</value>
+	</data>
+	<data name="ctl_TwitterStatusFeed_LabelTwitterPage" xml:space="preserve">
+		<value>Twitter pagina</value>
+	</data>
+	<data name="ctl_TwitterStatusFeed_LabelWebsite" xml:space="preserve">
+		<value>Website</value>
+	</data>
+	<data name="ctl_TwitterStatusFeed_AdminMaxItems" xml:space="preserve">
+		<value>Maximaal weer te geven items:</value>
+	</data>
+	<data name="ctl_TwitterStatusFeed_AdminTemplate" xml:space="preserve">
+		<value>Sjabloon:</value>
+	</data>
+	<data name="ctl_TwitterStatusFeed_AdminTwitterUsername" xml:space="preserve">
+		<value>Twitter gebruikersnaam:</value>
+	</data>
+	<data name="ctl_RssDisplay_AdminFeedUrl" xml:space="preserve">
+		<value>RSS-feed URL:</value>
+	</data>
+	<data name="ctl_RssDisplay_AdminMaxItems" xml:space="preserve">
+		<value>Maximaal weer te geven items:</value>
+	</data>
+	<data name="pge_UserRegistration_Title" xml:space="preserve">
+		<value>Maal gebruiker aan</value>
+	</data>
+	<data name="pge_Login_CreateUser" xml:space="preserve">
+		<value>Maak gebruiker aan</value>
+	</data>
+	<data name="adm_Users_IsApproved" xml:space="preserve">
+		<value>Is goedgekeurd</value>
+	</data>
+	<data name="pge_UserRegistration_EmailRegex" xml:space="preserve">
+		<value>Email is ongeldig.</value>
+	</data>
+	<data name="pge_UserRegistration_WizardTitle" xml:space="preserve">
+		<value>Aanmelden</value>
+	</data>
+	<data name="pge_Login_ActivationSuccess" xml:space="preserve">
+		<value>Gebruiker is succesvol geactiveerd!</value>
+	</data>
+	<data name="pge_UserRegistration_ActivationEmailBody" xml:space="preserve">
+		<value>Dank je wel voor je registratie bij {0}!
+
+Selecteer onderstaande link om je aanmelding te activeren:
+{1}{2}
+
+Bedankt</value>
+	</data>
+	<data name="pge_UserRegistration_ActivationEmailSubject" xml:space="preserve">
+		<value>Email activatie van {0}</value>
+	</data>
+	<data name="adm_Website_AllowUserSelfRegistration" xml:space="preserve">
+		<value>Toestaan van zelfstandige gebruikersregistratie</value>
+	</data>
+	<data name="pge_UserRegistration_ContinueButton" xml:space="preserve">
+		<value>Verder</value>
+	</data>
+	<data name="pge_UserRegistration_ConfirmationText" xml:space="preserve">
+		<value>Je aanmelding is succesvol verlopen en er is een email verzonden naar het opgegeven email adres. Selecteer de link in de email om je aanmelding te activeren.</value>
+	</data>
+	<data name="pge_UserRegistration_ConfirmationTitle" xml:space="preserve">
+		<value>Registratie succesvol</value>
+	</data>
+</root>

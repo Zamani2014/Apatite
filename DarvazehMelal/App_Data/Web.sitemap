@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+  <siteMapNode>
+    <siteMapNode url="~/administration/default.aspx" title="مدیریت">
+      <siteMapNode url="~/administration/LatestNewsManagement.aspx" title="مدیریت خبرها" />
+      <siteMapNode url="~/administration/ImageSlider.aspx" title="مدیریت اسلایدر تصویر" />
+      <siteMapNode url="~/administration/AdManagement.aspx" title="مدیریت تبلیغات" />
+      <siteMapNode url="~/administration/website.aspx" title="برپا سازی سامانه مدیریت محتوا" />
+      <siteMapNode url="~/administration/sections.aspx" title="تخصیص صفحه و بخش" />
+      <siteMapNode url="~/administration/navigation.aspx" title="صفحات و اهبری" />
+      <siteMapNode url="~/administration/users.aspx" title="مدیریت کاربر" />
+      <siteMapNode url="~/administration/BuildingList.aspx" title="فهرست املاک ثبت شده" />
+      <siteMapNode url="~/administration/LatestReguestsUsers.aspx" title="آخرین کاربران ثبت تقاضای ملکی" />
+      <siteMapNode url="~/administration/LatestRegistersUsers.aspx" title="آخرین کاربران ثبت سپرده ملکی" />
+    </siteMapNode>
+    <siteMapNode title="صفحه اصلی" url="~/home.aspx" visible="True" pageId="e0fd2e9f-fb2d-4c45-9c20-7d2a9260b2bf" />
+    <siteMapNode title="سپردن ملک" url="~/commit.aspx" visible="True" pageId="b22470fe-48e8-4ffc-bacb-4d29e26e0a8b">
+      <siteMapNode title="فرم سپردن ملک" url="~/register/register.aspx" visible="True" pageId="c3137f53-9c63-4a18-871f-9502eefc29ca" />
+      <siteMapNode title="فهرست املاک ثبت شده" url="~/register/registerlist.aspx" visible="True" pageId="b3d734e3-0215-4911-a91d-ec1199bd6799" />
+    </siteMapNode>
+    <siteMapNode title="تقاضای ملک" url="~/request.aspx" visible="True" pageId="0220d389-9b0d-4ce4-8b46-56651de309c9">
+      <siteMapNode title="ثبت تقاضای ملکی" url="~/request/request.aspx" visible="True" pageId="217e6628-3f9d-40c1-9ace-b19c37209d39" />
+      <siteMapNode title="فهرست تقاضاهای ملکی" url="~/request/requestlist.aspx" visible="True" pageId="63ca0df9-0957-49f5-a014-2b4bb98bf835" />
+    </siteMapNode>
+    <siteMapNode title="مشارکت در ساخت" url="~/association.aspx" visible="True" pageId="b6694f0b-2abf-4d52-8e0b-44d4fe40d32c" />
+    <siteMapNode title="سمعی و بصری" url="~/media.aspx" visible="True" pageId="4595ed39-3bc5-41f0-98e6-2550920ab874" />
+    <siteMapNode title="گالری تصاویر" url="~/gallery.aspx" visible="True" pageId="885ae5be-2754-4054-924e-a0aae70d3ea3" />
+    <siteMapNode title="درباره ما" url="~/about.aspx" visible="True" pageId="b38e4d0a-a4d0-4416-a795-f4f9c3329601" />
+    <siteMapNode title="تماس با ما" url="~/contact.aspx" visible="True" pageId="c6722e09-4a6a-45b5-8733-43a76f7366ba" />
+    <siteMapNode title="خدمات ما" url="~/services.aspx" visible="True" pageId="e1def676-5bd7-45d3-a124-059784ac99aa" />
+    <siteMapNode title="طرح های ما" url="~/projects.aspx" visible="True" pageId="53218628-e2d1-4087-97bf-46d5c1ee651b" />
+    <siteMapNode title="فرصت های شغلی" url="~/jobs.aspx" visible="True" pageId="9c94ceed-5c4f-4a34-b745-3bfa3f6e0a59" />
+    <siteMapNode title="جستجو در سایت" url="~/search.aspx" visible="True" pageId="a36345b7-ddc8-46bf-b67e-66b229e71b61" />
+    <siteMapNode title="دریافت فایل" url="~/download.aspx" visible="True" pageId="9a622d5b-a86e-4091-9487-b74a911f03bf" />
+    <siteMapNode title="امکانات تارنما" url="~/options.aspx" visible="True" pageId="89ca6be6-3a53-49cd-911b-177c45fc35ec">
+      <siteMapNode title="پرسش های متداول" url="~/faq.aspx" visible="True" pageId="36865673-b7c1-4b8a-ac81-7050cdb69db4" />
+      <siteMapNode title="پیوندهای مفید" url="~/links.aspx" visible="True" pageId="f6f2cc70-8fd2-4d0f-b7fc-3ec6a65b3bed" />
+      <siteMapNode title="ارائه بازخوردها" url="~/feedback.aspx" visible="True" pageId="bf944707-e1de-4d01-8d79-53b674c1b0c3" />
+      <siteMapNode title="سیاست حفظ اسرار" url="~/privacypolicy.aspx" visible="True" pageId="05c3b08e-d5d2-48e2-a9b6-163a80814fdf" />
+      <siteMapNode title="اخبار و مقاله ها" url="~/news.aspx" visible="True" pageId="7cc345cd-9ee3-45f0-b31e-edde7b4c43c3" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

@@ -1,0 +1,1327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="clt_RecoverPasswordWizard_KeepPassword" xml:space="preserve">
+    <value>نگهداری گذرواژه</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="clt_RecoverPasswordWizard_ResetPassword" xml:space="preserve">
+    <value>ایجاد گذرواژه جدید</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__EditMode" xml:space="preserve">
+    <value>حالت ویرایشی</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__ViewMode" xml:space="preserve">
+    <value>حالت دیداری</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_CreateUser" xml:space="preserve">
+    <value>ایجاد کاربر</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_CreateUserSucessful" xml:space="preserve">
+    <value>کاربر با موفقیت ایجاد شد</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_DownloadList_RssTitle" xml:space="preserve">
+    <value>دریافت ها</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_RssTitle" xml:space="preserve">
+    <value>مناسبت ها</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Gallery_RssTitle" xml:space="preserve">
+    <value>گالری</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Guestbook_RssTitle" xml:space="preserve">
+    <value>کتاب میهمان</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_HtmlContent_RssTitle" xml:space="preserve">
+    <value>محتوای اچ تی ام ال</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_LinkList_RssTitle" xml:space="preserve">
+    <value>پیوندها</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_NewsList_RssTitle" xml:space="preserve">
+    <value>فهرست اخبار</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Blog_RssTitle" xml:space="preserve">
+    <value>بلاگ / وب نوشت</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_PasswordRecovery_MailSubject" xml:space="preserve">
+    <value>اطلاعات کاربر</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_RecoverPasswordWizard_HeaderText" xml:space="preserve">
+    <value>بازنشانی گذرواژه برای نام کاربری</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_RecoverPasswordWizard_PasswordMailBody" xml:space="preserve">
+    <value>اطلاعات کاربر برای: {0}{2}{2}گذرواژه شما ذخیره شد.{2}گذرواژه جدید شما این است: {1}{2}{2}با تشکر</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_RecoverPasswordWizard_PasswordMailFailed" xml:space="preserve">
+    <value>ارسال پست با موفقیت انجام نشد</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_RecoverPasswordWizard_PasswordMailSent" xml:space="preserve">
+    <value>پست با موفقیت ارسال شد</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_RecoverPasswordWizard_PasswordMailSubject" xml:space="preserve">
+    <value>اطلاعات کاربر</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_RecoverPasswordWizard_ResultUserNotFound" xml:space="preserve">
+    <value>کاربر پیدا نشد</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__Cancel" xml:space="preserve">
+    <value>لغو</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__Save" xml:space="preserve">
+    <value>ذخیره</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb_Search_NoSearchResults" xml:space="preserve">
+    <value>هیچ نتیجه ای برای مورد جستجوی شما پیدا نشد ، متاسفانه</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Search_Rowtitle_Excerpt" xml:space="preserve">
+    <value>منتخب</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Search_Rowtitle_Title" xml:space="preserve">
+    <value>عنوان</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Search_SearchQuery" xml:space="preserve">
+    <value>جستجوی مورد</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Search_StartSearch" xml:space="preserve">
+    <value>جستجو</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_AdminUser_DeleteSection" xml:space="preserve">
+    <value>حذف بخش</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Subpages_RssTitle" xml:space="preserve">
+    <value>زیرصفحه ها</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_CMS_Title" xml:space="preserve">
+    <value>عنوان</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_Description" xml:space="preserve">
+    <value>توصیف فراتگ</value>
+    <comment>added 1.2.1 (SEO Extension)</comment>
+  </data>
+  <data name="adm_Navigation_Keywords" xml:space="preserve">
+    <value>کلیدواژه فراتگ</value>
+    <comment>added 1.2.1 (SEO Extension)</comment>
+  </data>
+  <data name="pge_CMS_Language" xml:space="preserve">
+    <value>زبان</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_CMS_MailSenderAdress" xml:space="preserve">
+    <value>نشانی ارسال کننده پست</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_CMS_SmtpServer" xml:space="preserve">
+    <value>سرور Smpt</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_CMS_FooterLine" xml:space="preserve">
+    <value>خط پا صفحه</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_CMS_WebsiteDescription" xml:space="preserve">
+    <value>توصیف تارنما</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_CMS_WebsiteKeywords" xml:space="preserve">
+    <value>کلیدواژه های تارنما</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_CMS_EnableSectionRSS" xml:space="preserve">
+    <value>فعال کردن آر اس اس بخش</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_CMS_SelectTheme" xml:space="preserve">
+    <value>انتخاب قالب</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_CMS_RESETWebsite" xml:space="preserve">
+    <value>تنظیم مجدد تارنما</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_LoginAdmin_Login" xml:space="preserve">
+    <value>ورود</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_LoginAdmin_Login_UserName" xml:space="preserve">
+    <value>نام کاربری</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_LoginAdmin_Remember" xml:space="preserve">
+    <value>مرا به خاطر بسپار</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_LoginAdmin_ChangePassword" xml:space="preserve">
+    <value>تغییر گذرواژه</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_LoginAdmin_LogIn" xml:space="preserve">
+    <value>ورود</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_LoginAdmin_LogOut" xml:space="preserve">
+    <value>خروج</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_RecoverPassword_Legend" xml:space="preserve">
+    <value>بازنشانی گذرواژه کاربر</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_CreateUserButtonDone" xml:space="preserve">
+    <value>ادامه</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_NewSite" xml:space="preserve">
+    <value>صفحه جدید</value>
+    <comment>updated 1.0.2</comment>
+  </data>
+  <data name="adm_Navigation_AllowAnonymous" xml:space="preserve">
+    <value>مجوز دسترسی بیگانه</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_ChangeUser" xml:space="preserve">
+    <value>تغییر کاربر</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_Comment" xml:space="preserve">
+    <value>نظر</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_CreateUser" xml:space="preserve">
+    <value>ایجاد یک کاربر جدید</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_Email" xml:space="preserve">
+    <value>پست الکترونیکی</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_IsAdministrator" xml:space="preserve">
+    <value>مدیر است</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_LastLogin" xml:space="preserve">
+    <value>آخرین ورود</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_Move" xml:space="preserve">
+    <value>حرکت</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Sections_MoveSection" xml:space="preserve">
+    <value>حرکت بخش در میان صفحات</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_Navigation" xml:space="preserve">
+    <value>راهبری</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_NewPageDefaultName" xml:space="preserve">
+    <value>صفحه جدید</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_PageDeletionWarning" xml:space="preserve">
+    <value>آیا شما واقعا مطمئن هستید برای حذف این صفحه ؟</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_PageTitle" xml:space="preserve">
+    <value>عنوان صفحه</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Sections_Section" xml:space="preserve">
+    <value>بخش</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Sections_SourcePage" xml:space="preserve">
+    <value>صفحه منبع</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Sections_TargetPage" xml:space="preserve">
+    <value>صفحه مقصد</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_UserName" xml:space="preserve">
+    <value>نام کاربری</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_VirtualPath" xml:space="preserve">
+    <value>مسیر مجازی</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_Visible" xml:space="preserve">
+    <value>قابل دیدن</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_Homepage" xml:space="preserve">
+    <value>صفحه خانگی</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__Delete" xml:space="preserve">
+    <value>حذف</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Website_EnableSectionRSS" xml:space="preserve">
+    <value>فعال کردن آر اس اس بخش</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Website_FooterLine" xml:space="preserve">
+    <value>خط پاصفحه</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Website_Language" xml:space="preserve">
+    <value>زبان</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Website_MailSender" xml:space="preserve">
+    <value>نشانی ارسال کننده پست</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Website_Reset" xml:space="preserve">
+    <value>تنظیم مجدد تارنما</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_SelectTheme" xml:space="preserve">
+    <value>انتخاب قالب</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Website_SmtpServer" xml:space="preserve">
+    <value>سرور Smtp</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Website_Title" xml:space="preserve">
+    <value>عنوان</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Website_WebsiteDescription" xml:space="preserve">
+    <value>توصیف تارنما</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Website_WebsiteKeywords" xml:space="preserve">
+    <value>کلیدواژه های تارنما</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_VirtualPathErrorMessage" xml:space="preserve">
+    <value>در حال حاضر یک سایت با این مسیر وجود دارد</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_Button" xml:space="preserve">
+    <value>تغییر گذرواژه</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_ConfirmNewPassword" xml:space="preserve">
+    <value>تایید گذرواژه جدید</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_ConfirmNewPasswordRequired" xml:space="preserve">
+    <value>تایید گذرواژه جدید ضروری است .</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_NewPassword" xml:space="preserve">
+    <value>گذرواژه جدید</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_NewPasswordRequired" xml:space="preserve">
+    <value>گذرواژه جدید ضروری است .</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_NotMatching" xml:space="preserve">
+    <value>تایید گذرواژه جدید باید با چیزی که بعنوان گذرواژه جدید وارد شده مطابقت داشته باشد</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_Password" xml:space="preserve">
+    <value>گذرواژه</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_PasswordRequired" xml:space="preserve">
+    <value>گذرواژه ضروری است.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_Title" xml:space="preserve">
+    <value>تغییر گذرواژه</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_UserName" xml:space="preserve">
+    <value>نام کاربری</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_UserNameRequired" xml:space="preserve">
+    <value>نام کاربری ضروری است.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Login_ChangePassword" xml:space="preserve">
+    <value>تغییر گذرواژه</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Login_LogIn" xml:space="preserve">
+    <value>ورود</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Login_Password" xml:space="preserve">
+    <value>گذرواژه</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Login_PasswordRequired" xml:space="preserve">
+    <value>گذرواژه ضروری است.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Login_RememberMe" xml:space="preserve">
+    <value>مرا برای دفعه بعد به خاطر بسپار.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Login_Title" xml:space="preserve">
+    <value>ورود</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Login_UserName" xml:space="preserve">
+    <value>نام کاربری</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Login_UserNameRequired" xml:space="preserve">
+    <value>نام کاربری ضروری است.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_DeleteUser" xml:space="preserve">
+    <value>حذف کاربر جاری</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_DeleteWarning" xml:space="preserve">
+    <value>آیا شما مطمئن هستید که می خواهید کاربر جاری را حذف کنید ؟</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_Exception" xml:space="preserve">
+    <value>خطای زیر رخ داد:</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_LastAdminRemains" xml:space="preserve">
+    <value>امکان حذف مدیر اخیر وجود ندارد</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="cls_SitemapEditor_Administration" xml:space="preserve">
+    <value>مدیریت</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="cls_SitemapEditor_CMSSetup" xml:space="preserve">
+    <value>برپا سازی سامانه مدیریت محتوا</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="cls_SitemapEditor_Management" xml:space="preserve">
+    <value>مدیریت کاربر</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="cls_SitemapEditor_Sections" xml:space="preserve">
+    <value>تخصیص صفحه و بخش</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="cls_SitemapEditor_SectionsPages" xml:space="preserve">
+    <value>صفحات و اهبری</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_ComparePassword" xml:space="preserve">
+    <value>گذرواژه و تایید گذرواژه باید یکی باشند</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_ConfirmPassword" xml:space="preserve">
+    <value>تایید گذرواژه:</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_ConfirmPasswordRequired" xml:space="preserve">
+    <value>تایید گذرواژه ضروری است.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_DuplicateUserName" xml:space="preserve">
+    <value>لطفا یک نام کاربری متفاونی را وارد کنید</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_Email" xml:space="preserve">
+    <value>پست الکترونیکی :</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_EmailRequired" xml:space="preserve">
+    <value>پست الکترونیکی ضروری است</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_Password" xml:space="preserve">
+    <value>گذرواژه :</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_PasswordRequired" xml:space="preserve">
+    <value>گذرواژه ضروری است.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_UserName" xml:space="preserve">
+    <value>نام کاربری :</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_UserNameRequired" xml:space="preserve">
+    <value>نام کاربری ضروری است.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_RecoverPassword_FinishButton" xml:space="preserve">
+    <value>تنظیم مجدد</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__Search" xml:space="preserve">
+    <value>جستجو</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__DeleteSection" xml:space="preserve">
+    <value>حذف بخش</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__RemoveFromSidebar" xml:space="preserve">
+    <value>جدا کردن از نوار کناری</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__SendToSidebar" xml:space="preserve">
+    <value>ارسال به نوار کناری</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__Submit" xml:space="preserve">
+    <value>ارسال</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Guestbook_AntiBotImage" xml:space="preserve">
+    <value>تصویر ضد بات</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Guestbook_Input" xml:space="preserve">
+    <value>ورودی</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Guestbook_Name" xml:space="preserve">
+    <value>نام</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_Name" xml:space="preserve">
+    <value>نام</value>
+    <comment>added 1.1.2 Beta</comment>
+  </data>
+  <data name="ctl_ContactForm_RssTitle" xml:space="preserve">
+    <value>فرم تماس</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EasyControl_RssTitle" xml:space="preserve">
+    <value>کنترل آسان</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Sections_Move" xml:space="preserve">
+    <value>حرکت</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_Admin" xml:space="preserve">
+    <value>مدیر</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_CopyTo" xml:space="preserve">
+    <value>رونوشت به</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_EMailAddress" xml:space="preserve">
+    <value>نشانی پست الکترونیکی</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_ErrorMessageEmail" xml:space="preserve">
+    <value>لطفا یک نشانی پست الکترونیکی وارد کنید</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_ErrorMessageMessage" xml:space="preserve">
+    <value>لطفا یک پیغام وارد کنید</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_ErrorMessageSubject" xml:space="preserve">
+    <value>لطفا یک موضوع وارد کنید</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_ErrorMessageValidEmail" xml:space="preserve">
+    <value>لطفا یک نشانی پست الکترونیکی معتبر وارد نمائید</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_IntroPart1" xml:space="preserve">
+    <value>برای استفاده از بخش فرم تماس شما باید یک سرور اس ام تی پی معتبری را تنطیم کنید روی</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_IntroPart2" xml:space="preserve">
+    <value>صفحه مدیریت</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_Introtext" xml:space="preserve">
+    <value>متن ورودی</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_Message" xml:space="preserve">
+    <value>پیغام</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_RecipientEMail" xml:space="preserve">
+    <value>پست الکترنیکی گیرنده</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_Subject" xml:space="preserve">
+    <value>موضوع</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_ThankYouMessage" xml:space="preserve">
+    <value>پیغام تشکر</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Downloadlist_Comment" xml:space="preserve">
+    <value>نظر</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Downloadlist_File" xml:space="preserve">
+    <value>پرونده</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Downloadlist_Title" xml:space="preserve">
+    <value>عنوان</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EasyControl_Choose" xml:space="preserve">
+    <value>انتخاب کنترل</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EasyControl_SelectControl" xml:space="preserve">
+    <value>لطفا یک کنترل انتخاب کنید</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ErrorMessageMissingFile" xml:space="preserve">
+    <value>لطفا یک فایل برای بالاگذاری انتخاب کنید</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_Date" xml:space="preserve">
+    <value>تاریخ</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_Description" xml:space="preserve">
+    <value>توصیف</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_ErrorMessageEventDate" xml:space="preserve">
+    <value>لطفا تاریخ مناسبت را مشخص نمائید</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_ErrorMessageEventLocation" xml:space="preserve">
+    <value>لطفا مکان مناسبت را مشخص نمائید</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_ErrorMessageEventName" xml:space="preserve">
+    <value>لطفا یک نام برای مناسبت مشخص نمائید</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_Event" xml:space="preserve">
+    <value>مناسبت</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_EventDate" xml:space="preserve">
+    <value>تاریخ مناسبت</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_EventName" xml:space="preserve">
+    <value>نام مناسبت</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_EventTime" xml:space="preserve">
+    <value>زمان مناسبت</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_Location" xml:space="preserve">
+    <value>مکان</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_ShowFrom" xml:space="preserve">
+    <value>نمایش از</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Gallery_Comment" xml:space="preserve">
+    <value>نظر</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Gallery_ErrorMessageImage" xml:space="preserve">
+    <value>لطفا یک تصویر برای بالاگذاری انتخاب کنید</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Gallery_File" xml:space="preserve">
+    <value>پرونده</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Gallery_Title" xml:space="preserve">
+    <value>عنوان</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Guestbook_Author" xml:space="preserve">
+    <value>مولف</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Guestbook_Date" xml:space="preserve">
+    <value>تاریخ</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Guestbook_ErrorMessageAntibot" xml:space="preserve">
+    <value>لطفا کاراکترهای نمایش داده شده در تصویر را وارد کنید</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Guestbook_ErrorMessageAntibotInvalid" xml:space="preserve">
+    <value>کد ضد بات وارد شده نامعتبر است</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Guestbook_ErrorMessageAuthorName" xml:space="preserve">
+    <value>شما باید یک نام مولف مشخص کنید</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Guestbook_ErrorMessageText" xml:space="preserve">
+    <value>شما باید یک متن را مشخص کنید</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_LinkList_Comment" xml:space="preserve">
+    <value>نظر</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_LinkList_ErrorMessageUrl" xml:space="preserve">
+    <value>لطفا یک نشانی اینترنتی وارد کنید</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_LinkList_ErrorMessageValidUrl" xml:space="preserve">
+    <value>لطفا یک نشانی اینترنتی معتبر وارد کنید</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_LinkList_Target" xml:space="preserve">
+    <value>هدف</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_LinkList_Title" xml:space="preserve">
+    <value>عنوان</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_LinkList_Url" xml:space="preserve">
+    <value>نشانی اینترنتی</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_NewsList_Content" xml:space="preserve">
+    <value>محتوا</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_NewsList_Date" xml:space="preserve">
+    <value>تاریخ</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_NewsList_ErrorMessageHeadline" xml:space="preserve">
+    <value>لطفا یک سرخط وارد کنید</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_NewsList_Headline" xml:space="preserve">
+    <value>سرخط</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_NewsList_News" xml:space="preserve">
+    <value>اخبار</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_NewsList_ShowFrom" xml:space="preserve">
+    <value>نمایش از</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_NewsList_ShowUntil" xml:space="preserve">
+    <value>نمایش تا</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_SectionAdmin_Info" xml:space="preserve">
+    <value>اطلاعات</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__Add" xml:space="preserve">
+    <value>اضافه کردن</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Default_AddSection" xml:space="preserve">
+    <value>اضافه کردن بخش</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Search_ErrorMessageKeyword" xml:space="preserve">
+    <value>لطفا یک کلیدواژه اراده دهید برای جستجوی</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Search_View" xml:space="preserve">
+    <value>نمایش</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Website_SelectTheme" xml:space="preserve">
+    <value>انتخاب قالب</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_DuplicateEmail" xml:space="preserve">
+    <value>نشانی پست الکترونیکی که وارد کرده اید در حال حاضر استفاده شده است لطفا یک نشانی دیگری را وارد کنید</value>
+    <comment>added 1.0.2</comment>
+  </data>
+  <data name="ctl_EventList_ShowPastEvents" xml:space="preserve">
+    <value>نماش مناسبت های گذشته</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_SectionAdmin_DeleteWarning" xml:space="preserve">
+    <value> آیا شما واقعا می خواهید بخش "{0}" را حذف کنید ؟</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Website_SmtpDomain" xml:space="preserve">
+    <value>دامنه Smtp</value>
+    <comment>added 1.1.1</comment>
+  </data>
+  <data name="adm_Website_SmtpPassword" xml:space="preserve">
+    <value>گذرواژه Smtp</value>
+    <comment>added 1.1.1</comment>
+  </data>
+  <data name="adm_Website_SmtpUser" xml:space="preserve">
+    <value>کاربر Smtp</value>
+    <comment>added 1.1.1</comment>
+  </data>
+  <data name="pge_Login_Failure" xml:space="preserve">
+    <value>تلاش شما برای ورود با موفقیت انجام نشد ، لطفا مجددا سعی نمائید.</value>
+    <comment>added 1.1.1</comment>
+  </data>
+  <data name="adm_Website_Reset_Confirmation" xml:space="preserve">
+    <value>آیا شما واقعا می خواهید تارنما را مجددا تنظیم کنید ؟ تمام اطلاعات و داده های ذخیره شده حذف خواهد شد</value>
+    <comment>added 1.1.2 Beta</comment>
+  </data>
+  <data name="ctl_Gallery_HTMLVersion" xml:space="preserve">
+    <value>نسخه اچ تی ام ال</value>
+    <comment>added 1.1.2 Beta</comment>
+  </data>
+  <data name="ctl_Gallery_SilverlightVersion" xml:space="preserve">
+    <value>نسخه سیلورلایت</value>
+    <comment>added 1.1.2 Beta</comment>
+  </data>
+  <data name="pge_ChangePassword_PasswordFailureText" xml:space="preserve">
+    <value>گذرواژه نادرست است یا گذرواژه جدید نامعتبر است</value>
+    <comment>added 1.1.2 Beta</comment>
+  </data>
+  <data name="adm_Navigation_EditPowerUser" xml:space="preserve">
+    <value>قابل ویرایش توسط کاربران ارشد</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="adm_Users_IsPowerUser" xml:space="preserve">
+    <value>کاربر ارشد است</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="adm_Users_PowerUser" xml:space="preserve">
+    <value>کاربر ارشد</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_TagCloud_RssTitle" xml:space="preserve">
+    <value>ابر برچسب</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_ErrorMessageUrl" xml:space="preserve">
+    <value>لطفا یک نشانی اینترنتی وارد نمائید</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_ErrorMessageValidUrl" xml:space="preserve">
+    <value>لطفا یک نشانی اینترنتی معتبر وارد کنید</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_RssTitle" xml:space="preserve">
+    <value>بلاگرول</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_Title" xml:space="preserve">
+    <value>عنوان</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_Url" xml:space="preserve">
+    <value>نشانی اینترنتی</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_ErrorMessageValidOrder" xml:space="preserve">
+    <value>لطفا جهت معتبر وارد کنید (0-9999)</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_Order" xml:space="preserve">
+    <value>جهت</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_Description" xml:space="preserve">
+    <value>توصیف</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_FeedUrl" xml:space="preserve">
+    <value>نشانی خوارک آر اس اس</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_TagCloud_DefaultTitle" xml:space="preserve">
+    <value>ابر برچسب</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_TagCloud_ErrorMessageTitle" xml:space="preserve">
+    <value>لطفا یک نام برای ابر برچسب وارد کنید</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_Comments" xml:space="preserve">
+    <value>نظرات</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_CommentsAuthor" xml:space="preserve">
+    <value>مولف</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_CommentsErrorMessageAuthor" xml:space="preserve">
+    <value>لطفا نام خود را وارد کنید</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_CommentsErrorMessageTitle" xml:space="preserve">
+    <value>لطفا یک عنوان وارد کنید</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_CommentsFooter" xml:space="preserve">
+    <value>پست شده {0} بوسیله {1}</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_CommentsTitle" xml:space="preserve">
+    <value>عنوان</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_Configuration" xml:space="preserve">
+    <value>پیکربندی</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_Entry" xml:space="preserve">
+    <value>ورودی بلاگ</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_Tags" xml:space="preserve">
+    <value>برچسب ها</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_Title" xml:space="preserve">
+    <value>عنوان</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_TagCloud_ConfigSafed" xml:space="preserve">
+    <value>تغییرات ذخیره شد</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_TagCloud_ConfigTitle" xml:space="preserve">
+    <value>پیکربندی ابر برچسب</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_TagCloud_Title" xml:space="preserve">
+    <value>عنوان ابر برچسب</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="glb__Back" xml:space="preserve">
+    <value>عقب</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="glb__Close" xml:space="preserve">
+    <value>بستن</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="pge_Keywords_SelectionSafed" xml:space="preserve">
+    <value>انتخاب ذخیره شد</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="pge_Keywords_TagCreated" xml:space="preserve">
+    <value>برچسب ایجاد شد و انتخاب ذخیره شد</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="pge_Keywords_Title" xml:space="preserve">
+    <value>انتخاب برچسب</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_Comment" xml:space="preserve">
+    <value>نظر</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_Config" xml:space="preserve">
+    <value>پیکربندی بلاگ</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_ConfigBlogName" xml:space="preserve">
+    <value>نام بلاگ</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_ConfigPing" xml:space="preserve">
+    <value>ارسال پینگ به وبسایت Weblogs.com</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_ConfigSafed" xml:space="preserve">
+    <value>تغییرات ذخیره شد</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_ErrorMessageComment" xml:space="preserve">
+    <value>لطفا یک نظر بگذارید</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_TagsNumber" xml:space="preserve">
+    <value>شماره</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_Tag" xml:space="preserve">
+    <value>برچسب</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_TagsDescription" xml:space="preserve">
+    <value>توصیف</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_TagsErrorMessage" xml:space="preserve">
+    <value>لطفا یک نام برای برچسب انتخاب نمائید</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_CommentsDate" xml:space="preserve">
+    <value>تاریخ</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_ErrorMessageEntry" xml:space="preserve">
+    <value>لطفا یک ورودی بلاگ بگذارید</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_ErrorMessageTitle" xml:space="preserve">
+    <value>لطفا یک عنوان مشخص کنید</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_NoComments" xml:space="preserve">
+    <value>هیچ نظری وجود ندارد</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_ConfigName" xml:space="preserve">
+    <value>نام نقش</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_ConfigSafed" xml:space="preserve">
+    <value>پیکربندی ایمن شده است</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_Configuration" xml:space="preserve">
+    <value>پیکربندی</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_ConfigVisible" xml:space="preserve">
+    <value>قابل دیدن</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_Config" xml:space="preserve">
+    <value>پیکربندی بلاگرول</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="pge_BlogSearch_Title" xml:space="preserve">
+    <value>ورودی های بلاگ حدود: {0}</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="pge_Keywords_ErrorMessageTagExists" xml:space="preserve">
+    <value>برچسب در حال حاضر وجود دارد</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_RssDisplay_RssTitle" xml:space="preserve">
+    <value>نمایش خوارک آر اس اس</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="ctl_TwitterStatusFeed_RssTitle" xml:space="preserve">
+    <value>خوارک وضعیت توئیتر</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="adm_Website_EnableIE8CompatibilityMetatag" xml:space="preserve">
+    <value>فعال کردن حالت سازگاری مرورگر اینترنت اکسپلورر هشت (فراتگ)</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="ctl_TwitterStatusFeed_LabelFollowers" xml:space="preserve">
+    <value>دنبال کننده گان :</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="ctl_TwitterStatusFeed_LabelFriends" xml:space="preserve">
+    <value>دوستان :</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="ctl_TwitterStatusFeed_LabelTweets" xml:space="preserve">
+    <value>توئیت ها :</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="ctl_TwitterStatusFeed_LabelTwitterPage" xml:space="preserve">
+    <value>صفحه توئیتر</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="ctl_TwitterStatusFeed_LabelWebsite" xml:space="preserve">
+    <value>تارنما</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="ctl_TwitterStatusFeed_AdminMaxItems" xml:space="preserve">
+    <value>حداکثر آبتم ها برای نمایش :</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="ctl_TwitterStatusFeed_AdminTemplate" xml:space="preserve">
+    <value>الگو :</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="ctl_TwitterStatusFeed_AdminTwitterUsername" xml:space="preserve">
+    <value>نام کاربری توئیتر :</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="ctl_RssDisplay_AdminFeedUrl" xml:space="preserve">
+    <value>نشانی اینترنتی خوارک آر اس اس :</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="ctl_RssDisplay_AdminMaxItems" xml:space="preserve">
+    <value>حداکثر آیتم ها برای نمایش :</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="pge_UserRegistration_Title" xml:space="preserve">
+    <value>ایجاد کاربر</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="pge_Login_CreateUser" xml:space="preserve">
+    <value>ایجاد کاربر</value>
+  </data>
+  <data name="adm_Users_IsApproved" xml:space="preserve">
+    <value>تایید شده است</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="pge_UserRegistration_EmailRegex" xml:space="preserve">
+    <value>پست الکترونیکی نامعتبر است.</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="pge_UserRegistration_WizardTitle" xml:space="preserve">
+    <value>ثبت نام</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="pge_Login_ActivationSuccess" xml:space="preserve">
+    <value>کاربر با موفقیت فعال شد!</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="pge_UserRegistration_ActivationEmailBody" xml:space="preserve">
+    <value>از شما متشکریم بابت ثبت نام در {0}!
+
+برای فعال سازی حساب کاربری خود بر روی پیوند زیر کلیک نمائید:
+{1}{2}
+
+با سپاس فراوان از شما و آرزوی شادکامی</value>
+    <comment>added 1.3.0
+
+{0} is the WebSiteTitle
+{1} is the URL to the Login.aspx page
+{2} is the querystring parameter for the activation</comment>
+  </data>
+  <data name="pge_UserRegistration_ActivationEmailSubject" xml:space="preserve">
+    <value>فعال سازی پست الکترونیکی از {0}</value>
+    <comment>added 1.3.0
+
+{0} is the WebSiteTitle</comment>
+  </data>
+  <data name="adm_Website_AllowUserSelfRegistration" xml:space="preserve">
+    <value>فعال کردن خدمت خود ثبت نام کاربر</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="pge_UserRegistration_ContinueButton" xml:space="preserve">
+    <value>ادامه</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="pge_UserRegistration_ConfirmationText" xml:space="preserve">
+    <value>حساب کاربری شما با موفقیت ایجاد شد و یک پست الکترونیکی به نشانی پستی مشخص شده ارسال گردید . خواهشمند است برای فعال سازی حساب کاربری خود بر روی پیوند فعال سازی داخل پست الکترونیکی مذکور کلیک نمائید .</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="pge_UserRegistration_ConfirmationTitle" xml:space="preserve">
+    <value>ثبت نام با موفقیت انجام شد</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="ctl_VideoContent_AdminAutoplay" xml:space="preserve">
+    <value>خودران :</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="ctl_VideoContent_AdminKeywords" xml:space="preserve">
+    <value>کلیدواژه ها :</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="ctl_VideoContent_AdminMuted" xml:space="preserve">
+    <value>خاموش :</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="ctl_VideoContent_AdminNewFile" xml:space="preserve">
+    <value>پرونده جدید :</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="ctl_VideoContent_AdminUploadedFile" xml:space="preserve">
+    <value>پرونده بالاگذاری شده :</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="ctl_VideoContent_RssTitle" xml:space="preserve">
+    <value>ویدئوی سیلورلایت</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="adm_Website_EnableVersionChecking" xml:space="preserve">
+    <value>فعال کردن بررسی نسخه نرم افزار بصورت برخط</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="adm_Website_ShowVersionInfo" xml:space="preserve">
+    <value>نمایش اطلاعات نسخه</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="adm_Default_Version" xml:space="preserve">
+    <value>نسخه نصب شده:</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="adm_Default_VersionOutdated" xml:space="preserve">
+    <value>&lt;div style="color: red;"&gt;&lt;h1&gt;نسخه جدید این نرم افزار در دسترس است&lt;/h1&gt;نسخه نصب شده: {0}&lt;br/&gt;جدید ترین نسخه: {1}&lt;br/&gt;&lt;br/&gt;دریافت جدیدترین نسخه &lt;a href="http://mywebpagesstarterkit.codeplex.com/Release/ProjectReleases.aspx" target="_blank"&gt;اینجا&lt;/a&gt;.&lt;/div&gt;</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="adm_Default_VersionUpToDate" xml:space="preserve">
+    <value>نسخه نصب شده شما ({0}) به روز است.</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="glb__mediumTrustError" xml:space="preserve">
+    <value>&lt;h2&gt;مشکل امنیتی&lt;/h2&gt;
+			&lt;p&gt;میزبان وب شما امکان اتصال به نشانی های اینترنتی بیگانه را نمی دهد ، بنابراین این بخش قادر به استخراج  هیچ محتوای خارجی نمیباشد.&lt;/p&gt;
+			&lt;h2&gt;راه حل های ممکن (به همین ترتیب تلاش خودتان را انجام دهید)&lt;/h2&gt;
+			&lt;p&gt;
+			&lt;ol&gt;
+				&lt;li&gt;اضافه کنید web.config تنظیمات زیر را به فایل (inside the &amp;lt;system.web&amp;gt; section): &lt;code&gt;&amp;lt;trust level="High"/&amp;gt;&lt;/code&gt;&lt;/li&gt;
+				&lt;li&gt;اضافه کنید web.config تنظیمات زیر را به فایل  (inside the &amp;lt;system.web&amp;gt; section): &lt;code&gt;&amp;lt;trust level="Medium" originUrl=".*"/&amp;gt;&lt;/code&gt;&lt;/li&gt;
+				&lt;li&gt;از ارائه دهنده میزبانی وب خود برای دسترسی به سرورهای بیگانه درخواست کنید (&lt;a href="http://weblogs.asp.net/hosterposter/archive/2006/03/22/440886.aspx" target="_blank"&gt;راهنمایی&lt;/a&gt;)&lt;/li&gt;
+			&lt;/ol&gt;		
+			&lt;/p&gt;</value>
+    <comment>added 1.3.0</comment>
+  </data>
+  <data name="pge_ChangePassword_FirstUse" xml:space="preserve">
+    <value>این اولین باری است که شما از این تارنما استفاده می نمائید ، لطفا گذرواژه مدیر را تغییر دهید. &lt;br/&gt;&lt;br/&gt;  نام کاربری و همچنین گذرواژه فعلی"admin" است .</value>
+    <comment>added 1.3.0</comment>
+  </data>
+</root>

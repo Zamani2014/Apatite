@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<emoticons>
+	<emoticon regex="(\:\-\))|(\:\))" image="regular_smile.gif" />
+	<emoticon regex="(\:\-\()|(\:\()" image="sad_smile.gif" />
+	<emoticon regex="(\:\-s)|(\:s)" image="confused_smile.gif" />
+	<emoticon regex="(\:\-o)|(\:o)" image="omg_smile.gif" />
+	<emoticon regex="(8\-\))|(8\))" image="shades_smile.gif" />
+	<emoticon regex="(\:\-D)|(\:D)" image="teeth_smile.gif" />
+	<emoticon regex="(\:\-P)|(\:P)" image="tongue_smile.gif" />
+	<emoticon regex="\^_\^" image="whatchutalkingabout_smile.gif" />
+	<emoticon regex="(\;\-\))|(\;\))" image="wink_smile.gif" />
+</emoticons>

@@ -1,0 +1,1156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="clt_RecoverPasswordWizard_KeepPassword" xml:space="preserve">
+    <value>Muista salasana</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="clt_RecoverPasswordWizard_ResetPassword" xml:space="preserve">
+    <value>Luo uusi salasana</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__EditMode" xml:space="preserve">
+    <value>Muokkaustila</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__ViewMode" xml:space="preserve">
+    <value>Katselutila</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_CreateUser" xml:space="preserve">
+    <value>Lisää käyttäjä</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_CreateUserSucessful" xml:space="preserve">
+    <value>Käyttäjä on luotu.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_DownloadList_RssTitle" xml:space="preserve">
+    <value>Ladattavat tiedostot</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_RssTitle" xml:space="preserve">
+    <value>Tapahtumat</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Gallery_RssTitle" xml:space="preserve">
+    <value>Galleria</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Guestbook_RssTitle" xml:space="preserve">
+    <value>Vieraskirja</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_HtmlContent_RssTitle" xml:space="preserve">
+    <value>Html</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_LinkList_RssTitle" xml:space="preserve">
+    <value>Linkit</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_NewsList_RssTitle" xml:space="preserve">
+    <value>Uutislistaus</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Blog_RssTitle" xml:space="preserve">
+    <value>Blogi</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_PasswordRecovery_MailSubject" xml:space="preserve">
+    <value>Käyttäjän tiedot</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_RecoverPasswordWizard_HeaderText" xml:space="preserve">
+    <value>Vaihda salasana käyttäjälle</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_RecoverPasswordWizard_PasswordMailBody" xml:space="preserve">
+    <value>Käyttäjän tiedot: {0}{2}{2}Salasanasi on vaihdettu.{2}Uusi salasanasi on: {1}{2}{2}Kiitos</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_RecoverPasswordWizard_PasswordMailFailed" xml:space="preserve">
+    <value>Sähköpostin lähetys epäonnistui!</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_RecoverPasswordWizard_PasswordMailSent" xml:space="preserve">
+    <value>Sähköpostin lähetys onnistui</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_RecoverPasswordWizard_PasswordMailSubject" xml:space="preserve">
+    <value>Käyttäjän tiedot</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_RecoverPasswordWizard_ResultUserNotFound" xml:space="preserve">
+    <value>Käyttäjää ei löytynyt</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__Cancel" xml:space="preserve">
+    <value>Keskeytä</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__Save" xml:space="preserve">
+    <value>Tallenna</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb_Search_NoSearchResults" xml:space="preserve">
+    <value>Hakuehto ei palauttanut yhtään osumaa.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Search_Rowtitle_Excerpt" xml:space="preserve">
+    <value>Katkelma</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Search_Rowtitle_Title" xml:space="preserve">
+    <value>Otsikko</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Search_SearchQuery" xml:space="preserve">
+    <value>Hae</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Search_StartSearch" xml:space="preserve">
+    <value>Hae</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_AdminUser_DeleteSection" xml:space="preserve">
+    <value>Poista elementti</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Subpages_RssTitle" xml:space="preserve">
+    <value>Alasivut</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_CMS_Title" xml:space="preserve">
+    <value>Otsikko</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_Description" xml:space="preserve">
+    <value>Meta tagin kuvaus</value>
+    <comment>added 1.2.1 (SEO Extension)</comment>
+  </data>
+  <data name="adm_Navigation_Keywords" xml:space="preserve">
+    <value>Meta tagin avainsanat</value>
+    <comment>added 1.2.1 (SEO Extension)</comment>
+  </data>
+  <data name="pge_CMS_Language" xml:space="preserve">
+    <value>Kieli</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_CMS_MailSenderAdress" xml:space="preserve">
+    <value>Lähettäjän sähköposti</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_CMS_SmtpServer" xml:space="preserve">
+    <value>Postipalvelin</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_CMS_FooterLine" xml:space="preserve">
+    <value>Sivuston alatunniste</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_CMS_WebsiteDescription" xml:space="preserve">
+    <value>Sivuston kuvaus</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_CMS_WebsiteKeywords" xml:space="preserve">
+    <value>Sivuston avainsanat</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_CMS_EnableSectionRSS" xml:space="preserve">
+    <value>Aktivoi RSS</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_CMS_SelectTheme" xml:space="preserve">
+    <value>Valitse teema</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_CMS_RESETWebsite" xml:space="preserve">
+    <value>Tyhjennä sivusto</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_LoginAdmin_Login" xml:space="preserve">
+    <value>Kirjaudu</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_LoginAdmin_Login_UserName" xml:space="preserve">
+    <value>Käyttäjätunnus</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_LoginAdmin_Remember" xml:space="preserve">
+    <value>Muista kirjautumistiedot</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_LoginAdmin_ChangePassword" xml:space="preserve">
+    <value>Vaihda salasana</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_LoginAdmin_LogIn" xml:space="preserve">
+    <value>Kirjaudu</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_LoginAdmin_LogOut" xml:space="preserve">
+    <value>Poistu</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_RecoverPassword_Legend" xml:space="preserve">
+    <value>Vaihda salasana</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_CreateUserButtonDone" xml:space="preserve">
+    <value>Jatka</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_NewSite" xml:space="preserve">
+    <value>Uusi sivu</value>
+    <comment>updated 1.0.2</comment>
+  </data>
+  <data name="adm_Navigation_AllowAnonymous" xml:space="preserve">
+    <value>Anonyymit käyttäjät</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_ChangeUser" xml:space="preserve">
+    <value>Vaihda käyttäjää</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_Comment" xml:space="preserve">
+    <value>Kommentti</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_CreateUser" xml:space="preserve">
+    <value>Luo uusi käyttäjä</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_Email" xml:space="preserve">
+    <value>Sähköposti</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_IsAdministrator" xml:space="preserve">
+    <value>Ylläpitäjä?</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_LastLogin" xml:space="preserve">
+    <value>Viimeksi kirjatunut</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_Move" xml:space="preserve">
+    <value>Siirrä</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Sections_MoveSection" xml:space="preserve">
+    <value>Siirrä elementtiä</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_Navigation" xml:space="preserve">
+    <value>Navigaatio</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_NewPageDefaultName" xml:space="preserve">
+    <value>Uusi sivu</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_PageDeletionWarning" xml:space="preserve">
+    <value>Oletko varma, että haluat poistaa tämän sivun?</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_PageTitle" xml:space="preserve">
+    <value>Sivun otsikko</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Sections_Section" xml:space="preserve">
+    <value>Elementti</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Sections_SourcePage" xml:space="preserve">
+    <value>Lähde sivu</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Sections_TargetPage" xml:space="preserve">
+    <value>Kohde sivu</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_UserName" xml:space="preserve">
+    <value>Käyttäjätunnus</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_VirtualPath" xml:space="preserve">
+    <value>Polku</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_Visible" xml:space="preserve">
+    <value>Näkyvissä</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_Homepage" xml:space="preserve">
+    <value>Kotisivu</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__Delete" xml:space="preserve">
+    <value>Poista</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Website_EnableSectionRSS" xml:space="preserve">
+    <value>Aktivoi RSS tuki.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Website_FooterLine" xml:space="preserve">
+    <value>Sivuston alatunniste</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Website_Language" xml:space="preserve">
+    <value>Kieli</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Website_MailSender" xml:space="preserve">
+    <value>Lähettäjän sähköpostiosoite</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Website_Reset" xml:space="preserve">
+    <value>Tyhjennä sivusto</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_SelectTheme" xml:space="preserve">
+    <value>Valitse teema</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Website_SmtpServer" xml:space="preserve">
+    <value>Sähköpostipalvelin</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Website_Title" xml:space="preserve">
+    <value>Otsikko</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Website_WebsiteDescription" xml:space="preserve">
+    <value>Sivuston kuvaus</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Website_WebsiteKeywords" xml:space="preserve">
+    <value>Sivuston avainsanat</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_VirtualPathErrorMessage" xml:space="preserve">
+    <value>Polussa on jo sivu.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_Button" xml:space="preserve">
+    <value>Vaihda salasana</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_ConfirmNewPassword" xml:space="preserve">
+    <value>Vahvista uusi salasana.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_ConfirmNewPasswordRequired" xml:space="preserve">
+    <value>Salasanan vahvistus on pakollinen.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_NewPassword" xml:space="preserve">
+    <value>Uusi salasana</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_NewPasswordRequired" xml:space="preserve">
+    <value>Uusi salasana on pakollinen.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_NotMatching" xml:space="preserve">
+    <value>Salasana ja salasanan vahvistus ovat oltava samat.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_Password" xml:space="preserve">
+    <value>Salasana</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_PasswordRequired" xml:space="preserve">
+    <value>Salasana on pakollinen.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_Title" xml:space="preserve">
+    <value>Vaihda salasana</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_UserName" xml:space="preserve">
+    <value>Käyttäjätunnus</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_UserNameRequired" xml:space="preserve">
+    <value>Käyttäjätunnus on pakollinen.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Login_ChangePassword" xml:space="preserve">
+    <value>Vaihda salasana</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Login_LogIn" xml:space="preserve">
+    <value>Kirjaudu</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Login_Password" xml:space="preserve">
+    <value>Salasana</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Login_PasswordRequired" xml:space="preserve">
+    <value>Salasana on pakollinen.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Login_RememberMe" xml:space="preserve">
+    <value>Muista kirjautumistiedot.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Login_Title" xml:space="preserve">
+    <value>Kirjaudu</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Login_UserName" xml:space="preserve">
+    <value>Käyttäjätunnus</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Login_UserNameRequired" xml:space="preserve">
+    <value>Käyttäjätunnus on pakollinen.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_DeleteUser" xml:space="preserve">
+    <value>Poista käyttäjä</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_DeleteWarning" xml:space="preserve">
+    <value>Oletko varma, että haluat poistaa tämän käyttäjän?</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_Exception" xml:space="preserve">
+    <value>Seuraava virhe tapahtui:</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_LastAdminRemains" xml:space="preserve">
+    <value>Viimeistä ylläpitää ei voi poistaa.</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="cls_SitemapEditor_Administration" xml:space="preserve">
+    <value>Ylläpito</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="cls_SitemapEditor_CMSSetup" xml:space="preserve">
+    <value>Sisällönhallinta</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="cls_SitemapEditor_Management" xml:space="preserve">
+    <value>Käyttäjien hallinta</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="cls_SitemapEditor_Sections" xml:space="preserve">
+    <value>Sivun rakenteen hallinta</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="cls_SitemapEditor_SectionsPages" xml:space="preserve">
+    <value>Sivut ja navigaatio</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_ComparePassword" xml:space="preserve">
+    <value>Salasana ja salasanan vahvistus on oltava samat</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_ConfirmPassword" xml:space="preserve">
+    <value>Vahvista salasana:</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_ConfirmPasswordRequired" xml:space="preserve">
+    <value>Salasanan vahvistus on pakollinen.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_DuplicateUserName" xml:space="preserve">
+    <value>Anna toinen käyttäjätunnus</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_Email" xml:space="preserve">
+    <value>Sähköposti:</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_EmailRequired" xml:space="preserve">
+    <value>Sähköposti on pakollinen.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_Password" xml:space="preserve">
+    <value>Salasana:</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_PasswordRequired" xml:space="preserve">
+    <value>Salasana on pakollinen.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_UserName" xml:space="preserve">
+    <value>Käyttäjätunnus:</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_UserNameRequired" xml:space="preserve">
+    <value>Käyttäjätunnus on pakollinen.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_RecoverPassword_FinishButton" xml:space="preserve">
+    <value>Vaihda</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__Search" xml:space="preserve">
+    <value>Haku</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__DeleteSection" xml:space="preserve">
+    <value>Poista elementti</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__RemoveFromSidebar" xml:space="preserve">
+    <value>Poista sivulta</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__SendToSidebar" xml:space="preserve">
+    <value>Lisää sivulle</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__Submit" xml:space="preserve">
+    <value>Tallenna</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Guestbook_AntiBotImage" xml:space="preserve">
+    <value>Tunniste</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Guestbook_Input" xml:space="preserve">
+    <value>Input</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Guestbook_Name" xml:space="preserve">
+    <value>Nimi</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_Name" xml:space="preserve">
+    <value>Nimi</value>
+    <comment>added 1.1.2 Beta</comment>
+  </data>
+  <data name="ctl_ContactForm_RssTitle" xml:space="preserve">
+    <value>Yhteystietolomake</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EasyControl_RssTitle" xml:space="preserve">
+    <value>Html kontrollit</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Sections_Move" xml:space="preserve">
+    <value>Siirrä</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_Admin" xml:space="preserve">
+    <value>Ylläpitäjä</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_CopyTo" xml:space="preserve">
+    <value>Kopioi</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_EMailAddress" xml:space="preserve">
+    <value>Sähköpostiosoite</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_ErrorMessageEmail" xml:space="preserve">
+    <value>Ole hyvä ja syötä sähköpostiosoite</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_ErrorMessageMessage" xml:space="preserve">
+    <value>Ole hyvä ja kirjoita viesti</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_ErrorMessageSubject" xml:space="preserve">
+    <value>Ole hyvä ja anna otsikko</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_ErrorMessageValidEmail" xml:space="preserve">
+    <value>Ole hyvä ja anna sallittu sähköpostiosoite</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_IntroPart1" xml:space="preserve">
+    <value>Jotta voit käyttää yhteystietolomaketta on sinun syötettävä sähköpostipalvelimen tiedot </value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_IntroPart2" xml:space="preserve">
+    <value>ylläpitosivulle.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_Introtext" xml:space="preserve">
+    <value>Esittely teksti</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_Message" xml:space="preserve">
+    <value>Viesti</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_RecipientEMail" xml:space="preserve">
+    <value>Vastaanottajan sähköposti</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_Subject" xml:space="preserve">
+    <value>Aihe</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_ThankYouMessage" xml:space="preserve">
+    <value>Kiitoksia viestistäsi</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Downloadlist_Comment" xml:space="preserve">
+    <value>Kommentti</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Downloadlist_File" xml:space="preserve">
+    <value>Tiedosto</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Downloadlist_Title" xml:space="preserve">
+    <value>Otsikko</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EasyControl_Choose" xml:space="preserve">
+    <value>Valitse kontrolli</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EasyControl_SelectControl" xml:space="preserve">
+    <value>Ole hyvä ja valitse kontrolli</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ErrorMessageMissingFile" xml:space="preserve">
+    <value>Valitse ladattava tiedosto</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_Date" xml:space="preserve">
+    <value>Päivämäärä</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_Description" xml:space="preserve">
+    <value>Kuvaus</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_ErrorMessageEventDate" xml:space="preserve">
+    <value>Ole hyvä ja anna tapahtuman päivämäärä</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_ErrorMessageEventLocation" xml:space="preserve">
+    <value>Ole hyvä ja anna tapahtuman paikka</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_ErrorMessageEventName" xml:space="preserve">
+    <value>Ole hyvä ja anna tapahtuman nimi</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_Event" xml:space="preserve">
+    <value>Tapahtuma</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_EventDate" xml:space="preserve">
+    <value>Päivämäärä</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_EventName" xml:space="preserve">
+    <value>Nimi</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_EventTime" xml:space="preserve">
+    <value>Aika</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_Location" xml:space="preserve">
+    <value>Paikka</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_ShowFrom" xml:space="preserve">
+    <value>Näytä lähtien</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Gallery_Comment" xml:space="preserve">
+    <value>Kommentti</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Gallery_ErrorMessageImage" xml:space="preserve">
+    <value>Ole hyvä ja valitse ladattava kuva</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Gallery_File" xml:space="preserve">
+    <value>Tiedosto</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Gallery_Title" xml:space="preserve">
+    <value>Otsikko</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Guestbook_Author" xml:space="preserve">
+    <value>Kirjoittaja</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Guestbook_Date" xml:space="preserve">
+    <value>Päivämäärä</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Guestbook_ErrorMessageAntibot" xml:space="preserve">
+    <value>Ole hyvä ja syötä kuvassa näkyvät kirjaimet</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Guestbook_ErrorMessageAntibotInvalid" xml:space="preserve">
+    <value>Tunnistus epäonnistui</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Guestbook_ErrorMessageAuthorName" xml:space="preserve">
+    <value>Et syöttänyt kirjoittajan nimeä</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Guestbook_ErrorMessageText" xml:space="preserve">
+    <value>Et syöttänyt viestiä</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_LinkList_Comment" xml:space="preserve">
+    <value>Kommentti</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_LinkList_ErrorMessageUrl" xml:space="preserve">
+    <value>Ole hyvä ja syötä url</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_LinkList_ErrorMessageValidUrl" xml:space="preserve">
+    <value>Ole hyvä ja syötä sallittu url</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_LinkList_Target" xml:space="preserve">
+    <value>Kohde</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_LinkList_Title" xml:space="preserve">
+    <value>Otsikko</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_LinkList_Url" xml:space="preserve">
+    <value>Url</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_NewsList_Content" xml:space="preserve">
+    <value>Sisältö</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_NewsList_Date" xml:space="preserve">
+    <value>Päivämäärä</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_NewsList_ErrorMessageHeadline" xml:space="preserve">
+    <value>Ole hyvä ja syötä otsikko</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_NewsList_Headline" xml:space="preserve">
+    <value>Otsikko</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_NewsList_News" xml:space="preserve">
+    <value>Uutiset</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_NewsList_ShowFrom" xml:space="preserve">
+    <value>Lähtien</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_NewsList_ShowUntil" xml:space="preserve">
+    <value>Kunnes</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_SectionAdmin_Info" xml:space="preserve">
+    <value>Info</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__Add" xml:space="preserve">
+    <value>lisää</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Default_AddSection" xml:space="preserve">
+    <value>Lisää elementti</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Search_ErrorMessageKeyword" xml:space="preserve">
+    <value>Ole hyvä ja anna halulauseke</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Search_View" xml:space="preserve">
+    <value>Katso</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Website_SelectTheme" xml:space="preserve">
+    <value>Valitse teema</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_DuplicateEmail" xml:space="preserve">
+    <value>Antamasi sähköpostiosoite on käytössä. Anna toinen sähköpostiosoite.</value>
+    <comment>added 1.0.2</comment>
+  </data>
+  <data name="ctl_EventList_ShowPastEvents" xml:space="preserve">
+    <value>Näytä vanhan tapahtumat</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_SectionAdmin_DeleteWarning" xml:space="preserve">
+    <value>Oletko varma, että haluat poistaa elementin "{0}" ?</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Website_SmtpDomain" xml:space="preserve">
+    <value>Sähköpostin domain</value>
+    <comment>added 1.1.1</comment>
+  </data>
+  <data name="adm_Website_SmtpPassword" xml:space="preserve">
+    <value>Salasana</value>
+    <comment>added 1.1.1</comment>
+  </data>
+  <data name="adm_Website_SmtpUser" xml:space="preserve">
+    <value>Käyttäjätunnus</value>
+    <comment>added 1.1.1</comment>
+  </data>
+  <data name="pge_Login_Failure" xml:space="preserve">
+    <value>Kirjautumisesi ei onnistunut. Yritä uudelleen.</value>
+    <comment>added 1.1.1</comment>
+  </data>
+  <data name="adm_Website_Reset_Confirmation" xml:space="preserve">
+    <value>Oletko varma, että haluat tyhjentää sivuston? Kaikki sisältö poistetaan.</value>
+    <comment>added 1.1.2 Beta</comment>
+  </data>
+  <data name="ctl_Gallery_HTMLVersion" xml:space="preserve">
+    <value>HTML versio</value>
+    <comment>added 1.1.2 Beta</comment>
+  </data>
+  <data name="ctl_Gallery_SilverlightVersion" xml:space="preserve">
+    <value>Silverlight versio</value>
+    <comment>added 1.1.2 Beta</comment>
+  </data>
+  <data name="pge_ChangePassword_PasswordFailureText" xml:space="preserve">
+    <value>Salasana on väärä tai uusi salasana ei ole sallittu</value>
+    <comment>added 1.1.2 Beta</comment>
+  </data>
+  <data name="adm_Navigation_EditPowerUser" xml:space="preserve">
+    <value>Tehokäyttäjän muokattavissa</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="adm_Users_IsPowerUser" xml:space="preserve">
+    <value>Tehokäyttäjä?</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="adm_Users_PowerUser" xml:space="preserve">
+    <value>Tehokäyttäjä</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_TagCloud_RssTitle" xml:space="preserve">
+    <value>Tagi pilvi</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_ErrorMessageUrl" xml:space="preserve">
+    <value>Ole hyvä ja syötä url</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_ErrorMessageValidUrl" xml:space="preserve">
+    <value>Ole hyvä ja syötä oikea url</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_RssTitle" xml:space="preserve">
+    <value>Blogilista</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_Title" xml:space="preserve">
+    <value>Otsikko</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_Url" xml:space="preserve">
+    <value>Osoite</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_ErrorMessageValidOrder" xml:space="preserve">
+    <value>Ole hyvä ja syötä sallittu numero (0-9999)</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_Order" xml:space="preserve">
+    <value>Järjestysnumero</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_Description" xml:space="preserve">
+    <value>Kuvaus</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_FeedUrl" xml:space="preserve">
+    <value>RSS syötteen osoite</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_TagCloud_DefaultTitle" xml:space="preserve">
+    <value>Pilvi</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_TagCloud_ErrorMessageTitle" xml:space="preserve">
+    <value>Anna pilven nimi</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_Comments" xml:space="preserve">
+    <value>Kommentit</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_CommentsAuthor" xml:space="preserve">
+    <value>Kirjoittaja</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_CommentsErrorMessageAuthor" xml:space="preserve">
+    <value>Syötä nimesi</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_CommentsErrorMessageTitle" xml:space="preserve">
+    <value>Syötä otsikko</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_CommentsFooter" xml:space="preserve">
+    <value>{1} lähetti viestin {0}.</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_CommentsTitle" xml:space="preserve">
+    <value>Otsikko</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_Configuration" xml:space="preserve">
+    <value>Muokkaa</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_Entry" xml:space="preserve">
+    <value>Viesti</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_Tags" xml:space="preserve">
+    <value>Tagit</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_Title" xml:space="preserve">
+    <value>Otsikko</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_TagCloud_ConfigSafed" xml:space="preserve">
+    <value>Muutokset on tallennettu</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_TagCloud_ConfigTitle" xml:space="preserve">
+    <value>Pilven hallinta</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_TagCloud_Title" xml:space="preserve">
+    <value>Tagi pilven nimi</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="glb__Back" xml:space="preserve">
+    <value>Takaisin</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="glb__Close" xml:space="preserve">
+    <value>Sulje</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="pge_Keywords_SelectionSafed" xml:space="preserve">
+    <value>Tallennettu</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="pge_Keywords_TagCreated" xml:space="preserve">
+    <value>Tagi luotu ja tiedot tallennettu</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="pge_Keywords_Title" xml:space="preserve">
+    <value>Tagin valinta</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_Comment" xml:space="preserve">
+    <value>Kommentti</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_Config" xml:space="preserve">
+    <value>Blogin muokkaus</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_ConfigBlogName" xml:space="preserve">
+    <value>Blogin nimi</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_ConfigPing" xml:space="preserve">
+    <value>Lähetä pingi Weblogs.com:iin</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_ConfigSafed" xml:space="preserve">
+    <value>Muutokset tallennettu</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_ErrorMessageComment" xml:space="preserve">
+    <value>Syötä kommentti</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_TagsNumber" xml:space="preserve">
+    <value>Numero</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_Tag" xml:space="preserve">
+    <value>Tagi</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_TagsDescription" xml:space="preserve">
+    <value>Kuvaus</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_TagsErrorMessage" xml:space="preserve">
+    <value>Ole hyvä ja syötä tagille nimi</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_CommentsDate" xml:space="preserve">
+    <value>Päivämäärä</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_ErrorMessageEntry" xml:space="preserve">
+    <value>Kirjoita viesti</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_ErrorMessageTitle" xml:space="preserve">
+    <value>Ole hyvä ja syötä otsikko</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_NoComments" xml:space="preserve">
+    <value>Ei yhtään kommenttia</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_ConfigName" xml:space="preserve">
+    <value>Listan nimi</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_ConfigSafed" xml:space="preserve">
+    <value>Muutokset tallennettu</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_Configuration" xml:space="preserve">
+    <value>Muokkaa</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_ConfigVisible" xml:space="preserve">
+    <value>Näkyvissä</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_Config" xml:space="preserve">
+    <value>Blogilistan muokkaus</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="pge_BlogSearch_Title" xml:space="preserve">
+    <value>Kirjoitukset koskien: {0}</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="pge_Keywords_ErrorMessageTagExists" xml:space="preserve">
+    <value>Tagi on jo olemassa</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+</root>

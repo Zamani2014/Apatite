@@ -1,0 +1,19 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="Site" %>
+<%@ Register TagPrefix="cc1" Namespace="MyWebPagesStarterKit.Controls" %>
+<%@ Register src="~/EasyControls/SlideShow.ascx" tagname="SlideShow" tagprefix="uc1" %>
+<%@ Register Assembly="GoogleMap" Namespace="GoogleMap" TagPrefix="GoogleMap" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="shortcut icon" href="Images/favicon.ico" />
+    <title>گروه مهندسین و مشاورین املاک دروازه ملل</title>
+</head>
+<body runat="server" id="body1">
+    <form id="form1" runat="server">
+        <cc1:TemplatedContent runat="server" ID="pnlTop" SkinID="Top"></cc1:TemplatedContent>
+            <asp:ContentPlaceHolder ID="mainContent" runat="server"></asp:ContentPlaceHolder>
+        <cc1:TemplatedContent runat="server" ID="pnlBottom" SkinID="Bottom"></cc1:TemplatedContent>
+    </form>
+</body>
+</html>

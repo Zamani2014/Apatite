@@ -1,0 +1,232 @@
+﻿<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+
+<%@ Register TagPrefix="cc1" Namespace="MyWebPagesStarterKit.Controls" %>
+<%@ Register TagPrefix="RJS" Namespace="RJS.Web.WebControl" Assembly="RJS.Web.WebControl.PopCalendar" %>
+<cc1:TemplatedContent runat="server" SkinID="Top">
+    <ContentTemplate>
+    <div id="container">
+        <div id="header">
+              <h1><a href="http://www.AmlakeMelal.ir/">گروه مشاورین املاک دروازه ملل</a></h1>
+              <div id="symbol">
+              <cc1:LoginStatus  runat="Server" id="LoginStatus12" />
+              <form>
+              </form>
+              </div>
+              <div id="ahoura"></div>
+        </div>
+        <div id="maincol">
+      <div id="sidebar">
+
+       <asp:Menu ID="Menu1" 
+                                    runat="server" 
+                                    DataSourceID="menuDataSource" 
+                                    DynamicHorizontalOffset="0" 
+                                    DynamicVerticalOffset="1" 
+                                    StaticEnableDefaultPopOutImage="false" 
+                                    DynamicEnableDefaultPopOutImage="false"
+                                    ItemWrap="false"
+                                >
+                                    <StaticMenuItemStyle CssClass="nav" Width="192px" />
+                                    <StaticSelectedStyle CssClass="nav_selected" Width="192px" />
+                                    <DynamicMenuItemStyle CssClass="sublevel" />
+                                    <DynamicSelectedStyle CssClass="sublevel_selected" />
+                                    <DynamicMenuStyle CssClass="sublevel" />
+       </asp:Menu>
+       <asp:SiteMapDataSource runat="server" ID="menuDataSource" ShowStartingNode="false" />
+      
+      <cc1:SidebarControl runat="server" ID="SidebarControl1"/>
+      <div id="building">
+      
+      </div>
+      </div>
+      <div id="leftcol">
+      <div id="breadcrumbs">
+                                <asp:SiteMapPath runat="server" ID="sitemapPath" ShowToolTips="false">
+                                    <RootNodeTemplate></RootNodeTemplate>
+                                    <CurrentNodeStyle CssClass="currentNode" />
+                                    <NodeStyle CssClass="node" />
+                                    <PathSeparatorStyle CssClass="separator" />
+                                    <PathSeparatorTemplate>&gt;</PathSeparatorTemplate>
+                                </asp:SiteMapPath>
+                            </div>
+    <div id="contentContainer">
+    </ContentTemplate>
+</cc1:TemplatedContent>
+<cc1:TemplatedContent runat="server" SkinID="Bottom">
+    <ContentTemplate>
+                            </div>
+      
+      <div class="clear"></div>
+      </div>
+</div>
+
+</div>
+
+	
+<div id="footer">
+<div id="footerContainer">
+          <div id="footercol1">
+
+          <ul>
+          <li id="facebook"><a href="https://www.Facebook.com/"></a></li>
+          <li id="twitter"><a href="https://www.Twitter.com/"></a></li>
+          <li id="plus"><a href="https://Plus.Google.com/"></a></li>
+          <li id="picasa"><a href="https://picasa.google.com/"></a></li>
+          <li id="rss"><a href="http://www.AmlakeMelal.ir/Feeds.aspx"></a></li>
+          </ul>
+          
+          <ul id="validators">
+          <li id="xhtml"><a href="https://www.W3C.org/"></a></li>
+          <li id="css"><a href="https://www.W3C.org/"></a></li>
+          <li id="rssvalid"><a href="https://www.W3C.org/"></a></li>
+          </ul>
+
+          <p>
+          <a href="http://www.AmlakeMelal.ir/">Copyright &copy; 2013 Darvazeh Melal.</a><br/>
+          <a href="http://www.AliZamani.net/" target="_blank">Designed &amp; Developed By : Alireza Zamani </a><br/>
+          <a href="http://www.ArvidCMS.ir/" target="_blank">Powered By : Arvid CMS.</a>
+          </p>
+          </div>
+          <div id="footercol2">
+          <p id="footermenu">
+          <a href="/About.aspx">درباره ما </a>|
+          <a href="/Contact.aspx">تماس با ما </a>|
+          <a href="/Services.aspx">خدمات </a>|
+          <a href="/Projects.aspx">طرح ها </a>|
+          <a href="/Jobs.aspx">فرصتهای شغلی </a><br/>
+          <a href="/News.aspx">اخبار و مقاله ها </a>|
+          <a href="/FAQ.aspx">پرسش های متداول </a>|
+          <a href="/Links.aspx">پیوندهای مفید </a><br/>
+          <a href="/Feedback.aspx">ارائه بازخوردها </a>|
+          <a href="/PrivacyPolicy.aspx">سیاست حفظ اسرار </a>|
+          <a href="/Fonts/Traffic.rar">دریافت قلم مناسب </a>
+          </p>
+          <cc1:WebSiteFooter runat="server" ID="WebSiteFooter1" />
+          </div>
+          <div id="footercol3">
+          <form id="searchsite" method="post">
+          <input class="textbox" name="Text" type="text" />
+          <input class="button" name="Button1" type="button" value="جستجو" onclick="window.open('/search.aspx')"/>
+          </form>
+          </div>
+</div>
+</div>
+
+
+    </ContentTemplate>
+</cc1:TemplatedContent>
+
+<cc1:Pager 
+    runat="server" 
+    PageSize="20"
+    FirstImageUrl="_images/icon_to_start.gif" 
+    PreviousImageUrl="_images/icon_back.gif" 
+    NextImageUrl="_images/icon_next.gif" 
+    LastImageUrl="_images/icon_to_end.gif" 
+    Mode="FirstPreviousNextLast" 
+    CssClass="pager"
+/>
+
+<RJS:PopCalendar 
+    runat="server" 
+    MessageAlignment="RightCalendarControl" 
+    RequiredDate="True" 
+    SelectHoliday="True" 
+    SelectWeekend="True" 
+    ShowHolidays="False" 
+    ShowSpecialDay="False" 
+    ShowWeekend="True" 
+    ShowWeekNumber="True" 
+    KeepInside="false"
+/>
+
+<asp:TextBox runat="server" CssClass="textbox"/>
+<asp:TextBox runat="server" CssClass="textbox" Width="100px" SkinID="datepicker"/>
+<asp:TextBox runat="server" CssClass="textbox" SkinID="timepicker" />
+<asp:TextBox runat="server" CssClass="textboxAdmin" SkinID="admin"/>
+<asp:TextBox runat="server" CssClass="textboxBlog" SkinID="blog"/>
+
+<asp:Calendar runat="server" SkinID="blogCalendar"  
+    DayNameFormat="FirstTwoLetters"
+    CellPadding="3"
+    CellSpacing="0"
+    CssClass="calendarStyle"
+    TitleStyle-CssClass="calendarTitle"
+    TitleStyle-BackColor="Transparent"
+    DayHeaderStyle-CssClass="calendarHeader"
+    DayStyle-CssClass="calendarDay"
+    SelectedDayStyle-BackColor="White"
+    SelectedDayStyle-Font-Bold="true"
+    SelectedDayStyle-ForeColor="black" />
+    
+<asp:FileUpload runat="server" CssClass="textbox" />
+
+<asp:GridView runat="server" AllowPaging="false" AllowSorting="false" BorderStyle="none" BorderWidth="0px" Width="100%" GridLines="none"></asp:GridView>
+
+<%-- Buttons --%>
+<asp:Button runat="server" CssClass="button" />
+<asp:LinkButton runat="server" CssClass="btnRight" SkinID="Right"></asp:LinkButton>
+<asp:LinkButton runat="server" CssClass="btnLeft" SkinID="Left"></asp:LinkButton>
+<asp:LinkButton runat="server" CssClass="btnUp" SkinID="Up"></asp:LinkButton>
+<asp:LinkButton runat="server" CssClass="btnDown" SkinID="Down"></asp:LinkButton>
+<asp:LinkButton runat="server" CssClass="btnEdit" SkinID="Edit"></asp:LinkButton>
+<asp:LinkButton runat="server" CssClass="btnDelete" SkinID="Delete"></asp:LinkButton>
+
+<%-- Gallery --%>
+<asp:DataList runat="server" SkinID="gallery" RepeatDirection="Horizontal" RepeatColumns="4">
+    <ItemStyle CssClass="gallerycell" />
+</asp:DataList>
+<asp:DataList runat="server" SkinID="galleryEdit" RepeatDirection="Horizontal" RepeatColumns="4">
+    <ItemStyle CssClass="gallerycell" />
+</asp:DataList>
+
+<%-- BLOG --%>
+<asp:DataList runat="server" SkinID="blog" RepeatDirection="Vertical">
+    <ItemStyle CssClass="blogcell" />
+</asp:DataList>
+<asp:DataList runat="server" SkinID="blogEdit" RepeatDirection="Vertical">
+    <ItemStyle CssClass="blogcell" />
+</asp:DataList>
+<asp:DataList runat="server" SkinID="comments" RepeatDirection="Vertical">
+    <ItemStyle CssClass="commentcell" />
+</asp:DataList>
+
+<cc1:Pager 
+    Width="100%"
+    runat="server" 
+    SkinID="gallery" 
+    PageSize="8"
+    FirstImageUrl="_images/icon_to_start.gif" 
+    PreviousImageUrl="_images/icon_back.gif" 
+    NextImageUrl="_images/icon_next.gif" 
+    LastImageUrl="_images/icon_to_end.gif" 
+    Mode="FirstPreviousNextLast" 
+    CssClass="pager"
+/>
+   
+<cc1:ResizedImage runat="server" SkinID="galleryThumbnail" MaxWidth="101" MaxHeight="101" ImageAlign="Middle"/>
+<cc1:ResizedImage runat="server" SkinID="galleryBigView" MaxWidth="442" MaxHeight="442" ImageAlign="top"/>
+
+<%-- Validators --%>
+<asp:CompareValidator runat="server" CssClass="error" />
+<asp:CustomValidator runat="server" CssClass="error" />
+<asp:RangeValidator runat="server" CssClass="error" />
+<asp:RegularExpressionValidator runat="server" CssClass="error" />
+<asp:RequiredFieldValidator runat="server" CssClass="error" />
+
+<%-- RSS Display Item Template --%>
+<asp:DataList runat="server" CssClass="RssDisplay" SkinID="RssDisplay"/>

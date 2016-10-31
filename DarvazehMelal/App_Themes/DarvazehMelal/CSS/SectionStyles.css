@@ -1,0 +1,504 @@
+﻿/* LinkList */
+div.linkitem
+{
+    padding-top: 20px;
+}
+
+div.linkitem a 
+{
+    font-weight: bold;
+}
+
+/* DownloadList */
+div.downloaditem
+{
+    padding-top: 20px;
+}
+
+div.downloaditem a 
+{
+    font-weight: bold;
+}
+
+/* EventList */
+div.eventcontent 
+{
+    border: solid 1px #898989;
+    padding: 10px;
+    width: auto;
+    overflow: hidden;
+}
+
+div.eventcontent date
+{
+    font-weight: bold;
+}
+
+tr.pastevent td, tr.pastevent td a, tr.pastevent td a:link, tr.pastevent td a:visited, tr.pastevent td a:active, tr.pastevent td a:hover
+{
+    color: #898989;
+}
+
+/* NewsList */
+div.newscontent 
+{
+    border: solid 1px #898989;
+    padding: 10px;
+    width: auto;
+    overflow: hidden;
+}
+
+div.newscontent date
+{
+    font-weight: bold;
+}
+
+/* gallery */
+td.gallerycell 
+{
+    vertical-align: middle;
+    text-align: center;
+    width: 121px;
+    height: 121px;
+    border: solid 1px #898989;
+    background-color: #FFFFFF;
+}
+
+td.gallerycell td.imagecell
+{
+    vertical-align: middle;
+    text-align: center;
+    width: 121px;
+    height: 121px;
+}
+
+td.gallerycell td.buttoncell
+{
+    background-color: #898989;
+    padding: 3px;
+}
+
+div.gallerydetails 
+{
+	margin-top: 8px;
+    width: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: solid 1px #898989;
+}
+
+/* guestbook */
+div#guestbookentries
+{
+    width: auto;
+    max-height: 400px;
+    height: expression(this.scrollHeight > 200? "200px" : "auto" );
+    border: solid 1px #7F0000;
+    overflow: auto;
+}
+
+div#guestbookentries span.date
+{
+    color: #898989;
+    font-weight: bold;
+}
+
+div#guestbookentries span.author
+{
+    padding-left: 30px;
+    color: #000000;
+    font-weight: bold;
+}
+
+div#guestbookentries div.entry
+{
+    padding-top: 5px;
+}
+
+div#guestbookentries div.odd  
+{
+    width: 100%;
+    background-color: #FFF5CC;
+}
+
+div#guestbookentries div.even
+{
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+div#guestbookentries div.even div.pad, div#guestbookentries div.odd div.pad
+{
+    padding: 10px;
+}
+
+
+div.roundedTop
+{
+	width: 100%;
+	height: 13px;
+	background: transparent url(_images/content_top.gif) no-repeat top left;
+}
+
+div.roundedBottom
+{
+	width: 100%;
+	height: 13px;
+	background: transparent url(_images/content_bottom.gif) no-repeat top left;
+}
+
+/* Blog Entries */
+table.search td
+{
+	font-size: 13px;
+	padding-bottom: 26px;
+}
+
+table.search td.separator
+{
+	padding: 0px 4px 0px 5px;
+}
+
+table.search td.searchtitle
+{
+}
+
+td.blogcell table.entry
+{
+	border: solid 1px #A7CAEE;
+}
+
+td.blogcell
+{
+	padding-bottom: 10px;
+}
+
+td.blogcell td.title
+{
+    vertical-align: middle;
+    padding: 8px;
+    background-color: #E5F1F8;
+    border-bottom: solid 1px #A7CAEE;
+    color: #2a416f;
+    font-weight: bold;
+}
+
+td.blogcell td.title a
+{
+	color: #2a416f;
+	text-decoration: none;
+}
+
+td.blogcell td.content
+{
+    padding: 8px;
+}
+
+td.blogcell td.footer
+{
+    padding: 4px 8px 5px 8px;
+    font-style: italic;
+    border-top: solid 1px #A7CAEE;
+}
+
+/* Blog Detail */
+table.blogDetail
+{
+	border: solid 1px #A7CAEE;
+}
+
+table.blogDetail td.title
+{
+    vertical-align: middle;
+    padding: 8px;
+    background-color: #E5F1F8;
+    border-bottom: solid 1px #A7CAEE;
+    color: #2a416f;
+    font-weight: bold;
+}
+
+table.blogDetail td.content
+{
+    padding: 8px;
+}
+
+table.blogDetail td.footer
+{
+    padding: 4px 8px 4px 8px;
+    font-style: italic;
+    border-top: solid 1px #A7CAEE;
+}
+
+/* Blog Comments */
+div.CommentTitle
+{
+	color: #000000;
+	font-weight: bold;
+	padding: 15px 0px 10px 0px;
+}
+
+td.commentcell
+{
+	border: solid 1px #A7CAEE;
+}
+
+td.commentcell table.even
+{
+	background-color: #E5F1F8;
+}
+
+td.commentcell table.odd
+{
+	background-color: #FFFFFF;
+}
+
+td.commentcell td.title
+{
+    vertical-align: middle;
+    color: #000000;
+    font-weight: bold;
+    padding: 8px 8px 4px 8px;
+}
+
+td.commentcell td.content
+{
+    padding: 4px 8px 4px 8px;
+}
+
+td.commentcell td.footer
+{
+    padding: 4px 8px 4px 8px;
+    font-style: italic;
+    color: #898989;
+}
+
+/* Blog Form */
+td.blogTitle
+{
+	padding-top: 5px;
+	color: #000000;
+}
+
+td.blogField
+{
+	color: #000000;
+}
+
+input.textboxBlog 
+{
+	width: auto; 
+    border: solid 1px #3891C8;
+    margin: 2px 0px 2px 0px;
+}
+
+/* Tags Popup */
+.keys
+{
+    background-color: #E5F1F8;
+    padding: 10px;
+}
+
+.keys td.close
+{
+	text-align: right;
+	vertical-align: bottom;
+    color: #000000;
+}
+
+.keys td.close a
+{
+    color: #000000;
+    text-decoration: none;
+}
+
+.tagTitle
+{
+	font-size: 12px;
+	font-weight: bold;
+	color: #2a416f;
+	padding-bottom: 6px;
+}
+
+.tagFrame
+{
+	border: solid 1px #A7CAEE;
+}
+
+.tagListItem td
+{
+	white-space: nowrap;
+	padding-right: 5px;
+}
+
+/* TagCloud */
+table.tagcloud
+{
+	border: solid 1px #A7CAEE;
+	width: 60%;
+}
+
+.tagcloud td.title
+{
+    border-bottom: solid 1px #A7CAEE;
+    background-color: #E5F1F8;
+    padding: 8px;
+    color: #2a416f;
+    font-weight: bold;
+}
+
+.tagcloud td.tags
+{
+    padding: 6px;
+}
+
+ul.tagcloudlist
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+ul.tagcloudlist li
+{
+	list-style-type: none;	
+	margin-left: 0px;
+}
+
+.cloud1, .cloud2, .cloud3, .cloud4, .cloud5, .cloud6, .cloud7, .cloud8, .cloud9, .cloud10 {
+  margin: 0;
+  padding: 0;
+  display:inline;
+}
+
+.cloud1 a:link, .cloud1 a:visited, .cloud1 a:active {
+	margin-right: 6px;
+	color: #acacac;
+	font-size: 100%;	
+	font-weight: 100;
+}
+
+.cloud2 a:link, .cloud2 a:visited, .cloud2 a:active{
+	margin-right: 6px;
+	color:  #8c8c8c;
+	font-size: 110%;	
+	font-weight: 200;
+}
+
+.cloud3 a:link, .cloud3 a:visited, .cloud3 a:active {
+	margin-right: 6px;
+	color:  #7d7d7d;
+	font-size: 120%;	
+	font-weight: 300;
+}
+
+.cloud4 a:link, .cloud4 a:visited, .cloud4 a:active{
+	margin-right: 6px;
+	color: #6c6c6c;
+	font-size: 130%;	
+	font-weight: 400;
+}
+
+.cloud5 a:link, .cloud5 a:visited, .cloud5 a:active {
+	margin-right: 6px;
+	color: #5d5d5d;
+	font-size: 150%;
+	font-weight: 500;
+}
+
+.cloud6 a:link, .cloud6 a:visited, .cloud6 a:active {
+	margin-right: 6px;
+	color: #515151;
+	font-size: 160%;
+	line-height: 110%;
+	font-weight: 600;
+}
+
+.cloud7 a:link, .cloud7 a:visited, .cloud7 a:active {
+	margin-right: 6px;
+	color: #3e3e3e;
+	font-size: 170%;
+	line-height: 130%;
+	font-weight: 700;
+}
+
+.cloud8 a:link, .cloud8 a:visited, .cloud8 a:active {
+	margin-right: 6px;
+	color: #2d2d2d;
+	font-size: 180%;
+	line-height: 150%;
+	font-weight: 800;
+}
+
+.cloud9 a:link, .cloud9 a:visited, .cloud9 a:active {
+	margin-right: 6px;
+	color: #202020;
+	font-size: 190%;
+	line-height: 170%;
+	font-weight: 900;
+}
+
+.cloud10 a:link, .cloud10 a:visited, .cloud10 a:active {
+	margin-right: 6px;
+	color: #000000;
+	font-size: 200%;
+	line-height: 190%;
+	font-weight: 900;
+}
+
+/* Tag Calendar */
+.calendarStyle
+{
+	background-color: #E5F1F8;
+	border: solid 1px #A7CAEE;
+}
+
+.calendarStyle a
+{
+	text-decoration: none;
+}
+
+.calendarTitle
+{
+	background-color: #E5F1F8;
+    color: #2a416f;
+    font-weight: bold;
+}
+
+.calendarHeader
+{
+	background-color: #FFFFFF;
+	border-top: solid 1px #A7CAEE;
+	color: #2a416f;
+}
+
+.calendarDay
+{
+	background-color: #FFFFFF;
+}
+
+/* Blogroll */
+div.blogrollitem
+{
+    text-decoration: none;
+    color: #2a416f;
+}
+
+div.blogrollitem a 
+{
+	padding: 2px;
+	display: block;
+    width: 50%;
+	text-decoration: none;
+    color: #2a416f;
+}
+
+div.blogrollitem a:hover
+{
+    background-color: #E5F1F8;
+}
+
+/*RSS Display*/
+table.RssDisplay h2 a
+{
+	text-decoration: none;
+	color: #2A416F;
+}

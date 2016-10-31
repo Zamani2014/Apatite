@@ -1,0 +1,13 @@
+<browsers>
+	<browser refID="Default">
+		<controlAdapters>
+
+			<adapter controlType="System.Web.UI.HtmlControls.HtmlForm"
+					 adapterType="MyWebPagesStarterKit.FormRewriterControlAdapter" />
+			
+			<adapter controlType="FreeTextBoxControls.ImageGallery"
+					 adapterType="MyWebPagesStarterKit.FtbImageGalleryAdapter" />
+			
+		</controlAdapters>
+	</browser>
+</browsers>

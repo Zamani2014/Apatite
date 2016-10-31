@@ -1,0 +1,120 @@
+﻿/* navigation */
+table.nav
+{
+    float: right;
+	background-image:url('../Images/Menu_Bg.jpg');
+	background-repeat:repeat-x;
+	width: 150px;
+	display: block;
+	text-align:right;
+	direction:rtl;
+	color:Black;
+}
+
+table.nav td
+{
+    display:block;
+	height: 25px;
+	padding-right: 2px;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	color: #000;
+	display: block;
+	text-decoration: none;
+}
+
+html > body table.nav td
+{
+	padding-top: 0px;
+}
+
+table.nav_selected
+{
+	background: url('../images/Btn_hover.jpg') no-repeat right;
+	color: #fff;
+	cursor: pointer;
+	text-decoration: none
+}
+
+a.nav, a.nav:link, a.nav:active, a.nav:visited
+{
+    color:#000;
+	display: block;
+	width: 100%;
+}
+
+a.nav:hover
+{
+}
+
+a.nav_selected, a.nav_selected:link, a.nav_selected:active, a.nav_selected:visited, a.nav_selected:hover
+{
+	color: #FFFFFF;
+}
+
+a.nav:hover
+{
+	color: #fff;
+	cursor: pointer;
+}
+
+.sublevel
+{
+	/* this is a bugfix for asp:Menu in IE8 */
+	z-index: 100;
+	position: relative;
+}
+
+table.sublevel
+{
+	font-size: 13px;
+	font-weight: bold;
+	background-image:url('../Images/Menu_Bg.jpg');
+}
+
+table.sublevel td
+{
+	height: 18px;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	padding-top: 0px;
+}
+html > body table.sublevel td
+{
+	padding: 0px;
+}
+
+a.sublevel, a.sublevel:link, a.sublevel:active, a.sublevel:visited, a.sublevel:hover
+{
+	display: block;
+	color: #000000;
+	vertical-align: middle;
+}
+
+a.sublevel:hover
+{
+	color: #fff;
+}
+
+table.sublevel_selected
+{
+	background: url('../images/Btn_hover.jpg') no-repeat right;
+	color: #fff;
+	cursor: pointer;
+	text-decoration: none
+}
+
+table.sublevel_selected td
+{
+	background: url('../images/Btn_hover.jpg') no-repeat right;
+	padding-left: 17px;
+	padding-right: 17px;
+	height: 18px;
+	padding-top: 3px;
+}
+
+a.sublevel_selected, a.sublevel_selected:link, a.sublevel_selected:active, a.sublevel_selected:visited, a.sublevel_selected:hover
+{
+	color: #FFFFFF;
+}
+/* end navigation */

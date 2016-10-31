@@ -1,0 +1,182 @@
+﻿/* form elements */
+input.button 
+{
+	background-color:#f1d183;
+	width: auto;
+	border:1px solid #dcb04e;
+	padding: 3px;
+	margin-right: 3px;
+	font: 12px B Traffic, Traffic, Arial, Helvetica, sans-serif;
+	margin: 0px 1 0 0;
+	padding: 3px;
+    -webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+
+}
+
+input.button:hover
+{
+    color:#fff;
+	background-color:#dcb04e;
+}
+
+input.fileupload
+{
+    width:600px;
+}
+
+input.fileupload
+{
+    width:600px;
+}
+
+input.textbox 
+{
+	background-color: #fff;
+	border:1px solid #dcb04e;
+	color: #000;
+	float: right;
+	font: 12px B Traffic, Traffic, Arial, Helvetica, sans-serif;
+	padding: 3px;
+    -webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+    width: 150px;
+    margin: 2px 0px 2px 0px;
+}
+
+input.textbox:hover
+{
+    -webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+    width: 150px;
+    border: solid 1px #000000;
+    margin: 2px 0px 2px 0px;
+}
+
+input.textboxAdmin 
+{
+    -webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+    width: 167px;
+    border: solid 1px #dcb04e;
+    margin: 2px 0px 2px 0px;
+}
+
+input.textboxAdmin:hover
+{
+    -webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+    width: 167px;
+    border: solid 1px #000000;
+    margin: 2px 0px 2px 0px;
+}
+
+textarea 
+{
+    -webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+    width: 367px;
+    height: 200px;
+    border: solid 1px #dcb04e;
+    margin: 2px 0px 2px 0px;
+}
+
+textarea:hover
+{
+    -webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+    width: 367px;
+    height: 200px;
+    border: solid 1px #000000;
+    margin: 2px 0px 2px 0px;
+}
+
+select.sel
+{
+    width: 367px;
+    border: solid 1px #dcb04e;
+} 
+
+select
+{
+    margin: 2px 0px 2px 0px;
+}
+
+.error
+{
+    color: #FF0000;
+}
+
+form#searchsite {
+	position: absolute;
+	right: 0;
+	top: 17px;
+	width: 300px;
+	text-align:right;
+	direction:rtl;
+}
+
+/*
+form input{
+	background-color: #fff;
+	border:1px solid #dcb04e;
+	color: #000;
+	float: right;
+	font: 12px B Traffic, Traffic, Arial, Helvetica, sans-serif;
+	margin: 0px 0 0 0;
+	padding: 3px;
+	width: 180px;
+    border-radius: 10px;
+}
+
+form input.btn {
+	background-color:#f1d183;
+	width: auto;
+	border:1px solid #dcb04e;
+	padding: 3px;
+	margin-right: 3px;
+	font: 12px B Traffic, Traffic, Arial, Helvetica, sans-serif;
+	margin: 0px 1 0 0;
+	padding: 3px;
+    border-radius: 10px;
+}
+
+form input.btn:hover {
+	color:#fff;
+	background-color:#dcb04e;
+}*/
+
+.aspcontrols 
+{
+	font: 12px B Traffic, Traffic, Arial, Helvetica, sans-serif;
+	direction:rtl;
+	width:150px;
+	height:25px;
+}
+
+fieldset
+{
+   border-color:#F2E9C4; border-style:solid; background-color:#FFFBD6;-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+
+legend
+{
+    padding-left:10px; padding-right:10px; padding-bottom:3px; padding-top:3px;
+    margin-right:15px; margin-bottom:10px; margin-top:10px;
+    background-image:url('../_images/legend-backgnd.jpg');
+    font-size:13.5px;
+    border-style:solid; border-color:#F2E9C4; background-color:#FFFBD6; border-width:1px;
+    -webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+/* end formelements */

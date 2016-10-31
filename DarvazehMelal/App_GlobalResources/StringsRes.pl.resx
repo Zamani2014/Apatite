@@ -1,0 +1,940 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="clt_RecoverPasswordWizard_KeepPassword" xml:space="preserve">
+    <value>Zachowaj hasło</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="clt_RecoverPasswordWizard_ResetPassword" xml:space="preserve">
+    <value>Utwórz nowe hasło</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="glb__EditMode" xml:space="preserve">
+    <value>Tryb edycji</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="glb__ViewMode" xml:space="preserve">
+    <value>Tryb podglądu</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_CreateUser" xml:space="preserve">
+    <value>Utwórz użytkownika</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_CreateUserSucessful" xml:space="preserve">
+    <value>Użytkownik został utworzony pawidłowo</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_DownloadList_RssTitle" xml:space="preserve">
+    <value>Pobierz</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_EventList_RssTitle" xml:space="preserve">
+    <value>Wydarzenia</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_Gallery_RssTitle" xml:space="preserve">
+    <value>Galeria</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_Guestbook_RssTitle" xml:space="preserve">
+    <value>Księga gości</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_HtmlContent_RssTitle" xml:space="preserve">
+    <value>Html</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_LinkList_RssTitle" xml:space="preserve">
+    <value>Łącza</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_NewsList_RssTitle" xml:space="preserve">
+    <value>Lista wiadomości</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_PasswordRecovery_MailSubject" xml:space="preserve">
+    <value>Informacja o użytkowniku</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_RecoverPasswordWizard_HeaderText" xml:space="preserve">
+    <value>Przywróć hasło dla użytkownika</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_RecoverPasswordWizard_PasswordMailBody" xml:space="preserve">
+    <value>Informacje o użytkowniku: {0}{2}{2}Hasło zostało przywrócone.{2} Twoje nowe hasło to: {1}{2}{2}Dziękuje</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_RecoverPasswordWizard_PasswordMailFailed" xml:space="preserve">
+    <value>Błąd wysyłania email!</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_RecoverPasswordWizard_PasswordMailSent" xml:space="preserve">
+    <value>Mail został wysłany prawidłowo</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_RecoverPasswordWizard_PasswordMailSubject" xml:space="preserve">
+    <value>Informacja o użytkowniku</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_RecoverPasswordWizard_ResultUserNotFound" xml:space="preserve">
+    <value>Użytkownik nie został znaleziony</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="glb__Cancel" xml:space="preserve">
+    <value>Porzuć</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="glb__Save" xml:space="preserve">
+    <value>Zapisz</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="glb_Search_NoSearchResults" xml:space="preserve">
+    <value>Nie znaleziono wyników odpowiadających kryteriom</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_Search_Rowtitle_Excerpt" xml:space="preserve">
+    <value>Excerpt</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_Search_Rowtitle_Title" xml:space="preserve">
+    <value>Tytuł</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_Search_SearchQuery" xml:space="preserve">
+    <value>Szukaj zwrotu</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_Search_StartSearch" xml:space="preserve">
+    <value>Szukaj</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_AdminUser_DeleteSection" xml:space="preserve">
+    <value>Usuń sekcje</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_Subpages_RssTitle" xml:space="preserve">
+    <value>Podstrony</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_CMS_Title" xml:space="preserve">
+    <value>Tytuł</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_CMS_Language" xml:space="preserve">
+    <value>Język</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_CMS_MailSenderAdress" xml:space="preserve">
+    <value>Adres nadawcy</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_CMS_SmtpServer" xml:space="preserve">
+    <value>Serwer Smpt</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_CMS_FooterLine" xml:space="preserve">
+    <value>Stopka</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_CMS_WebsiteDescription" xml:space="preserve">
+    <value>Opis witryny</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_CMS_WebsiteKeywords" xml:space="preserve">
+    <value>Słowa kluczowe dla witryny</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_CMS_EnableSectionRSS" xml:space="preserve">
+    <value>Włącz RSS</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_CMS_SelectTheme" xml:space="preserve">
+    <value>Wybierz temat</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_CMS_RESETWebsite" xml:space="preserve">
+    <value>Przywróć ustawienia strony</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_LoginAdmin_Login" xml:space="preserve">
+    <value>Logowanie</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_LoginAdmin_Login_UserName" xml:space="preserve">
+    <value>Nazwa użytkownika</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_LoginAdmin_Remember" xml:space="preserve">
+    <value>Zapamiętaj moje dane</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_LoginAdmin_ChangePassword" xml:space="preserve">
+    <value>Zmień hasło</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_LoginAdmin_LogIn" xml:space="preserve">
+    <value>Logowanie</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_LoginAdmin_LogOut" xml:space="preserve">
+    <value>Wyloguj</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_RecoverPassword_Legend" xml:space="preserve">
+    <value>Przywróc hasło użytkownika</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_CreateUserButtonDone" xml:space="preserve">
+    <value>Dalej</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Navigation_NewSite" xml:space="preserve">
+    <value>Nowa strona</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Navigation_AllowAnonymous" xml:space="preserve">
+    <value>Pozwól na dostęp anonimowy</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Users_ChangeUser" xml:space="preserve">
+    <value>Zmień użytkownika</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Users_Comment" xml:space="preserve">
+    <value>Komentarz</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Users_CreateUser" xml:space="preserve">
+    <value>Utwórz nowego użytkownika</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Users_Email" xml:space="preserve">
+    <value>Email</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Users_IsAdministrator" xml:space="preserve">
+    <value>Jest administratorem</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Users_LastLogin" xml:space="preserve">
+    <value>Ostatnie logowanie</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Navigation_Move" xml:space="preserve">
+    <value>Przenieś</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Sections_MoveSection" xml:space="preserve">
+    <value>Przenieś sekcje między stronami</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Navigation_Navigation" xml:space="preserve">
+    <value>Nawigacja</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Navigation_NewPageDefaultName" xml:space="preserve">
+    <value>Nowa strona</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Navigation_PageDeletionWarning" xml:space="preserve">
+    <value>Czy jesteś pewien skasowania tej strony?</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Navigation_PageTitle" xml:space="preserve">
+    <value>Tytuł strony</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Sections_Section" xml:space="preserve">
+    <value>Sekcja</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Sections_SourcePage" xml:space="preserve">
+    <value>Strona źródłowa</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Sections_TargetPage" xml:space="preserve">
+    <value>Strona docelowa</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Users_UserName" xml:space="preserve">
+    <value>Nazwa użytkownika</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Navigation_VirtualPath" xml:space="preserve">
+    <value>Ścieżka wirtualna</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Navigation_Visible" xml:space="preserve">
+    <value>Widoczny</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Navigation_Homepage" xml:space="preserve">
+    <value>Strona główna</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="glb__Delete" xml:space="preserve">
+    <value>Skasuj</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Website_EnableSectionRSS" xml:space="preserve">
+    <value>Włącz RSS</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Website_FooterLine" xml:space="preserve">
+    <value>Stopka</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Website_Language" xml:space="preserve">
+    <value>Język</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Website_MailSender" xml:space="preserve">
+    <value>Adres nadawcy</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Website_Reset" xml:space="preserve">
+    <value>Przywróć ustawienia strony</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_SelectTheme" xml:space="preserve">
+    <value>Wybierz temat</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Website_SmtpServer" xml:space="preserve">
+    <value>Serwer Smtp</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Website_Title" xml:space="preserve">
+    <value>Tytuł</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Website_WebsiteDescription" xml:space="preserve">
+    <value>Opis witryny</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Website_WebsiteKeywords" xml:space="preserve">
+    <value>Słowa kluczowe dla witryny</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Navigation_VirtualPathErrorMessage" xml:space="preserve">
+    <value>Strona o podanej ścieżce już istnieje.</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_ChangePassword_Button" xml:space="preserve">
+    <value>Zmień hasło</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_ChangePassword_ConfirmNewPassword" xml:space="preserve">
+    <value>Potwierdź nowe hasło</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_ChangePassword_ConfirmNewPasswordRequired" xml:space="preserve">
+    <value>Wymagane jest potwierdzenie nowego hasła</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_ChangePassword_NewPassword" xml:space="preserve">
+    <value>Nowe hasło</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_ChangePassword_NewPasswordRequired" xml:space="preserve">
+    <value>Wymagane jest nowe hasło.</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_ChangePassword_NotMatching" xml:space="preserve">
+    <value>The confirm New Password must match the New Password entry.</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_ChangePassword_Password" xml:space="preserve">
+    <value>Hasło</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_ChangePassword_PasswordRequired" xml:space="preserve">
+    <value>Wymagane jest hasło.</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_ChangePassword_Title" xml:space="preserve">
+    <value>Zmień hasło</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_ChangePassword_UserName" xml:space="preserve">
+    <value>Nazwa użytkownika</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_ChangePassword_UserNameRequired" xml:space="preserve">
+    <value>Nazwa użytkownika jest wymagana</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_Login_ChangePassword" xml:space="preserve">
+    <value>Zmień hasło</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_Login_LogIn" xml:space="preserve">
+    <value>Logowanie</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_Login_Password" xml:space="preserve">
+    <value>Hasło</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_Login_PasswordRequired" xml:space="preserve">
+    <value>Wymagane jest hasło.</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_Login_RememberMe" xml:space="preserve">
+    <value>Zapamiętaj moje dane.</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_Login_Title" xml:space="preserve">
+    <value>Logowanie</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_Login_UserName" xml:space="preserve">
+    <value>Nazwa użytkownika</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_Login_UserNameRequired" xml:space="preserve">
+    <value>Nazwa użytkownika jest wymagana</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Users_DeleteUser" xml:space="preserve">
+    <value>Skasuj aktualnego użytkownika</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Users_DeleteWarning" xml:space="preserve">
+    <value>Czy jesteś pewien skasowania aktualnego użytkownika?</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Users_Exception" xml:space="preserve">
+    <value>Wystąpił następujący błąd:</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Users_LastAdminRemains" xml:space="preserve">
+    <value>Nie można usunąć jedynego administratora!</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="cls_SitemapEditor_Administration" xml:space="preserve">
+    <value>Administracja</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="cls_SitemapEditor_CMSSetup" xml:space="preserve">
+    <value>Ustawienia CMS</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="cls_SitemapEditor_Management" xml:space="preserve">
+    <value>Zarządzanie użytkownikami</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="cls_SitemapEditor_Sections" xml:space="preserve">
+    <value>Sekcje/Przydział stron</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="cls_SitemapEditor_SectionsPages" xml:space="preserve">
+    <value>Strony i nawigacja</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_ComparePassword" xml:space="preserve">
+    <value>Hasło oraz potwierdzenia hasła muszą być takie same.</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_ConfirmPassword" xml:space="preserve">
+    <value>Potwierdź hasło:</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_ConfirmPasswordRequired" xml:space="preserve">
+    <value>Wymagane jest potwierdzenie hasła</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_DuplicateUserName" xml:space="preserve">
+    <value>Wprowadź inną nazwe użytkownika</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_Email" xml:space="preserve">
+    <value>E-mail:</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_EmailRequired" xml:space="preserve">
+    <value>Wymagany E-mail.</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_Password" xml:space="preserve">
+    <value>Hasło:</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_PasswordRequired" xml:space="preserve">
+    <value>Wymagane jest hasło.</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_UserName" xml:space="preserve">
+    <value>Nazwa użytkownika:</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_UserNameRequired" xml:space="preserve">
+    <value>Nazwa użytkownika jest wymagana</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_RecoverPassword_FinishButton" xml:space="preserve">
+    <value>Przywróć</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="glb__Search" xml:space="preserve">
+    <value>Szukaj</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="glb__DeleteSection" xml:space="preserve">
+    <value>Usuń sekcje</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="glb__RemoveFromSidebar" xml:space="preserve">
+    <value>Usuń z paska bocznego</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="glb__SendToSidebar" xml:space="preserve">
+    <value>Umieść na pasku bocznym</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="glb__Submit" xml:space="preserve">
+    <value>Prześlij</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_Guestbook_AntiBotImage" xml:space="preserve">
+    <value>Anti Bot Image</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_Guestbook_Input" xml:space="preserve">
+    <value>Komentarz</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_Guestbook_Name" xml:space="preserve">
+    <value>Nazwa</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_ContactForm_Name" xml:space="preserve">
+    <value>Nazwa</value>
+    <comment>added 1.1.2 Beta</comment>
+  </data>
+  <data name="ctl_ContactForm_RssTitle" xml:space="preserve">
+    <value>Formularz kontaktowy</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_EasyControl_RssTitle" xml:space="preserve">
+    <value>Easy Control</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Sections_Move" xml:space="preserve">
+    <value>Przenieś</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Users_Admin" xml:space="preserve">
+    <value>Administrator</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_ContactForm_CopyTo" xml:space="preserve">
+    <value>Kopiuj do</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_ContactForm_EMailAddress" xml:space="preserve">
+    <value>Adres E-Mail</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_ContactForm_ErrorMessageEmail" xml:space="preserve">
+    <value>Wprowadź adres email</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_ContactForm_ErrorMessageMessage" xml:space="preserve">
+    <value>Wprowadź wiadomość</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_ContactForm_ErrorMessageSubject" xml:space="preserve">
+    <value>Wprowadź temat</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_ContactForm_ErrorMessageValidEmail" xml:space="preserve">
+    <value>Wprowadź prawidłowy adres email</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_ContactForm_IntroPart1" xml:space="preserve">
+    <value>Aby uzywać sekcje Formularz kontaktowy należy skonfigurować prawidłowo serwer SMTP</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_ContactForm_IntroPart2" xml:space="preserve">
+    <value>Strona administracyjna</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_ContactForm_Introtext" xml:space="preserve">
+    <value>Tekst powitania</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_ContactForm_Message" xml:space="preserve">
+    <value>Wiadomość</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_ContactForm_RecipientEMail" xml:space="preserve">
+    <value>Adres email odbiorcy</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_ContactForm_Subject" xml:space="preserve">
+    <value>Temat</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_ContactForm_ThankYouMessage" xml:space="preserve">
+    <value>Tekst pożegnania</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_Downloadlist_Comment" xml:space="preserve">
+    <value>Komentarz</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_Downloadlist_File" xml:space="preserve">
+    <value>Plik</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_Downloadlist_Title" xml:space="preserve">
+    <value>Tytuł</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_EasyControl_Choose" xml:space="preserve">
+    <value>Wybierz kontrolkę</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_EasyControl_SelectControl" xml:space="preserve">
+    <value>Wybierz kontrolkę</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_ErrorMessageMissingFile" xml:space="preserve">
+    <value>Wybierz plik do załadowania</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_EventList_Date" xml:space="preserve">
+    <value>Data</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_EventList_Description" xml:space="preserve">
+    <value>Opis</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_EventList_ErrorMessageEventDate" xml:space="preserve">
+    <value>Podaj date wydarzenia</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_EventList_ErrorMessageEventLocation" xml:space="preserve">
+    <value>Podaj miejsce wydarzenia</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_EventList_ErrorMessageEventName" xml:space="preserve">
+    <value>Podaj nazwę dla wydarzenia</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_EventList_Event" xml:space="preserve">
+    <value>Wydarzenie</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_EventList_EventDate" xml:space="preserve">
+    <value>Data wydarzenia</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_EventList_EventName" xml:space="preserve">
+    <value>Nazwa wydarzenia</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_EventList_EventTime" xml:space="preserve">
+    <value>Godzina wydarzenia</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_EventList_Location" xml:space="preserve">
+    <value>Miejsce</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_EventList_ShowFrom" xml:space="preserve">
+    <value>Pokazuj od</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_Gallery_Comment" xml:space="preserve">
+    <value>Komentarz</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_Gallery_ErrorMessageImage" xml:space="preserve">
+    <value>Wybierz obrazek do załadowania</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_Gallery_File" xml:space="preserve">
+    <value>Plik</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_Gallery_Title" xml:space="preserve">
+    <value>Tytuł</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_Guestbook_Author" xml:space="preserve">
+    <value>Autor</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_Guestbook_Date" xml:space="preserve">
+    <value>Data</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_Guestbook_ErrorMessageAntibot" xml:space="preserve">
+    <value>Wpisz znaki znajdujące się na obrazku</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_Guestbook_ErrorMessageAntibotInvalid" xml:space="preserve">
+    <value>Źle podany kod</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_Guestbook_ErrorMessageAuthorName" xml:space="preserve">
+    <value>Musisz podać autora</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_Guestbook_ErrorMessageText" xml:space="preserve">
+    <value>Musisz wprowadzić tekst</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_LinkList_Comment" xml:space="preserve">
+    <value>Komentarz</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_LinkList_ErrorMessageUrl" xml:space="preserve">
+    <value>Wprowadź adres url</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_LinkList_ErrorMessageValidUrl" xml:space="preserve">
+    <value>Wprowadź prarwidłowy url</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_LinkList_Target" xml:space="preserve">
+    <value>Cel</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_LinkList_Title" xml:space="preserve">
+    <value>Tytuł</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_LinkList_Url" xml:space="preserve">
+    <value>Url</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_NewsList_Content" xml:space="preserve">
+    <value>Zawartość</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_NewsList_Date" xml:space="preserve">
+    <value>Data</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_NewsList_ErrorMessageHeadline" xml:space="preserve">
+    <value>Wprowadź nagłówek</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_NewsList_Headline" xml:space="preserve">
+    <value>Nagłówek</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_NewsList_News" xml:space="preserve">
+    <value>Wiadomości</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_NewsList_ShowFrom" xml:space="preserve">
+    <value>Pokazuj od</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_NewsList_ShowUntil" xml:space="preserve">
+    <value>Pokazuj do</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_SectionAdmin_Info" xml:space="preserve">
+    <value>Informacja</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="glb__Add" xml:space="preserve">
+    <value>dodaj</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_Default_AddSection" xml:space="preserve">
+    <value>Dodaj sekcje</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_Search_ErrorMessageKeyword" xml:space="preserve">
+    <value>Podaj słowa kluczowe do wyszukiwania</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="pge_Search_View" xml:space="preserve">
+    <value>Podgląd</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Website_SelectTheme" xml:space="preserve">
+    <value>Wybierz temat</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_DuplicateEmail" xml:space="preserve">
+    <value>Wprowadzony adres e-mail jest już używany. Proszę wprowadzić inny adres e-mail</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_EventList_ShowPastEvents" xml:space="preserve">
+    <value>Pokaż listę ostatnich wydarzeń:</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_SectionAdmin_DeleteWarning" xml:space="preserve">
+    <value>Czy jesteś naprawdę pewny, że chcesz usunąć  sekcję "{0}"?</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Website_SmtpDomain" xml:space="preserve">
+    <value>Dziedzina Smtp</value>
+    <comment>added 1.1.1</comment>
+  </data>
+  <data name="adm_Website_SmtpPassword" xml:space="preserve">
+    <value>Hasło Smtp</value>
+    <comment>added 1.1.1</comment>
+  </data>
+  <data name="adm_Website_SmtpUser" xml:space="preserve">
+    <value>Użytkownik Smtp</value>
+    <comment>added 1.1.1</comment>
+  </data>
+  <data name="pge_Login_Failure" xml:space="preserve">
+    <value>Logowanie nie powiodło się. Spróbuj ponownie.</value>
+    <comment>updated 1.1.2 Final</comment>
+  </data>
+  <data name="ctl_Gallery_HTMLVersion" xml:space="preserve">
+    <value>Wersja HTML</value>
+    <comment>added 1.1.2 Beta</comment>
+  </data>
+  <data name="ctl_Gallery_SilverlightVersion" xml:space="preserve">
+    <value>Wersja Silverlight</value>
+    <comment>added 1.1.2 Beta</comment>
+  </data>
+  <data name="pge_ChangePassword_PasswordFailureText" xml:space="preserve">
+    <value>Hasło niepoprawne lub nowe hasło niepoprawne.</value>
+    <comment>updated 1.1.2 Final</comment>
+  </data>
+  <data name="adm_Navigation_EditPowerUser" xml:space="preserve">
+    <value>Editable by Power User</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="adm_Users_IsPowerUser" xml:space="preserve">
+    <value>Is Power User</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="adm_Users_PowerUser" xml:space="preserve">
+    <value>Power User</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="adm_Website_Reset_Confirmation" xml:space="preserve">
+    <value>Czy na pewno chcesz usunąć ustawienia witryny? Wszystkie dane zostaną skasowane.</value>
+    <comment>added 1.2.0</comment>
+  </data>
+</root>

@@ -1,0 +1,174 @@
+//===============================================================================================
+//
+// (c) Copyright Microsoft Corporation.
+// This source is subject to the Microsoft Permissive License.
+// See http://www.microsoft.com/resources/sharedsource/licensingbasics/sharedsourcelicenses.mspx.
+// All other rights reserved.
+//
+//===============================================================================================
+
+using System;
+using System.Data;
+using System.Web.UI.WebControls;
+using System.Web.UI.HtmlControls;
+using MyWebPagesStarterKit.Controls;
+using MyWebPagesStarterKit;
+using System.IO;
+using System.Web;
+
+public partial class SectionControls_NewsList : SectionControlBaseClass
+{
+    private RSSFeed _section;
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (!IsPostBack)
+        {
+            EnsureID();
+            btnSaveDetails.ValidationGroup = ID;
+        }
+    }
+
+    protected void Page_PreRender(object sender, EventArgs e)
+    {
+        updateViews();
+        if (RssCapable(this._section.GetType()) && _section.RSSItems.Rows.Count > 0)
+        {
+            WebPage page = new WebPage(Request.QueryString["pg"]);
+        }
+    }
+
+
+    /// <summary>
+    /// The user has clicked on the link of an individual item
+    /// </summary>
+    protected void gvNewsList_RowCommand(object source, GridViewCommandEventArgs e)
+    {
+        if (e.CommandName == "show_details")
+        {
+            ViewState["detail"] = gvRSSItemList.DataKeys[int.Parse(e.CommandArgument.ToString())].Value;
+        }
+    }
+
+ 
+
+    protected void btnSaveDetails_Click(object sender, EventArgs e)
+    {
+        _section.URL = txtURL.Text;
+        _section.MaxNumberOfItems = Convert.ToInt32(txtNumOfItems.Text);
+        _section.RefreshIntervalMin = Convert.ToInt32(txtRefreshInterval.Text);
+
+        _section.SaveData();
+
+    }
+
+
+
+    public override ISection Section
+    {
+        set
+        {
+            if (value is RSSFeed)
+                _section = (RSSFeed)value;
+            else
+                throw new ArgumentException("Section must be of type RSSFeed");
+        }
+        get { return _section; }
+    }
+
+
+    public override bool HasAdminView
+    {
+        get { return true; }
+    }
+
+    public override string InfoUrl
+    {
+        get
+        {
+            string lang = System.Threading.Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName;
+            if (File.Exists(HttpContext.Current.Server.MapPath(string.Format("Documentation/" + lang + "/quick_guide.html"))))
+            {
+                return "Documentation/" + lang + "/quick_guide.html#RSSFeed";
+            }
+            else
+            { return "Documentation/en/quick_guide.html#RSSFeed"; }
+        }
+    }
+
+    private void updateViews()
+    {
+        if (ViewMode == ViewMode.Edit)
+        {
+            if (ViewState["Edit"] == null)
+            {
+                // Preload the textboxes with the values from the 'database'
+                txtURL.Text = _section.URL;
+                txtRefreshInterval.Text = _section.RefreshIntervalMin.ToString();
+                txtNumOfItems.Text = _section.MaxNumberOfItems.ToString();
+                multiview.SetActiveView(editView);
+            }
+        }
+        else
+        {
+            multiview.SetActiveView(readonlyView);
+
+            // Render the content of the dataset using a grid view control (databinding)
+            gvRSSItemList.DataSource = _section.GetRSSItems();
+            gvRSSItemList.DataBind();
+
+            int nextUpdateInNMinutes = _section.RefreshIntervalMin - ((TimeSpan)(DateTime.Now - _section.LastUpdate)).Minutes;
+            int nextUpdateMinuntes = nextUpdateInNMinutes >= 0 ? nextUpdateInNMinutes : 0;
+
+            // Show other information about the channel
+            lblChannelTitle.Text = _section.ChannelTitle;
+            lblChannelTitle.NavigateUrl = _section.ChannelLink;
+            lblChannelDescription.Text = _section.ChannelDescription;
+            lblUpdateInfo.Text = string.Format("Last update {0} - next update in {1} minutes", _section.LastUpdate.ToShortTimeString(), nextUpdateMinuntes);
+            lblMessage.Text = "Last update has failed: " + _section.ChannelMessage;
+            lblMessage.Visible = (_section.ChannelMessage != null && _section.ChannelMessage != "");
+
+
+
+            // Show the details of one item if required
+            DataRow entry = null;
+
+            if ((!IsPostBack) && (Request.QueryString["detail"] != null))
+            {
+                entry = _section.GetRSSItem(Request.QueryString["detail"]);
+                if (entry != null)
+                {
+                    ViewState["detail"] = Request.QueryString["detail"];
+                }
+            }
+
+            if ((entry == null) && (ViewState["detail"] != null))
+            {
+                entry = _section.GetRSSItem(ViewState["detail"].ToString());
+            }
+
+            if (entry != null)
+            {
+                litRSSItemDate.Text = ((DateTime)entry["Date"]).ToShortDateString();
+                lnkRSSItemTitle.Text = (string)entry["Title"];
+                lnkRSSItemTitle.NavigateUrl = (string)entry["link"];
+                litRSSItemContent.Text = entry["Description"] != DBNull.Value ? (string)entry["Description"] : "";
+                divRSSItemDetails.Visible = true;
+            }
+            else
+            {
+                divRSSItemDetails.Visible = false;
+                litRSSItemDate.Text = string.Empty;
+                lnkRSSItemTitle.Text = string.Empty;
+                litRSSItemContent.Text = string.Empty;
+            }
+        }
+    }
+
+
+
+    protected void ibtnRSS_Click(object sender, System.Web.UI.ImageClickEventArgs e)
+    {
+        Response.Redirect(_section.URL);
+    }
+}

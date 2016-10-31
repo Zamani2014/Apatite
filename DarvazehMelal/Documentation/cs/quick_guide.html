@@ -1,0 +1,1256 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="cs">
+<head>
+    <title>Microsoft - My Web Pages Starter Kit - Quick Guide</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <style type="text/css">
+	
+	BODY {background-color: #E7F1FA; margin:0; }
+	
+	A, A:visited, A:active, A:hover, A:link {
+		color: #000000;
+		text-decoration: underline;
+	}
+	
+	TD {
+		vertical-align: top;
+	}
+	
+	.tit {
+		font-family: Verdana,Arial,sans-serif;
+		font-size: 20px;
+		color: #003399;
+	}
+	
+	.titsub {
+		font-family: Verdana,Arial,sans-serif;
+		font-size: 11px;
+		font-weight: bold;
+		color: #003399;
+		
+		line-height: 17px;
+	}
+	
+	.txt {
+		font-family: Verdana,Arial,sans-serif;
+		font-size: 11px;
+		color: #000000;
+		
+		line-height: 17px;
+	}
+	
+	.desctit {
+		font-family: Verdana,Arial,sans-serif;
+		font-size: 14px;
+		font-weight: bold;
+		color: #003399;
+	}
+	
+	.desctitsub {
+		font-family: Verdana,Arial,sans-serif;
+		font-size: 11px;
+		font-weight: bold;
+		color: #003399;
+		line-height: 17px;
+	}
+	
+	.desctxt {
+		font-family: Verdana,Arial,sans-serif;
+		font-size: 11px;
+		color: #003399;
+		line-height: 17px;
+	}
+	
+	</style>
+</head>
+<body>
+    <table width="795" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td colspan="3">
+                <img src="../_img/header_starterkit.jpg" width="795" height="184" alt="" /></td>
+        </tr>
+        <tr>
+            <td width="20">
+                <img src="../_img/spacer.gif" width="20" height="1" alt="" /></td>
+            <td width="755">
+                <table width="755" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td height="1" style="width: 465px">
+                            <img src="../_img/spacer.gif" width="528" height="1" alt="" /></td>
+                        <td width="20">
+                            <img src="../_img/spacer.gif" width="20" height="1" alt="" /></td>
+                        <td style="width: 212px">
+                            <img src="../_img/spacer.gif" width="207" height="1" alt="" /></td>
+                    </tr>
+                    <tr>
+                        <td class="tit" style="width: 465px">
+                            Stručný průvodce (verze 1.0)</td>
+                        <td>
+                        </td>
+                        <td style="width: 212px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt" style="width: 465px">
+                            Vítejte v aplikaci My Web Pages Starter Kit. MWSK je jednoduchý a snadno použitelný
+                            content management system (CMS) založený na ASP.NET 2.0, který vám umožní snadno
+                            vytvářet dynamické webové stránky. Tento dokument vás stručně provede rozhraním
+                            pro správu a popíše funkce jednotlivých modulů.<br />
+                            <br />
+                            Pokud hledáte něco konkrétního, použijte funkci "vyhledávání" ve vaše<span lang="en-us">m</span>
+                            prohlížeči. Tento CMS má spoustu vlastností, které můžete využít.<br />
+                            <br />
+                            Pro podrobnější informace, zprávy, novější verze a podobně se podívejte na projekt
+                            <a href="http://www.codeplex.com/MyWebPagesStarterKit">My Web Pages Starter Kit na serveru
+                                Codeplex.com</a>.</td>
+                        <td>
+                        </td>
+                        <td style="width: 212px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="40" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tit" style="width: 465px">
+                            Obsah</td>
+                        <td>
+                        </td>
+                        <td style="width: 212px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 465px">
+                            <table border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td colspan="3" class="titsub">
+                                        Administrace</td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        1.</td>
+                                    <td class="txt">
+                                        &nbsp;&nbsp;&nbsp;</td>
+                                    <td class="txt">
+                                        <a href="#set-up">Vytvoření nové web site</td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        2.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#manage-pages">Správa stránek a navigace</td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        3.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#user-management">Správa uživatelů</td>
+                                </tr>
+                                <tr>
+                                    <td height="10" colspan="3">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3" class="titsub">
+                                        Moduly</td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        1.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#contact-form">Kontantní formulář</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        2.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#download-list">Soubory ke stažení</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        3.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#easy-control">Easy Control</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        4.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#event-list">Akce</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        5.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#gallery">Galerie</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        6.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#guestbook">Návštěvní kniha</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        7.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#html-content">HTML</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        8.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#link-list">Odkazy</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        9.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#news-list">Novinky</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        10.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#subpages">Podstránky</a></td>
+                                </tr>
+                                  <tr>
+                                    <td class="txt">
+                                        11.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#blog">Blog</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        12.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#blogroll">Blogroll</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        13.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#tagcloud">TagCloud</a></td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>
+                        </td>
+                        <td style="width: 212px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 465px">
+                            <hr align="left" width="100%" size="1" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tit" style="height: 25px; width: 465px;">
+                            Administrace</td>
+                        <td style="height: 25px">
+                        </td>
+                        <td style="height: 25px; width: 212px;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                            <a name="set-up"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt" style="width: 465px">
+                            <span class="titsub">1. Vytvoření nové web site</span><br />
+                            <br />
+                            Předtím, než začnete vytvářet obsah, musíte nastavit některé globální informace
+                            a parametry vašeho nového webu. Jako první věc po přihlášení proto jděte do menu
+                            <strong>Administrace</strong> a zvolte <strong>Nastavení CMS</strong>:</td>
+                        <td>
+                        </td>
+                        <td style="width: 212px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 465px">
+                            <img src="_img/setup_01.jpg" id="IMG2"></td>
+                        <td>
+                        </td>
+                        <td style="width: 212px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt" style="width: 465px">
+                            Následující stránka umožňuje změnit globální parametry a dokonce úplně změnit layout
+                            webu, a to i poté co byl přidán veškerý obsah.</td>
+                        <td>
+                        </td>
+                        <td style="width: 212px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 465px">
+                            <img src="_img/setup_02.jpg"></td>
+                        <td>
+                        </td>
+                        <td class="desctxt" style="width: 212px">
+                            <span class="desctit">Popis položek:</span><br />
+                            <br />
+                            <span class="desctitsub"></span><strong>Název webu</strong><br />
+                            Název vašeho webu se zobrazí přes obrázek v hlavičce stránky.<br />
+                            <br />
+                            <span class="desctitsub"></span><strong>Jazyk</strong><br />
+                            Jazyková verze vašich stránek.
+                            <br />
+                            <br />
+                            <span class="desctitsub"></span><strong>Odesílatel e-mailů</strong><br />
+                            E-mailová adresa, ze které budou odesílány všechny zprávy, které váš web server
+                            generuje.<br />
+                            <br />
+                            <strong>SMTP server</strong><br />
+                            Název nebo IP adresa serveru, přes který se mají posílat e-mailové zprávy.<br />
+                            <br />
+                            <span class="desctitsub"></span><strong>Text zápatí</strong><br />
+                            Kontaktní údaje, oznámení o autorských právech a další - zobrazí se v zápatí webových
+                            stránek.<br />
+                            <br />
+                            <span class="desctitsub"></span><strong>Popis webu a klíčová slova</strong><br />
+                            Zde můžete zadat metainformace, které budou zapsány do hlaviček webu.<br />
+                            <br />
+                            <strong>Povolit RSS v sekcích</strong><br />
+                            řada modulů podporuje generování RSS feedů. Pokud zaškrtnete tento box, zobrazí
+                            se pod těmito sekcemi RSS ikonky a uživatelé se mohou přihlásit k odběru zpráv z
+                            nich.<br />
+                            <br />
+                            <strong>Uložit</strong><br />
+                            Uložení provedených změn.<br />
+                            <br />
+                            <span class="desctitsub"></span><strong>Vyresetovat website</strong><br />
+                            Vymaže všechna pole.<br />
+                            <br />
+                            <span class="desctitsub"></span><strong>Vyberte skin</strong><br />
+                            Skvělou vlastností tohoto CMS je, že můžete kdykoliv jediným kliknutím přepnout
+                            jeho vzhled. Veškerý obsah bude automaticky přeskupen a budou aplikovány nové styly.<br />
+                            <br />
+                            Jednoduše vyberte nový skin a klepněte na něj - a hotovo!<br />
+                            <br />
+                            Pokud se vyznáte v .NETu a Visual Studiu, můžete dokonce vytvářet své vlastní skiny.</td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 465px">
+                            <hr align="left" width="100%" size="1" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                            <a name="manage-pages"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt" style="width: 465px">
+                            <span class="titsub">2. Správa stránek a navigace</span><br />
+                            <br />
+                            Ve formuláři <strong>Stránky a navigace</strong> můžete editovat strukturu vašeho
+                            webu, navigaci a vytvářet nové stránky.&nbsp;<br />
+                            <br />
+                            Stránky jsou vypsány v tom pořadí, v jakém se pak zobrazují v navigaci. Odsazené
+                            položky(jako např. "...Galerie") jsou podstránky a budou zobrazeny v sekundární
+                            navigaci.<br />
+                            <br />
+                            Pokud chcete přidat novou stránku, klepněte na tlačítko "Nová stránka" a na konec
+                            seznamu bude přidána nová prázdná stránka.<br />
+                            <br />
+                            Stránky můžete přesouvat v rámci hierarchie tak, že stránku vyberete a pak změníte
+                            její polohu pomocí modrých šipek v pravé části. Šipky nahoru a dolů přesouvají stránky
+                            v menu, šipky doleva a doprava mění zanoření v rámci hierarchie.</td>
+                        <td>
+                        </td>
+                        <td style="width: 212px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 465px">
+                            <img src="_img/setup_03.jpg" id="IMG3"></td>
+                        <td>
+                        </td>
+                        <td class="desctxt" style="width: 212px">
+                            <span class="desctit"></span><strong><span style="font-size: 14px">Popis položek</span></strong><br />
+                            <br />
+                            <span class="desctitsub"></span><strong>Titulek stránky</strong><br />
+                            Název stránky, bude zobrazen v okně prohlížeče.<br />
+                            <br />
+                            <span class="desctitsub"></span><strong>Navigace</strong><br />
+                            Název stránky, bude zobrazen v odkazech v menu.<br />
+                            <br />
+                            <strong>Virtuální cesta</strong><br />
+                            Viz níže.&nbsp;<br />
+                            <br />
+                            <span class="desctitsub"></span><strong>Anonymní přístup</strong><br />
+                            Neřeknete-li jinak, může si vaše stránky prohlížet kdokoliv. Pokud chcete mít například
+                            omezenou sekci pouze pro členy, můžete zrušit zaškrtnutí tohoto boxu. Pak danou
+                            stránku uvidí pouze přihlášení uživatelé. (-&gt; Viz sekce <a href="#user-management">
+                                <nobr> 3 - Správa uživatelů</nobr>
+                            </a>)<br />
+                            <br />
+                             <span class="desctitsub">Editing by power users</span><br />
+                            If you activate this button, power users can edit this page. This enables the delegation
+                            of administrative areas (-&gt; Viz sekce <a href="#user-management">
+                                <nobr> 3 - Správa uživatelů</nobr>
+                            </a>)<br />
+                            <br />
+                            <span class="desctitsub"></span><strong>Viditelná</strong><br />
+                            Zrušte zaškrtnutí tohoto pole, pokud chcete stránku skrýt, např. protože ještě pracujete
+                            na jejím obsahu.</td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt" style="width: 465px">
+                            <strong>Virtuální cesta:</strong><br />
+                            Při použití dynamického CMS budou mít nové strány generická ID. Je dobrý nápad,
+                            aby tyto odkazy byly pro uživatele čitelnější, k čemuž můžete použít právě virtuální
+                            cesty.<br />
+                            <br />
+                            Napište zde název stránky, např. <em>contact</em>. Místo generického URL, jako např.
+                            www.server.cz/<span style="color: crimson">default.aspx?pg=3cb13823-a424-4761-81c1-5fa9da24db43</span>
+                            můžete pak použít jednodušší verzi www.server.cz/<span style="color: crimson">contact.aspx
+                            </span>
+                        </td>
+                        <td>
+                        </td>
+                        <td style="width: 212px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 465px">
+                            <hr align="left" width="100%" size="1" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                            <a name="user-management"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt" style="width: 465px">
+                            <span class="titsub">3. Správa uživatelů</span><br />
+                            <br />
+                            Tento CMS podporuje jednoduchý ale schopný systém správy uživatelů, který můžete
+                            využít pro vytváření zón s omezeným přístupem. Pamatujte si, že máte k dispozici
+                            dvě úrovně oprávnění:<br />
+                            <br />
+                            <strong>1. Registrovaní uživatelé:</strong> Pokud tak v nastavení vlastností stránky
+                            určíte, mohou být některé stránky zobrazeny pouze registrovaným uživatelům. Viz
+                            sekce 2 - Správa stránek a navigace.<br /><br />
+                            <strong>2. Administrátoři:</strong> Mezi registrovanými uživateli může být jeden
+                            nebo více administátorů. Administrátoři mají plný přístup k backendu a mohou vytvářet
+                            a mazat stránky, editovat jejich obsah a spravovat uživatelské profily.
+                             <br /><br />
+                            <strong>3. Power-User:</strong> Registered Users can be defined as Power Users.
+                            Power Users have unrestricted access to pages, for which have been given access
+                            set by Administrator. The Backend is only accessible for Administrators.</td>
+                        <td>
+                        </td>
+                        <td style="width: 212px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 465px">
+                            <img src="_img/setup_04.jpg" id="IMG4"></td>
+                        <td>
+                        </td>
+                        <td style="width: 212px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt" style="width: 465px">
+                            Pro vytvoření nového uživatele zadejte jeho uživatelské jméno, heslo, e-mailovou
+                            adresu a klepněte na tlačítko "Vytvořit uživatele".<br />
+                            <br />
+                            Klepnutím na editační tlačítko můžete změnit jméno, e-mail a přiřazení administrátorských
+                            práv.<br />
+                            <br />
+                            V seznamu uživatelů také vidíte, kdy se uživatel naposledy přihlásil.&nbsp;</td>
+                        <td>
+                        </td>
+                        <td style="width: 212px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 465px">
+                            <hr align="left" width="100%" size="1" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tit" style="width: 465px">
+                            Moduly:</td>
+                        <td>
+                        </td>
+                        <td style="width: 212px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt" style="width: 465px">
+                            Každá nová stránka je prázdná a zobrazí v administraci rozbalovací seznam sekcí,
+                            které do ní můžete přidat:</td>
+                        <td>
+                        </td>
+                        <td style="width: 212px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 465px">
+                            <img src="_img/modules_start.jpg" id="IMG6"></td>
+                        <td>
+                        </td>
+                        <td style="width: 212px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt" style="width: 465px">
+                            K dispozici je deset různých typů sekcí, které můžete na stránky přidat. Na stránce
+                            jich můžete mít libovolný počet a můžete je zobrazit v libovolném pořadí. Na konci
+                            stránky vždy uvidíte tento seznam modulů, pomocí kterého můžete přidávat nové.<br />
+                            <br />
+                            Pokud chcete změnit pořadí sekcí na stránce, klepněte na šipky nahoru a dolů, které
+                            najdete v záhlaví každé sekce.</td>
+                        <td>
+                        </td>
+                        <td style="width: 212px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 465px">
+                            <img src="_img/modules_start_arrows.jpg" id="IMG7"></td>
+                        <td>
+                        </td>
+                        <td style="width: 212px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt" style="width: 465px">
+                            Klepnutím na tlačítko <strong>Smazat sekci </strong>celou sekci odstraníte.<br />
+                            <br />
+                            řada modulů má WYSIWYG editor, pomocí kterého můžete vytvořet a editovat obsah.
+                            Umožňuje základní formátování textu a dokonce i vytváření tabulek. Prozkoumejte
+                            jeho možnosti...</td>
+                        <td>
+                        </td>
+                        <td style="width: 212px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 465px">
+                            <img src="_img/modules_start_editor.jpg" id="IMG8"></td>
+                        <td>
+                        </td>
+                        <td style="width: 212px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt" style="width: 465px">
+                            Pro přidání obrázku klepněte na ikonu obrázku a vyberte obrázek ze serveru a nebo
+                            nahrajte obrázek na server. Pokud znáte jazyk HTML, můžete se přepnout mezi návrhovým
+                            režimem a zobrazením kódu.<br />
+                            <br />
+                            <strong>Režim zobrazení a editace</strong><br />
+                            <br />
+                            Aby se administrátoři mohli podívat na to, co vytvořilo, aniž by se museli odhlašovat,
+                            sekce mají režim zobrazení a režim editace. Můžete se mezi nimi přepínat klepnutím
+                            na příslušné tlačítko.
+                        </td>
+                        <td>
+                        </td>
+                        <td style="width: 212px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 465px">
+                            <img src="_img/modules_start_modes.jpg" id="IMG88"></td>
+                        <td>
+                        </td>
+                        <td style="width: 212px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt" style="width: 465px">
+                            <strong>Zobrazit v menu</strong><br />
+                            Některé moduly mají speciální vlastnost <strong>Zobrazit v menu</strong>. Pokud
+                            aktivujete tuto možnost, obsah modulu se zobrazí v menu a můžete ho použít jako
+                            sadu rychlých odkazů nebo sekci pro zobrazení novinek.</td>
+                        <td>
+                        </td>
+                        <td style="width: 212px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 465px">
+                            <hr align="left" width="100%" size="1" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                            <a name="contact-form"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt" style="width: 465px">
+                            <span class="titsub">1. Kontaktní formulář</span><br />
+                            <br />
+                            Zůstaňte v kontaktu se svými přáteli, kolegy a zákazníky tím, že jim poskytnete
+                            jednoduchou možnost, jak vám poslat zprávu: modul kontaktního formuláře. Uvědomte
+                            si prosím, že v nastavení musíte určit SMTP server, abyste mohli tento modul využívat.</td>
+                        <td>
+                        </td>
+                        <td style="width: 212px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 465px">
+                            <img src="_img/contact_form.jpg" id="IMG9"></td>
+                        <td>
+                        </td>
+                        <td class="desctxt" style="width: 212px">
+                            Backend kontaktního formuláře slouží ke třem účelům: Vytvořit kontaktní formulář,
+                            definovat kam se zpráva má odeslat a určit zprávu, která se uživateli zobrazí jako
+                            potvrzení odeslání.<br />
+                            <br />
+                            Pole <strong>Příjemce</strong>, <strong>Kopie</strong> a <strong>Předmět</strong>
+                            jsou parametry odesílané zprávy.
+                            <br />
+                            <br />
+                            <strong>Úvodní text</strong> bude zobrazen před formulářem a popisuje jeho určení.<br />
+                            <br />
+                            <strong>Potvrzovací zpráva</strong> je text, který se ukáže uživateli po odeslání
+                            formuláře.</td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 465px">
+                            <hr align="left" width="100%" size="1" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                            <a name="download-list"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt" style="width: 465px">
+                            <span class="titsub">2. Soubory ke stažení</span><br />
+                            <br />
+                            Použijte tento modul, pokud chcete na svém souboru sdílet různé dokumenty. Můžete
+                            pomocí něj nahrávat na server různé typy souborů. Mnoho z nich bude automaticky
+                            detekováno a bude jim při zobrazení přiřazena odpovídající ikona.</td>
+                        <td>
+                        </td>
+                        <td style="width: 212px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 465px">
+                            <hr align="left" width="100%" size="1" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                            <a name="easy-control"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt" style="width: 465px">
+                            <span class="titsub">3. Easy Control</span><br />
+                            <br />
+                            Chcete do tohoto CMS integrovat svůj vlastní usel control? Není nic jednoduššího,
+                            stačí použít modul Easy Control. Vytvořte svůj vlastní user control jako obvykle
+                            a umístěte jej do adresáře EasyControls v rootu webu. Kdykoliv přidáte novou sekci
+                            typu Easy Control, zobrazí se vám seznam všech prvků v adresáři EasyControls. Z
+                            něj si můžete vybrat prvek, který chcete zobrazit a hotovo. Není to jednoduché?</td>
+                        <td>
+                        </td>
+                        <td style="width: 212px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 465px">
+                            <hr align="left" width="100%" size="1" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                            <a name="event-list"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt" style="width: 465px">
+                            <span class="titsub">4. Akce</span><br />
+                            <br />
+                            Pozvěte pár hostů a publikujte pozvánky na své akce na webu. Pomocí modulu akcí
+                            můžete vytvářet události a nastavovat datum a čas konání.</td>
+                        <td>
+                        </td>
+                        <td style="width: 212px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 465px">
+                            <img src="_img/event_list_01.jpg" id="IMG10"></td>
+                        <td>
+                        </td>
+                        <td class="desctxt" style="width: 212px">
+                            Vytvoření nové události:<br />
+                            <br />
+                            Pomocí dynamického kalendáře vyberte datum konání akce.<br />
+                            <br />
+                            Pomocí rozbalovacího seznamu zvolte čas začátku akce.<br />
+                            <br />
+                            Hodnota "Ukázat od" je jako datum vydání. Událost se zobrazí v seznamu až od určeného
+                            dne.</td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 465px; height: 34px;">
+                            <hr align="left" width="100%" size="1" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                            <a name="gallery"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt" style="width: 465px">
+                            <span class="titsub">5. Galerie</span><br />
+                            <br />
+                            Pomocí modulu galerie můžete publikovat obrázky. Výbět a anotace souborů můžete
+                            provádět podobně jako v případě modulu souborů ke stažení.</td>
+                        <td>
+                        </td>
+                        <td style="width: 212px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 465px">
+                            <img src="_img/gallery_01.jpg" id="IMG11"></td>
+                        <td>
+                        </td>
+                        <td style="width: 212px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt" style="width: 465px">
+                            Při uploadu nového obrázku bude automaticky vytvořen malý náhled a velikost vhodná
+                            pro zobrazení v rámci modulu galerie. Původní obrázek bude k dispozici na odkazu
+                            ke stažení.</td>
+                        <td>
+                        </td>
+                        <td style="width: 212px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 465px">
+                            <img src="_img/gallery_02.jpg" id="IMG12"></td>
+                        <td>
+                        </td>
+                        <td style="width: 212px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 465px">
+                            <hr align="left" width="100%" size="1" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                            <a name="guestbook"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt" style="width: 465px">
+                            <span class="titsub">6. Návštěvní kniha</span><br />
+                            <br />
+                            Pomocí tohoto modulu můžete dovolit návštěvníkům, aby na vašem webu zanechali komentář.
+                            Návštěvní knihu můžete velmi snadno nastavit a dokonce obsahuje i mechanismus CAPTCHA
+                            obrázku proti komentářovému spamu.</td>
+                        <td>
+                        </td>
+                        <td style="width: 212px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 465px">
+                            <img src="_img/guestbook_01.jpg" id="IMG13"></td>
+                        <td>
+                        </td>
+                        <td style="width: 212px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt" style="width: 465px">
+                            Záznamy v návštěvní knize v této verzi nemůžete editovat, lze je jen mazat.</td>
+                        <td>
+                        </td>
+                        <td style="width: 212px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 465px">
+                            <hr align="left" width="100%" size="1" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                            <a name="html-content"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt" style="width: 465px">
+                            <span class="titsub">7. HTML</span><br />
+                            <br />
+                            Možná nejdůležitější sekce ze všech, protože umožňuje největší flexibilitu. S WYSIVYG
+                            editorem máte široké možnosti editace stylu a formátování textu.<br />
+                            <br />
+                            Pro přidání obrázku klepněte na ikonu obrázku a vyberte obrázek ze serveru a nebo
+                            nahrajte obrázek na server. Pokud znáte jazyk HTML, můžete se přepnout mezi návrhovým
+                            režimem a zobrazením kódu.</td>
+                        <td>
+                        </td>
+                        <td style="width: 212px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 465px">
+                            <hr align="left" width="100%" size="1" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                            <a name="link-list"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt" style="width: 465px">
+                            <span class="titsub">8. Odkazy</span><br />
+                            <br />
+                            Seznam odkazů funguje stejně, jako modul pro download souborů nebo galerie. Zadáte
+                            URL a můžete si vybrat, zda se má odkaz otevřít v novém okně prohlížeče.</td>
+                        <td>
+                        </td>
+                        <td style="width: 212px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 465px">
+                            <img src="_img/linklist_01.jpg" id="IMG14"></td>
+                        <td>
+                        </td>
+                        <td style="width: 212px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 465px">
+                            <hr align="left" width="100%" size="1" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                            <a name="news-list"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt" style="width: 465px">
+                            <span class="titsub">9. Novinky</span><br />
+                            <br />
+                            Přidejte na své stránky seznam aktuálních zpráv. U každé zprávy můžete nastavit
+                            rozmezí datumů, kdy se má zpráva na webu zobrazovat.</td>
+                        <td>
+                        </td>
+                        <td style="width: 212px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 465px">
+                            <img src="_img/newslist_01.jpg" id="IMG15"></td>
+                        <td>
+                        </td>
+                        <td style="width: 212px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 465px">
+                            <hr align="left" width="100%" size="1" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                            <a name="subpages"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt" style="width: 465px">
+                            <span class="titsub">10. Podstránky</span><br />
+                            <br />
+                            Pokud máte stránku, která má v navigaci podstránky, může být dobré mít zobrazen
+                            jejich seznam, jako například obsah určité kategorie na vašem webu.<br />
+                            <br />
+                            Modul podstránek dělá přesně tohle: automaticky zobrazuje ve stránce seznam jejích
+                            podstránek.</td>
+                        <td>
+                        </td>
+                        <td style="width: 212px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 465px">
+                            <hr align="left" width="100%" size="1" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                            <a name="blog"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt" style="width: 465px">
+                            <span class="titsub">11. Blog</span><br />
+                            <br />
+                            The Blog Module provides you with all the advantages of a Web log:
+                            <br />
+                            <br />
+                            <ul>
+                                <li>Publicity for your Website: the ping function attracts more visitors to your Website.&nbsp;
+                                </li>
+                                <li>Topicality of a selected thread: keep the visitors posted (travel diary, progress
+                                    of a project, monitoring of publications in the Internet, knowledge management,
+                                    etc.).</li>
+                                <li>Communication and exchange of ideas: read the comments of your blog visitors and
+                                    reply to them by updating your blog entry or posting new entries.</li>
+                            </ul>
+                            <img alt="" src="_img/blog_edit.gif" />
+                            <br />
+                            Post new blog entries or edit old ones.
+                            <br />
+                            <br />
+                            <span class="desctitsub">Tags:</span><br />
+                            Click on “Tags“ and a little window opens where you can assign tags to an entry
+                            or create new ones.<br />
+                            <br />
+                            <img alt="" src="_img/blog_tag.jpg" />
+                            <br />
+                            <br />
+                            Keywords can be changed or erased anytime. Just click on Tags in the Edit mode of
+                            the blog.
+                            <br />
+                            <br />
+                            <img alt="" src="_img/blog_tag2.jpg" />
+                            <br />
+                            <br />
+                            <span class="desctitsub">Weblogs input notification:</span>
+                            <br />
+                            You can decide in the configuration of the blog whether a ping should be sent to
+                            Weblogs.com when posting entries. This will advertise your input with Weblogs.
+                            <br />
+                            <br />
+                            <img alt="Weblog Ping" src="_img/blog_ping.jpg" />
+                            <br />
+                            <br />
+                            <span class="desctitsub">Calendar:</span><br />
+                            The calendar displays the days on which the entries were posted in bold.
+                            <br />
+                            <br />
+                            <img src="_img/blog_kalender.jpg" />
+                            <br />
+                            <br />
+                            <span class="desctitsub">Comments:</span>
+                            <br />
+                            Visitors can post comments on any blog entry which are immediately published. An
+                            administrator is able to erase these in the Edit mode.
+                            <br />
+                            <br />
+                            <img alt="Kommentar" src="_img/blog_kommentar.jpg" />
+                            <br />
+                            <br />
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 465px">
+                            <hr align="left" size="1" width="100%" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                            <a name="blogroll"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt" style="width: 465px">
+                            <span class="titsub">12. Blogroll</span><br />
+                            <br />
+                            The Blogroll module has a similar structure to the Link List. The only difference
+                            is that the Blogroll displays links to other blogs you would like to introduce to
+                            your visitors.<br />
+                            <br />
+                            <img alt="Blogroll" src="_img/blog_blogroll.jpg" /><br />
+                            <br />
+                            To post a new entry, please indicate a title and the URL of the post. You can also
+                            add the RSS feed to the post. This enables the user to subscribe to all blogs with
+                            one click (Subscription List).
+                            <td>
+                            </td>
+                            <td>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 465px">
+                            <hr align="left" size="1" width="100%" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                            <a name="tagcloud"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt" style="width: 465px">
+                            <span class="titsub">13. TagCloud</span><br />
+                            <br />
+                            The purpose of the TagCloud is to visualize keywords used in the blog. Keywords
+                            used more often are displayed in bold. Clicking on a keyword displays all entries
+                            containing this keyword.
+                            <br />
+                            <br />
+                            <img alt="TagCloud" src="_img/blog_tagcloud.jpg" />
+                            <br />
+                            <br />
+                            You can place the TagCloud as often as you like and anywhere. If you want your Website
+                            to feature more than one blog, the TagCloud groups all blogs together
+                            <br />
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

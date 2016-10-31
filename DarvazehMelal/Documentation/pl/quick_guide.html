@@ -1,0 +1,1352 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="pl">
+<head>
+    <title>Microsoft - My Web Pages Starter Kit - Quick Guide</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <style type="text/css">
+	
+	BODY {background-color: #E7F1FA; margin:0; }
+	
+	A, A:visited, A:active, A:hover, A:link {
+		color: #000000;
+		text-decoration: underline;
+	}
+	
+	TD {
+		vertical-align: top;
+	}
+	
+	.tit {
+		font-family: Verdana,Arial,sans-serif;
+		font-size: 20px;
+		color: #003399;
+	}
+	
+	.titsub {
+		font-family: Verdana,Arial,sans-serif;
+		font-size: 11px;
+		font-weight: bold;
+		color: #003399;
+		
+		line-height: 17px;
+	}
+	
+	.txt {
+		font-family: Verdana,Arial,sans-serif;
+		font-size: 11px;
+		color: #000000;
+		
+		line-height: 17px;
+	}
+	
+	.desctit {
+		font-family: Verdana,Arial,sans-serif;
+		font-size: 14px;
+		font-weight: bold;
+		color: #003399;
+	}
+	
+	.desctitsub {
+		font-family: Verdana,Arial,sans-serif;
+		font-size: 11px;
+		font-weight: bold;
+		color: #003399;
+		line-height: 17px;
+	}
+	
+	.desctxt {
+		font-family: Verdana,Arial,sans-serif;
+		font-size: 11px;
+		color: #003399;
+		line-height: 17px;
+	}
+	
+	</style>
+</head>
+<body>
+    <table width="795" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td colspan="3">
+                <img src="../_img/header_starterkit.jpg" width="795" height="184" alt="" /></td>
+        </tr>
+        <tr>
+            <td width="20">
+                <img src="../_img/spacer.gif" width="20" height="1" alt="" /></td>
+            <td width="755">
+                <table width="755" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td width="528" height="1">
+                            <img src="../_img/spacer.gif" width="528" height="1" alt="" /></td>
+                        <td width="20">
+                            <img src="../_img/spacer.gif" width="20" height="1" alt="" /></td>
+                        <td width="207">
+                            <img src="../_img/spacer.gif" width="207" height="1" alt="" /></td>
+                    </tr>
+                    <tr>
+                        <td class="tit">
+                            Szybki przewodnik (Wersja 1.0)
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            Witamy w pakiecie do tworzenia stron WWW Microsoft Homepage Starter Kit - systemie
+                            do zarz&#261;dzania tre&#347;ci&#261; (CMS) bazuj&#261;cym na ASP.NET 2.0. Dzi&#281;ki
+                            niemu mo&#380;na szybko i &#322;atwo robi&#263; w&#322;asne, dynamiczne strony WWW.
+                            Poni&#380;szy przewodnik daje zarys zarz&#261;dzania w&#322;asn&#261; stron&#261;
+                            WWW oraz poszczególnymi modu&#322;ami i funkcjami.
+                            <br />
+                            <br />
+                            Bed&#261;c w poszukiwaniu konkretnego tematu wystarczy skorzysta&#263; z funkcji
+                            szukania w swojej przegl&#261;darce, aby odnale&#378;&#263; szukane has&#322;o.
+                            CMS ma wiele funkcji do Twojej dyspozycji!<br />
+                            <br />
+                            Aktualne wersje, uaktualnienia, nowo&#347;ci i inne wa&#380;ne informacje znajduj&#261;
+                            si&#281; pod <a href="http://www.codeplex.com/Wiki/View.aspx?ProjectName=MyWebPagesStarterKit">
+                                Codeplex.com, Projekt &quot;My Web Pages Starter Kit&quot;</a>.
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="40" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tit">
+                            Spis tre&#347;ci
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td colspan="3" class="titsub">
+                                        Administracja
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        1.</td>
+                                    <td class="txt">
+                                        &nbsp;&nbsp;&nbsp;</td>
+                                    <td class="txt">
+                                        <a href="#set-up">Tworzenie stron WWW</td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        2.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#manage-pages">Zarządzanie stronami i nawigacją</td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        3.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#user-management">Zarządzanie użytkownikami</td>
+                                </tr>
+                                <tr>
+                                    <td height="10" colspan="3">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3" class="titsub">
+                                        Moduły</td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        1.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#contact-form">Formularz kontaktowy</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        2.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#download-list">Lista plików do pobrania</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        3.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#easy-control">Łatwe sterowanie</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        4.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#event-list">Kalendarz wydarzeń</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        5.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#gallery">Galeria</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        6.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#guestbook">Księga gości</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        7.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#html-content">Treść HTML</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        8.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#link-list">Lista linkó</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        9.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#news-list">Lista wiadomości</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        10.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#subpages">Podstrony</a></td>
+                                </tr>
+                                 <tr>
+                                    <td class="txt">
+                                        11.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#blog">Blog</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        12.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#blogroll">Blogroll</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        13.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#tagcloud">TagCloud</a></td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr align="left" width="100%" size="1" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tit">
+                            Administracja</td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                            <a name="set-up"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            <span class="titsub">1. Tworzenie stron WWW</span><br />
+                            <br />
+                            Przed rozpoczęciem pisania treści strony, należy dokonać pewnych ustawień oraz ustalić
+                            pewne informacje dla własnej nowej strony WWW. Przy logowaniu po raz pierwszy należy
+                            pójść do menu <strong>Administracja</strong> i wybrać <strong>CMS Setup</strong>
+                            :</td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="_img/setup_01.jpg" id="IMG2"></td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            Następna strona umożliwi definicję ogólnych ustawień, a nawet kompletną zmianę layoutu
+                            strony - nawet już po wprowadzeniu jej treści!</td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="_img/setup_02.jpg"></td>
+                        <td>
+                        </td>
+                        <td class="desctxt">
+                            <span class="desctit">Opis</span><br />
+                            <br />
+                            <span class="desctitsub">Tytuł</span><br />
+                            Tytuł jest jednocześnie nazwą strony WWW i ukazuje się w jej nagłówku.<br />
+                            <br />
+                            <span class="desctitsub">Język</span><br />
+                            Przyszłe wersje CMS ukażą się w wielu językach.
+                            <br />
+                            <br />
+                            <span class="desctitsub">Serwer SMTP</span><br />
+                            Jeżeli chce się używać funkcji zawierających wysyłanie poczty elektronicznej, trzeba
+                            zdefiniować własny e-mail serwer.<br />
+                            <br />
+                            <span class="desctitsub">Stopka</span><br />
+                            Można tu wpisać szczegóły dotyczące kontaktu lub innego rodzaju informacje ogólne,
+                            które ukazywać się będą na końcu każdej strony.<br />
+                            <br />
+                            <span class="desctitsub">Opis strony WWW oraz słowa kluczowe strony</span><br />
+                            Można tu podać główne informacje do nagłówka strony.<br />
+                            <br />
+                            <span class="desctitsub">Reset strony WWW</span><br />
+                            Kasuje zawartość wszystkich pól.<br />
+                            <br />
+                            <span class="desctitsub">Czytnik RSS</span><br />
+                            Wiele modułów nadaje się do współpracy z czytnikiem RSS. Przez okienko kontrolne
+                            "Uaktywnij RSS dla danego obszaru" (na tym ujęciu ekranu niewidoczne) można uaktywnić
+                            ikony RSS dla poszczególnych obszarów. Inni użytkownicy mogą zaabonować treść danego
+                            modułu przez kliknięcie na ikonę RSS.<br />
+                            <br />
+                            <span class="desctitsub">Szablony projektu</span><br />
+                            W naszej aplikacji CMS można w każdej chwili zmienić szablon projektu i layout strony
+                            - tylko przez jedno kliknięcie! Cała treść zostaje dopasowana do nowego layoutu
+                            i będą użyte nowe arkusze stylów.<br />
+                            <br />
+                            Jest to bardzo proste: wystarczy wybrać nowy szablon, kliknąć i gotowe!<br />
+                            <br />
+                            Potrafisz pracować na .Net i Visual Studio? Możesz sam przygotować własne szablony
+                            stron!</td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr align="left" width="100%" size="1" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                            <a name="manage-pages"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            <span class="titsub">2. Zarządzanie stronami i nawigacją</span><br />
+                            <br />
+                            Wybrać <strong>Strony i nawigacja</strong>, aby ustalić strukturę nawigacji na własnej
+                            stronie WWW lub tworzyć nowe strony.
+                            <br />
+                            <br />
+                            Strony pokazują się w tej samej kolejności jak podczas nawigacji. Wtrącone tytuły
+                            (jak na przykład „...Wycinki z prasy“) są podstronami i ukazują sie w podnawigacji.
+                            <br />
+                            <br />
+                            Kliknąć na „Nowa strona“, aby dodać nową stronę. Na końcu listy pojawia się strona
+                            pusta.<br />
+                            <br />
+                            Aby <strong>przesunąć</strong> stronę w ramach nawigacji lub uporządkować ją inaczej
+                            w ramach hierarchii (na przykład <strong>zrobić z niej podstronę</strong>) wystarczy
+                            kliknąć na nią, a następnie posłużyć się niebieskimi strzałkami na końcu ramki -
+                            obok Przesuń. Za pomocą prawej strzałki można utworzyć podstronę, strzałkami „do
+                            góry“ lub „w dół“ można zmienić pozycję strony w nawigacji.
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="_img/setup_03.jpg" id="IMG3"></td>
+                        <td>
+                        </td>
+                        <td class="desctxt">
+                            <span class="desctit">Opis poszczególnych elementów</span><br />
+                            <br />
+                            <span class="desctitsub">Tytuł strony</span><br />
+                            Nazwa ta ukazuję się w okienku przeglądarki.<br />
+                            <br />
+                            <span class="desctitsub">Nawigacja</span><br />
+                            Nazwa strony w nawigacji.<br />
+                            <br />
+                            <span class="desctitsub">Dopuszczanie anonimowych gości</span><br />
+                            Według standardowego ustawienia każdy może odwiedzać Twoje strony. Jeżeli chce się
+                            ograniczyć grupę gości i ustanowić zastrzeżoną grupę członków, można tą funkcję
+                            zdeaktywować i stronę będą widzieli tylko użytkownicy zarejestrowani (-&gt; zob.
+                            również <a href="#user-management"><nobr>3. Zarządzanie użytkownikami</nobr></a>)
+                            <br />
+                            <br />
+                              <span class="desctitsub">Editing by power users</span><br />
+                            If you activate this button, power users can edit this page. This enables the delegation
+                            of administrative areas (-&gt; zob.
+                            również <a href="#user-management"><nobr>3. Zarządzanie użytkownikami</nobr></a>)
+                            <br />
+                            <br />
+                            <span class="desctitsub">Widoczność</span><br />
+                            Funkcję tą należy zdeaktywować, gdy nie chce się jeszcze pokazać strony, bo na przykład
+                            nie jest jeszcze gotowa.</td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            <strong>Ścieżka wirtualna</strong><br />
+                            Dzięki dynamicznemu systemowi zarządzania treścią CMS nowe strony mają identyfikatory
+                            generyczne. Adresy URL tych stron można przekształcić na bardziej przystępne dla
+                            użytkowników przydzielając im wirtualną ścieżkę.
+                            <br />
+                            <br />
+                            Jest to bardzo proste: wystarczy wpisać nazwę strony w okienko i zamiast generycznego
+                            adresu URL jak np. www.mojastrona.com/default.aspx?pg=3cb13823-a424-4761-81c1-5fa9da24db43
+                            można teraz używać wersji skróconej: <a href="http://www.mojastrona.com/omnie.aspx">
+                                www.mojastrona.com/omnie.aspx</a>.
+                            <br />
+                            <br />
+                            W ten sposób będzie dużo łatwiej polecać konkretną stronę w e-mailach i/lub przystępniej
+                            dla użytkowników drukować materiał reklamowy
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr align="left" width="100%" size="1" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                            <a name="user-management"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            <span class="titsub">3. Zarządzanie użytkownikami</span><br />
+                            <br />
+                            System CMS udostępnia łatwą, ale mimo wszystko wydajną, administrację użytkownikami,
+                            za pomocą której można tworzyć zastrzeżone kręgi użytkowników.<br />
+                            <br />
+                            Możliwe są do przydzielenia dwa stopnie dostępu:<br />
+                            <br />
+                            <strong>1. Użytkownicy zarejestrowani</strong>: strony nie są widoczne dla każdego
+                            (-&gt; zob. również <a href="#manage-pages">2. Zarządzanie stronami i nawigacją</a>)
+                            i mogą je oglądać wyłącznie użytkownicy zarejestrowani.
+                            <br />
+                            <br />
+                            <strong>2. Administratorzy</strong>: Wśród użytkowników może być jeden lub więcej
+                            administratorów. Administratorzy mają nieograniczony dostęp do systemu „back-end”
+                            i mogą edytować strony, tworzyć nowe, usuwać je, a także zarządzać profilami użytkowników
+                            <br /><br />
+                            <strong>3. Power-User:</strong> Registered Users can be defined as Power Users.
+                            Power Users have unrestricted access to pages, for which have been given access
+                            set by Administrator. The Backend is only accessible for Administrators.
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="_img/setup_04.jpg" id="IMG4"></td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            Aby dodać nowego użytkownika, należy podać jego nazwę, adres e-mail oraz hasło,
+                            a następnie kliknąć na <strong>Dodaj użytkownika</strong>.
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="_img/setup_05.jpg" id="IMG5"></td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            Za pomocą maski do edytowania można zmienić nazwę i adres e-mail. Użytkownikowi
+                            można udzielić zezwolenia na funkcję administratora uaktywniając opcję &quot;Administrator&quot;.
+                            <br />
+                            <br />
+                            Na tej masce jest również widoczne ostatnie zalogowanie użytkownika.
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr align="left" width="100%" size="1" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tit">
+                            Moduły</td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            Każda nowo utworzona strona jest najpierw pusta. W liście rozwijanej można wybrać
+                            pożądane i dostępne moduły:
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="_img/modules_start.jpg" id="IMG6"></td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            Do wykończenia strony stoi do dyspozycji dziesięć modułów. Na jednej stronie można
+                            używać dowolnej ilości modułów. Kolejność modułów można dowolnie wybierać, a nowe
+                            moduły umieszczane będą najpierw na końcu strony.
+                            <br />
+                            <br />
+                            Lista rozwijana z modułami pojawi się na dolnym końcu strony.
+                            <br />
+                            <br />
+                            Aby zmienić kolejność modułów, można kliknąć na strzałki w tytule modułu. Cały moduł
+                            będzie w ten sposób przesunięty w górę lub w dół.
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="_img/modules_start_arrows.jpg" id="IMG7"></td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            <strong>Sekcja kasowania</strong> kasuje cały moduł.
+                            <br />
+                            <br />
+                            Większość modułów stosuje do tworzenia nowych treści <strong>edytor Rich Text</strong>.&nbsp;
+                            Przy jego pomocy można formatować teksty, a nawet robić tabele. Najlepiej sam wypróbuj,
+                            co się da zrobić używając go!
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="_img/modules_start_editor.jpg" id="IMG8"></td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            Aby pracować z grafiką, należy kliknąć na ikonę Grafika. Można używać grafik już
+                            istniejących na serwerze lub załadować grafikę na serwer za pomocą funkcji Upload.
+                            Jeżeli zna się na HTML, można przełączyć na kod źdródłowy używając tabulatora nad
+                            okienkiem edycyjnym.
+                            <br />
+                            <br />
+                            <br />
+                            <strong>Podgląd i tryb edycji</strong><br />
+                            <br />
+                            Dzięki łatwemu przełączaniu pomiędzy wersją roboczą a trybem edycji administratorzy
+                            mogą w każdej chwili - bez wylogowania - skontrolować, jak wygląda ich strona. Wystarczy
+                            tylko kliknąć na odpowiedni przycisk.
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="_img/modules_start_modes.jpg" id="IMG88"></td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            <strong>Wpisywanie do panelu bocznego</strong><br />
+                            Niektóre moduły udostępniają możliwość stosowania funkcji „<strong>Wpisywanie do panelu
+                                bocznego</strong>”. Po uaktywnieniu tej opcji, treść modułu wpisana będzie do
+                            panelu bocznego i może być pokazana jako „Ostatnia aktualizacja“ lub „Szybki dostęp“.</td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr align="left" width="100%" size="1" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                            <a name="contact-form"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            <span class="titsub">1. Formularz kontaktowy</span><br />
+                            <br />
+                            Udostępnijmy swoim przyjaciołom, kolegom z pracy lub klientom możliwość przesyłania
+                            nam informacji: Za pomocą modułu Formularz kontaktowy jest to bardzo łatwe. Uwaga:
+                            <strong>Podczas konfiguracji należy podać serwer SMTP</strong>, aby poczta eletroniczna
+                            mogła być wysłana.
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="_img/contact_form.jpg" id="IMG9"></td>
+                        <td>
+                        </td>
+                        <td class="desctxt">
+                            „Back-end” formularza kontaktowego ma trzy funkcje:
+                            <br />
+                            <br />
+                            a) tworzenie formularza kontaktowego,
+                            <br />
+                            <br />
+                            b) definiowanie, dokąd informacje kontaktowe mają być wysłane,
+                            <br />
+                            <br />
+                            c) podziękowanie użytkownikowi.
+                            <br />
+                            <br />
+                            Pierwsze trzy pola (O<strong>dbiorca poczty, Kopia do i Nagłówek</strong>) podają,
+                            w jaki sposób poczta będzie wysłana.
+                            <br />
+                            <br />
+                            <br />
+                            <strong>Tekst wstępny</strong> uprasza użytkownika o kontakt.
+                            <br />
+                            <br />
+                            <strong>Podziękowanie</strong> ukazuje się po wysłaniu formularza przez użytkownika.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr align="left" width="100%" size="1" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                            <a name="download-list"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            <span class="titsub">2. Lista plików do pobrania</span><br />
+                            <br />
+                            Przy pomocy modułu Pobieranie można udostępnić na swojej stronie WWW dokumenty innym
+                            użytkownikom. Moduł ten umożliwia pobieranie plików w różnych formatach. Format
+                            pliku odczytywany jest automatycznie i ukazuje się wtedy odpowiednia ikona.
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr align="left" width="100%" size="1" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                            <a name="easy-control"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            <span class="titsub">3. Łatwe sterowanie</span><br />
+                            <br />
+                            Czy chcesz wintegrować w system CMS własne kontrolki dla użytkownika? Nic łatwiejszego:
+                            za pomocą modułu Łatwe sterowanie jest to możliwe w ciągu kilku sekund! Kontrolki
+                            dla&nbsp; użytkowników ustawia się, tak jak zawsze, a następnie kopiuje się je do
+                            katalogu Łatwe sterowanie pod katalogiem głównym CMS. Można również używać kontrolki
+                            dla użytkowników już istniejące, których się samemu nie zrobiło. Wystarczy tylko
+                            skopiować je do katalogu Łatwe sterowanie. Jeżeli na jednej ze stron systemu CMS
+                            wprowadzi się sekcję Łatwe sterowanie, wszystkie kontrolki dla użytkowników z katalogu
+                            Łatwe sterowanie zostaną automatycznie pokazane w liście do wyboru w podglądzie
+                            dla administratora w danej sekcji. Teraz trzeba tylko wybrać kontrolki dla użytkownika,
+                            które mają się ukazać. Łatwe, prawda?
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr align="left" width="100%" size="1" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                            <a name="event-list"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            <span class="titsub">4. Kalendarz wydarzeń</span><br />
+                            <br />
+                            Własne wydarzenia można ogłaszać online i zapraszać na nie gości! Za pomoca modułu
+                            Kalendarz wydarzeń można sporządzać informacje o wydarzeniach oraz ustalać datę
+                            i czas ich rozpoczęcia.
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="_img/event_list_01.jpg" id="IMG10"></td>
+                        <td>
+                        </td>
+                        <td class="desctxt">
+                            Przygotowanie ogłoszenia o wydarzeniu:
+                            <br />
+                            <br />
+                            Za pomocą dynamicznego wyboru ustalić datę.
+                            <br />
+                            <br />
+                            Ustalić czas (za pomocą strzałek można ustawiać godziny i minuty).
+                            <br />
+                            <br />
+                            Pole „Pokazuj od“ odpowiada dacie ukazania się ogłoszenia. Po wybraniu daty ogłoszenie
+                            o wydarzeniu nie ukaże się przed podanym dniem.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr align="left" width="100%" size="1" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                            <a name="gallery"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            <span class="titsub">5. Galeria</span><br />
+                            <br />
+                            Za pomocą modułu Galeria można na swojej stronie WWW publikować własne zdjęcia.
+                            Wybieranie i ładowanie działa tak samo jak w module Pobieranie.
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="_img/gallery_01.jpg" id="IMG11"></td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            Podgląd miniaturowy (Thumbnails) generowany będzie automatycznie po załadowaniu
+                            zdjęć.
+                            <br />
+                            <br />
+                            Przegląd zdjęć o wielkości dopasowanej do modułu Galeria generowany będzie również
+                            automatycznie. Plik oryginalny dostępny jest przez link Pobierz.
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="_img/gallery_02.jpg" id="IMG12"></td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr align="left" width="100%" size="1" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                            <a name="guestbook"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            <span class="titsub">6. Księga gości</span><br />
+                            <br />
+                            Warto opublikować księgę gości, w której odwiedzający stronę mogą wpisać pozdrowienia
+                            i swoje komentarze! Księgę gości można łatwo zrobić. Posługuje się ona tzw. obrazkiem
+                            Anti Bot, dzięki któremu zapewnione jest większe bezpieczeństwo i kontrola.
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="_img/guestbook_01.jpg" id="IMG13"></td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            W wersji 1 nie można opracowywać żadnych tekstów przez „front-end”.
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr align="left" width="100%" size="1" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                            <a name="html-content"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            <span class="titsub">7. Treść HTML </span>
+                            <br />
+                            <br />
+                            To jest najważniejszy moduł, który dopuszcza największą elastyczność. Dzięki edytorowi
+                            typu Rich Text ma się szerokie możliwości do zmieniana formatu tekstu i stylu. Zobacz
+                            tez powyżej w opisie moduli.
+                            <br />
+                            <br />
+                            Aby użyć grafikę, trzeba kliknąć na ikonę Grafika. Można używać grafik już istniejących
+                            na serwerze lub załadować grafikę na serwer za pomocą funkcji Upload. &nbsp;
+                            <br />
+                            <br />
+                            Jeżeli zna się na HTML, można przełączyć na kod źdródłowy używając tabulatora nad
+                            okienkiem edycyjnym.
+                            <br />
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr align="left" width="100%" size="1" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                            <a name="link-list"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            <span class="titsub">8. Lista linków</span><br />
+                            <br />
+                            Moduł Lista linków działa tak jak moduły Galeria lub Pobieranie. Należy podać adres
+                            URL i wybrać miejsce docelowe.
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="_img/linklist_01.jpg" id="IMG14"></td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr align="left" width="100%" size="1" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                            <a name="news-list"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            <span class="titsub">9. Lista wiadomości </span>
+                            <br />
+                            <br />
+                            Do strony warto dołączać wiadomości! Aby podać od kiedy do kiedy odpowiednie teksty
+                            mają się ukazywać, należy posługiwać się okienkami z datą.</td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="_img/newslist_01.jpg" id="IMG15"></td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr align="left" width="100%" size="1" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                            <a name="subpages"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            <span class="titsub">10. Podstrony</span><br />
+                            <br />
+                            Jeżeli pod jakąś stroną jest wiele podstron, opłaciłoby się może podać na stronie
+                            głównej listę ze wszystkimi linkami do stron podrzędnych - coś w rodzaju spisu treści
+                            dla pewnego obszaru strony WWW.
+                            <br />
+                            <br />
+                            Przy użyciu modułu Podstrony jest to bardzo łatwe: Należy go wprowadzić do strony
+                            głównej i utworzy on automatycznie listę linków do wszystkich stron podrzędnych!
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                                   <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr align="left" width="100%" size="1" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                            <a name="blog"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            <span class="titsub">11. Blog</span><br />
+                            <br />
+                            The Blog Module provides you with all the advantages of a Web log:
+                            <br />
+                            <br />
+                            <ul>
+                                <li>Publicity for your Website: the ping function attracts more visitors to your Website.&nbsp;
+                                </li>
+                                <li>Topicality of a selected thread: keep the visitors posted (travel diary, progress
+                                    of a project, monitoring of publications in the Internet, knowledge management,
+                                    etc.).</li>
+                                <li>Communication and exchange of ideas: read the comments of your blog visitors and
+                                    reply to them by updating your blog entry or posting new entries.</li>
+                            </ul>
+                            <img alt="" src="_img/blog_edit.gif" />
+                            <br />
+                            Post new blog entries or edit old ones.
+                            <br />
+                            <br />
+                            <span class="desctitsub">Tags:</span><br />
+                            Click on “Tags“ and a little window opens where you can assign tags to an entry
+                            or create new ones.<br />
+                            <br />
+                            <img alt="" src="_img/blog_tag.jpg" />
+                            <br />
+                            <br />
+                            Keywords can be changed or erased anytime. Just click on Tags in the Edit mode of
+                            the blog.
+                            <br />
+                            <br />
+                            <img alt="" src="_img/blog_tag2.jpg" />
+                            <br />
+                            <br />
+                            <span class="desctitsub">Weblogs input notification:</span>
+                            <br />
+                            You can decide in the configuration of the blog whether a ping should be sent to
+                            Weblogs.com when posting entries. This will advertise your input with Weblogs.
+                            <br />
+                            <br />
+                            <img alt="Weblog Ping" src="_img/blog_ping.jpg" />
+                            <br />
+                            <br />
+                            <span class="desctitsub">Calendar:</span><br />
+                            The calendar displays the days on which the entries were posted in bold.
+                            <br />
+                            <br />
+                            <img src="_img/blog_kalender.jpg" />
+                            <br />
+                            <br />
+                            <span class="desctitsub">Comments:</span>
+                            <br />
+                            Visitors can post comments on any blog entry which are immediately published. An
+                            administrator is able to erase these in the Edit mode.
+                            <br />
+                            <br />
+                            <img alt="Kommentar" src="_img/blog_kommentar.jpg" />
+                            <br />
+                            <br />
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr align="left" size="1" width="100%" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                            <a name="blogroll"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            <span class="titsub">12. Blogroll</span><br />
+                            <br />
+                            The Blogroll module has a similar structure to the Link List. The only difference
+                            is that the Blogroll displays links to other blogs you would like to introduce to
+                            your visitors.<br />
+                            <br />
+                            <img alt="Blogroll" src="_img/blog_blogroll.jpg" /><br />
+                            <br />
+                            To post a new entry, please indicate a title and the URL of the post. You can also
+                            add the RSS feed to the post. This enables the user to subscribe to all blogs with
+                            one click (Subscription List).
+                            <td>
+                            </td>
+                            <td>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr align="left" size="1" width="100%" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                            <a name="tagcloud"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            <span class="titsub">13. TagCloud</span><br />
+                            <br />
+                            The purpose of the TagCloud is to visualize keywords used in the blog. Keywords
+                            used more often are displayed in bold. Clicking on a keyword displays all entries
+                            containing this keyword.
+                            <br />
+                            <br />
+                            <img alt="TagCloud" src="_img/blog_tagcloud.jpg" />
+                            <br />
+                            <br />
+                            You can place the TagCloud as often as you like and anywhere. If you want your Website
+                            to feature more than one blog, the TagCloud groups all blogs together
+                            <br />
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

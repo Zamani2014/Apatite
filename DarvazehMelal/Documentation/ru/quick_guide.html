@@ -1,0 +1,994 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+<head>
+    <title>Microsoft &ndash; My Web Pages Starter Kit &ndash; Краткое руководство </title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <style type="text/css">
+BODY {background-color: #E7F1FA; margin:0; }
+A, A:visited, A:active, A:hover, A:link {
+color: #000000;
+text-decoration: underline;
+}
+TD {
+vertical-align: top;
+}
+.tit {
+font-family: Verdana,Arial,sans-serif;
+font-size: 20px;
+color: #003399;
+}
+.titsub {
+font-family: Verdana,Arial,sans-serif;
+font-size: 11px;
+font-weight: bold;
+color: #003399;
+line-height: 17px;
+}
+.txt {
+font-family: Verdana,Arial,sans-serif;
+font-size: 11px;
+color: #000000;
+line-height: 17px;
+}
+.desctit {
+font-family: Verdana,Arial,sans-serif;
+font-size: 14px;
+font-weight: bold;
+color: #003399;
+}
+.desctitsub {
+font-family: Verdana,Arial,sans-serif;
+font-size: 11px;
+font-weight: bold;
+color: #003399;
+line-height: 17px;
+}
+.desctxt {
+font-family: Verdana,Arial,sans-serif;
+font-size: 11px;
+color: #003399;
+line-height: 17px;
+}
+</style>
+</head>
+<body>
+    <table border="0" cellpadding="0" cellspacing="0" width="795">
+        <tr>
+            <td colspan="3">
+                <img src="../_img/header_starterkit.jpg" alt="" height="184" width="795" /></td>
+        </tr>
+        <tr>
+            <td width="20">
+                <img src="../_img/spacer.gif" alt="" height="1" width="20" /></td>
+            <td width="755">
+                <table border="0" cellpadding="0" cellspacing="0" width="755">
+                    <tr>
+                        <td height="1" width="528">
+                            <img src="../_img/spacer.gif" alt="" height="1" width="528" /></td>
+                        <td width="20">
+                            <img src="../_img/spacer.gif" alt="" height="1" width="20" /></td>
+                        <td width="207">
+                            <img src="../_img/spacer.gif" alt="" height="1" width="207" /></td>
+                    </tr>
+                    <tr>
+                        <td class="tit">
+                            Краткое руководство (версия 1.0)</td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            Вас приветствует Microsoft Homepage Starter Kit, простая система управления содержимым (Content Management System &ndash; CMS) на базе ASP.NET 2.0, предназначенная для создания пользовательских динамических веб-узлов. Данное руководство содержит краткий обзор администрирования веб-узла и функций модулей.<br /> <br /> Если вы ищете особые сведения, воспользуйтесь функцией &laquo;Найти&raquo; обозревателя для поиска по конкретным словам. Данная система CMS обладает множеством новых функций.<br /> <br /> Дополнительные вопросы, выпуски и новости по проекту можно найти на странице <a                                 href="http://www.codeplex.com/Wiki/View.aspx?ProjectName=MyWebPagesStarterKit"                                 target="_blank">проекта <i>My Web Pages Starter Kit</i> на веб-узле Codeplex.com</a>.</td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="40">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tit">
+                            Содержание</td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td colspan="3" class="titsub">
+                                        Администрирование</td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        1.</td>
+                                    <td class="txt">
+                                        &nbsp;&nbsp;&nbsp;</td>
+                                    <td class="txt">
+                                        <a href="#set-up">Настройка узла</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        2.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#manage-pages">Управление страницами и навигация</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        3.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#user-management">Управление пользователями</a></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3" height="10">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3" class="titsub">
+                                        Модули</td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        1.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#contact-form">Форма контакта</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        2.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#download-list">Список загрузки</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        3.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#easy-control">Простое управление</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        4.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#event-list">Список событий</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        5.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#gallery">Галерея</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        6.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#guestbook">Гостевая книга</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        7.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#html-content">HTML-содержимое</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        8.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#link-list">Список ссылок</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        9.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#news-list">Список новостей</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        10.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#subpages">Вложенные страницы</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        11.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#blog">Блог</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        12.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#blogroll">Блогролл</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="txt">
+                                        13.</td>
+                                    <td>
+                                    </td>
+                                    <td class="txt">
+                                        <a href="#tagcloud">Облако тегов</a></td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr align="left" size="1" width="100%" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tit">
+                            Администрирование</td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                            <a name="set-up"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            <span class="titsub">1. Настройка узла</span><br /> <br /> Прежде чем приступать к наполнению нового веб-узла, необходимо задать для него глобальные параметры. При первом входе в систему перейдите в меню <strong>Администрирование</strong> и выберите пункт <strong>Настройка CMS</strong>.</td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="20">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="_img/setup_01.jpg" id="IMG2" /></td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="20">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            На приведенной ниже странице можно изменить некоторые глобальные параметры и даже полностью модифицировать макет веб-узла после добавления всего содержимого!</td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="20">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="_img/setup_02.jpg" /></td>
+                        <td>
+                        </td>
+                        <td class="desctxt">
+                            <span class="desctit">Описание элементов</span><br /> <br /> <span class="desctitsub">Заголовок</span><br /> Заголовок &ndash; это название вашего веб-узла. Он отображается внутри рисунка для заголовка веб-узла.<br /> <br /> <span class="desctitsub">Язык</span><br /> Новые версии CMS будут доступны на разных языках. <br /> <br /> <span class="desctitsub">Сервер SMTP</span><br /> Чтобы использовать функции, требующие отправки электронных сообщений, необходимо задать почтовый сервер.<br /> <br /> <span class="desctitsub">Нижний колонтитул</span><br /> Здесь можно указать контактную информацию или титульные данные, которые будут отображаться внизу каждой страницы.<br /> <br /> <span class="desctitsub">Описание и ключевые слова веб-узла</span><br /> Здесь можно добавить необходимую метаинформацию для разделов заголовка веб-узла.<br /> <br /> <span class="desctitsub">Сброс веб-узла</span><br /> Очистка всех полей.<br /> <br /> <span class="desctitsub">RSS-каналы</span><br /> Многие модули поддерживают RSS-каналы. Если установить флажок &laquo;Включить RSS-каналы разделов&raquo; (не виден на этом снимке экрана), то значки RSS-каналов будут отображаться под этими разделами. Пользователи могут подписаться на обновления содержимого этого особого модуля, щелкнув значок.<br /> <br /> <span class="desctitsub">Выбор темы</span><br /> Очень действенная функция CMS, позволяющая в любое время одним щелчком мыши менять оформление и макет страницы. Все содержимое автоматически настраивается заново, и используются новые таблицы стилей.<br /> <br />Просто выберите новую тему и щелкните ее кнопкой мыши. Готово!<br /> <br /> Если у вас есть опыт работы с .Net и Visual Studio, то, возможно, вы пожелаете создать собственные шаблоны?</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr align="left" size="1" width="100%" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                            <a name="manage-pages"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            <span class="titsub">2. Управление страницами и навигация</span><br /> <br />Выберите <strong>Страницы и навигация</strong> для управления структурой веб-узла, настройки переходов и создания новых страниц.<br /> <br /> Страницы перечислены в том порядке, в каком они располагаются в структуре переходов. <br /> <br /> Элементы с отступом (такие как &laquo;...Press&raquo;) представляют собой вложенные страницы относительно страницы верхнего уровня. Эти элементы отображаются при вторичном переходе.<br /> <br /> Чтобы добавить новую страницу, просто нажмите кнопку &laquo;Создать страницу&raquo;, и пустая страница появится в конце списка.<br /> <br /> Чтобы переместить страницу в иерархии переходов или сделать ее вложенной страницей относительно родительской, активируйте эту страницу, щелкнув ее кнопкой мыши, а затем воспользуйтесь голубыми стрелками внизу.  С помощью стрелки вправо вы сделаете данную страницу вложенной, а стрелки вверх и вниз меняют ее расположение.</td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="20">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="_img/setup_03.jpg" id="IMG3" /></td>
+                        <td>
+                        </td>
+                        <td class="desctxt">
+                            <span class="desctit">Описание элементов</span><br /> <br /> <span class="desctitsub">Заголовок страницы</span><br /> Это имя будет отображаться в окне обозревателя.<br /> <br /> <span class="desctitsub">Навигация</span><br /> Название страницы в структуре переходов. <br /> <span class="desctitsub">Разрешить анонимный доступ</span><br /> По умолчанию всем пользователям разрешено посещать ваши страницы. Чтобы создать <strong>ограниченную область для членов</strong>, снимите этот флажок. Тогда лишь зарегистрированные пользователи получат доступ к данной странице. (-&gt; см. <a href="#user-management">
+                                <nobr> 3. Управление пользователями</nobr>
+                            </a>)<br /> <br /> <span class="desctitsub">Изменение опытными пользователями</span><br /> Если активировать эту кнопку, опытные пользователи смогут изменять данную страницу. Это позволит выполнять делегирование административных областей (-&gt; см. также <a href="#user-management">
+                                <nobr> 3. Управление пользователями</nobr>
+                            </a>)<br /> <br /> <span class="desctitsub">Видимая</span><br /> Снимите этот флажок, если нужно скрыть данную страницу, например когда вы еще работаете над ее содержимым.</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="20">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            <strong>Виртуальный путь</strong><br /> При использовании динамической системы CMS у новых страниц будут общие ID. Чтобы URL-адреса этих страниц были интуитивно понятны, задайте имя виртуального пути.<br /> Просто введите название страницы, например &laquo;Обо мне&raquo;. Вместо общего URL-адреса, такого как www.yoursite.com/<span style="color: crimson;">default.aspx?pg=3cb13823-a424-4761-81c1-5fa9da24db43</span>, вы сможете использовать укороченный вариант www.yoursite.com/<span style="color: crimson;">aboutme.aspx</span><br /> <br /> Таким образом напечатать URL-адрес на рекламном материале или отправить его по электронной почте становится намного проще!</td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr align="left" size="1" width="100%" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                            <a name="user-management"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            <span class="titsub">3. Управление пользователями</span><br /> <br /> CMS обеспечивает простое, но одновременно эффективное управление пользователями, которое применяется для создания областей с ограничениями.<br /> Существует 2 уровня прав.<br /> <br /> <strong>1. Зарегистрированные пользователи.</strong> Страницы, доступные не всем (-&gt; 2. Управление страницами и навигация), могут посещать лишь зарегистрированные пользователи. Есть только один уровень зарегистрированных пользователей.<br /> <br /> <strong>2. Администраторы.</strong> Среди зарегистрированных пользователей могут быть один или несколько администраторов. Администраторы обладают полным правом доступа к серверу и могут изменять веб-узел, создавать и удалять страницы, а также управлять профилями пользователей.<br /> <br /> <strong>3. Опытные пользователи.</strong> Зарегистрированных пользователей можно определить как опытных. Опытные пользователи имеют неограниченный доступ к страницам, если соответствующие права были им предоставлены администратором. Сервер доступен только для администраторов.</td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="20">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="_img/setup_04.jpg" id="IMG4" /></td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="20">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            Чтобы создать новых пользователей, просто введите имя, пароль и адрес электронной почты, а затем нажмите кнопку <strong>Создать пользователя</strong>.</td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="20">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="_img/setup_05.jpg" id="IMG5" /></td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="20">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            Кнопка &laquo;Изменить&raquo; позволяет изменить имя и адрес электронной почты. Вы можете назначить пользователю права администратора, установив флажок &laquo;Является администратором&raquo;.<br /> <br /> В этом режиме также можно отслеживать последний вход каждого пользователя в систему.</td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr align="left" size="1" width="100%" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tit">
+                            Модули</td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            Каждая новая страница пуста и содержит раскрывающийся список для выбора модуля.</td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="20">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="_img/modules_start.jpg" id="IMG6" /></td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="20">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            Для создания страницы предусмотрено 10 модулей. На страницу можно добавить любое число модулей и расположить их в любом порядке. Внизу каждой страницы всегда находится список для выбора модуля, и каждый новый модуль добавляется внизу страницы.<br /> <br /> Чтобы изменить порядок модулей, воспользуйтесь стрелками вверх и вниз в заголовке каждого модуля &ndash; они позволяют переместить весь раздел модуля вверх или вниз.</td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="20">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="_img/modules_start_arrows.jpg" id="IMG7" /></td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="20">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            Команда <strong>Удалить раздел</strong> удаляет модуль целиком.<br /> <br /> Многие модули предусматривают <strong>редактор форматированного текста</strong> для создания нового содержимого. Этот редактор выполняет основные задачи форматирования текста и даже позволяет создавать таблицы &ndash; вы можете сами испытать эти инструменты в действии...</td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="20">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="_img/modules_start_editor.jpg" id="IMG8" /></td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="20">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            Чтобы добавить рисунок, щелкните значок изображения и либо выберите рисунок с сервера, либо используйте функцию загрузки. Если вы знакомы с HTML, то можете переключаться между режимом конструктора и представлением HTML с помощью вкладки &laquo;Источник&raquo; вверху окна редактора.<br /> <br /> <br /> <strong>Режимы просмотра и правки</strong><br /> <br /> Чтобы администраторы могли предварительно просмотреть результаты своей работы, не выходя из системы, модули предусматривают режимы просмотра и правки. Между ними можно переключаться с помощью кнопок &laquo;Просмотр&raquo; и &laquo;Правка&raquo;.
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="20">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="_img/modules_start_modes.jpg" id="IMG88" /></td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="20">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            <strong>Отправить на боковую панель</strong><br /> Gewisse Module bieten das Feature &quot;<strong>Zur Sidebar hinzuf&uuml;gen</strong>&quot; an.<br /> Некоторые модули предоставляют особую функцию <strong>Отправить на боковую панель</strong>.<br /> Если подключить эту возможность, то содержимое модулей будет выделено на боковой панели для использования в качестве раздела быстрых ссылок или раздела последних обновлений.</td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr align="left" size="1" width="100%" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                            <a name="contact-form"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            <span class="titsub">1. Форма контакта</span><br /> <br /> Позволяет поддерживать связь с друзьями, коллегами и заказчиками и упрощает отправку сообщений: модуль &laquo;Форма контакта&raquo;. Не забудьте <strong>указать сервер SMTP</strong> во время настройки отправки электронной почты.</td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="20">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="_img/contact_form.jpg" id="IMG9" /></td>
+                        <td>
+                        </td>
+                        <td class="desctxt">
+                            Сервер формы контакта выполняет три задачи: создает форму контакта, определяет, куда будут направляться запросы о контакте, а также создает сообщение с благодарностью для пользователя.<br />  <br /> Первые три поля &ndash; &laquo;Получатель сообщения&raquo;, &laquo;Копия&raquo; и &laquo;Тема&raquo; &ndash; определяют способ доставки вам электронной почты.<br /> <br /> <strong>Вступительный текст</strong> &ndash; это приглашение пользователям вступить в контакт.<br /> <br /> <strong>Сообщение с благодарностью</strong> отображается на экране по окончании работы пользователя с формой контакта.</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr align="left" size="1" width="100%" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                            <a name="download-list"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            <span class="titsub">2. Список загрузки</span><br /> <br /> Для предоставления общего доступа к документам на своем веб-узле воспользуйтесь модулем &laquo;Список загрузки&raquo;. С его помощью можно загружать различные форматы файлов. Тип файла определяется автоматически, и в список добавляется соответствующий значок приложения.</td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr align="left" size="1" width="100%" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                            <a name="easy-control"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            <span class="titsub">3. Простое управление</span><br /> <br /> Вы хотите интегрировать собственный пользовательский элемент управления в CMS? Нет ничего проще: выберите раздел &laquo;Простое управление&raquo; (Easy Control)! Создайте обычным способом пользовательский элемент управления и поместите его в папку EasyControls в корневом каталоге CMS. Вы даже можете скопировать существующие пользовательские элементы управления в ту же папку. При размещении раздела &laquo;Простое управление&raquo; на одной из страниц все элементы управления в папке EasyControls автоматически включаются в раскрывающийся список, который отображается в административном представлении раздела. Остается лишь выбрать нужный элемент управления. Действительно просто, не правда ли?
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr align="left" size="1" width="100%" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                            <a name="event-list"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            <span class="titsub">4. Список событий</span><br /> <br /> Приглашайте гостей и ведите календарь событий в Интернете. Модуль &laquo;Список событий&raquo; позволяет создавать события, устанавливать для них дату и время.</td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="20">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="_img/event_list_01.jpg" id="IMG10" /></td>
+                        <td>
+                        </td>
+                        <td class="desctxt">
+                            Создание элемента события<br /> <br /> Выберите дату события с помощью средства динамического выбора даты.<br /> <br /> Выберите время, используя раскрывающееся поле часов и минут.<br /> <br /> Параметр &laquo;Показывать с&raquo; аналогичен дате публикации. Если выбрать дату здесь, то данные о событии будут отображаться только в этот день и после него.</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr align="left" size="1" width="100%" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                            <a name="gallery"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            <span class="titsub">5. Галерея</span><br /> <br /> С помощью модуля &laquo;Галерея&raquo; вы сможете поделиться своими фотографиями с посетителями веб-узла. Выбрать файлы и снабдить их соответствующими комментариями можно так же, как и в модуле &laquo;Загрузка&raquo;.</td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="20">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="_img/gallery_01.jpg" id="IMG11" /></td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="20">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            Фотоминиатюры создаются автоматически после загрузки изображений.<br /> Кроме того, создается изображение для предварительного просмотра по размеру модуля галереи. Доступ к исходному файлу осуществляется по ссылке загрузки.</td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="20">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="_img/gallery_02.jpg" id="IMG12" /></td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr align="left" size="1" width="100%" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                            <a name="guestbook"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            <span class="titsub">6. Гостевая книга</span><br /> <br /> Ваши гости смогут оставить свои комментарии на вашем веб-узле. Гостевую книгу легко настроить; она дополнена образом AntiBot для большей безопасности.</td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="20">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="_img/guestbook_01.jpg" id="IMG13" /></td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="20">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            В версии 1 нельзя изменять элементы веб-интерфейса.</td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr align="left" size="1" width="100%" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                            <a name="html-content"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            <span class="titsub">7. HTML-содержимое</span><br /> <br /> Самый важный раздел, поскольку предусматривает максимальную гибкость. Редактор форматированного текста обеспечивает широкие возможности изменения стиля и форматирования текста.<br /> <br /> Чтобы добавить рисунок, щелкните значок изображения и либо выберите рисунок с сервера, либо используйте функцию загрузки. Если вы знакомы с HTML, то можете переключаться между режимом конструктора и представлением HTML с помощью вкладки &laquo;Источник&raquo; вверху окна редактора.<br />
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr align="left" size="1" width="100%" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                            <a name="link-list"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            <span class="titsub">8. Список ссылок</span><br /> <br /> Модуль &laquo;Список ссылок&raquo; функционирует так же, как и модули &laquo;Загрузка&raquo; или &laquo;Галерея&raquo;. Добавляется URL-адрес, и отдельно выбирается конечный объект.</td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="20">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="_img/linklist_01.jpg" id="IMG14" /></td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr align="left" size="1" width="100%" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                            <a name="news-list"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            <span class="titsub">9. Список новостей</span><br /> <br /> Добавьте новости на свой веб-узел. Выберите даты в полях &laquo;Показывать с&raquo; и &laquo;Показывать до&raquo;, чтобы задать срок, в течение которого новости будут доступны на вашем веб-узле.</td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="20">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="_img/newslist_01.jpg" id="IMG15" /></td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr align="left" size="1" width="100%" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                            <a name="subpages"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            <span class="titsub">10. Вложенные страницы</span><br /> <br /> Если у одной из страниц есть вложенные страницы, может оказаться интересным создать на родительской странице список ссылок на все вложенные страницы. Такой список подобен оглавлению для категории вашего веб-узла.<br /> <br /> Модуль &laquo;Вложенные страницы&raquo; выполняет как раз эту задачу: просто добавьте его на родительскую страницу, и он создаст список ссылок на все вложенные страницы автоматически!<br />
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" colspan="3">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr align="left" width="100%" size="1" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                            <a name="blog"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            <span class="titsub">11. Блог</span><br /> <br /> Модуль &laquo;Блог&raquo; предоставляет вам все преимущества веб-журнала. <br /> <br />
+                            <ul>
+                                <li>Рост популярности вашего веб-узла: функция проверки связи привлекает на веб-узел больше посетителей.
+                                </li>
+                                <li>Актуальность выбранной темы: возможность держать посетителей в курсе событий (дневник путешествия, ход выполнения проекта, мониторинг публикаций в Интернете, управление знаниями и т. п.).</li>
+                                <li>Общение и обмен идеями: читайте комментарии посетителей вашего блога и отвечайте на них, обновляя записи блога или публикуя новые записи.</li>
+                            </ul>
+                            <img alt="" src="_img/blog_edit.gif" /> <br /> Размещайте новые записи блога и изменяйте старые. <br /> <br /> <span class="desctitsub">Теги</span><br /> Нажмите кнопку &laquo;Теги&raquo;, и откроется небольшое окно, где можно назначить теги записи и создать новые.<br /> <br /> <img alt="" src="_img/blog_tag.jpg" /> <br /> <br /> Ключевые слова можно менять и удалять в любое время. Просто нажмите кнопку &laquo;Теги&raquo; в режиме &laquo;Правка&raquo; блога. <br /> <br /> <img alt="" src="_img/blog_tag2.jpg" /> <br /> <br /> <span class="desctitsub">Уведомление Weblogs о вводе</span> <br /> Можно указать в конфигурации блога, будет ли отправляться команда проверки связи на узел Weblogs.com при размещении записей. Таким образом, на Weblogs будет передаваться уведомление о вводе записей. <br /> <br /> <img alt="Проверка связи для веб-журнала" src="_img/blog_ping.jpg" /> <br /> <br /> <span class="desctitsub">Календарь</span><br /> В календаре жирным шрифтом выделены дни, когда были опубликованы записи. <br /> <br /> <img src="_img/blog_kalender.jpg" /> <br /> <br /> <span class="desctitsub">Комментарии</span> <br /> Для каждой записи блога посетители могут оставлять свои комментарии, которые будут сразу же опубликованы.  Администратор может удалить эти комментарии в режиме &laquo;Правка&raquo;. <br /> <br /> <img alt="Kommentar" src="_img/blog_kommentar.jpg" /> <br /> <br />
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr align="left" size="1" width="100%" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                            <a name="blogroll"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            <span class="titsub">12. Блогролл</span><br /> <br /> Структура модуля &laquo;Блогролл&raquo; аналогична модулю &laquo;Список ссылок&raquo;. Единственное отличие заключается в том, что &laquo;Блогролл&raquo; содержит ссылки на другие блоги, с которыми вы бы хотели ознакомить своих посетителей.<br /> <br /> <img alt="Блогролл" src="_img/blog_blogroll.jpg" /><br /> <br /> Чтобы разместить новую запись, укажите заголовок и URL-адрес сообщения. Также можно добавить в сообщение RSS-канал. Это позволит пользователю подписаться сразу на все блоги одним щелчком мыши (список подписки).
+                            <td>
+                            </td>
+                            <td>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <hr align="left" size="1" width="100%" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                            <a name="tagcloud"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="txt">
+                            <span class="titsub">13. Облако тегов</span><br /> <br /> Облако тегов предназначено для визуализации ключевых слов, которые используются в блоге. Те ключевые слова, которые встречаются наиболее часто, выделены жирным шрифтом. При щелчке кнопкой мыши ключевого слова отображаются все записи, содержащие это слово. <br /> <br /> <img alt="Облако тегов" src="_img/blog_tagcloud.jpg" /> <br /> <br /> Облако тегов можно размещать в любом месте и сколь угодно часто. Если ваш веб-узел будет содержать несколько блогов, то облако тегов сгруппирует все блоги вместе.<br />
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="25">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

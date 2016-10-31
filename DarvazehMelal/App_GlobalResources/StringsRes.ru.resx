@@ -1,0 +1,1168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="clt_RecoverPasswordWizard_KeepPassword" xml:space="preserve">
+    <value>Сохранить пароль</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="clt_RecoverPasswordWizard_ResetPassword" xml:space="preserve">
+    <value>Задать новый пароль</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__EditMode" xml:space="preserve">
+    <value>Режим правки</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__ViewMode" xml:space="preserve">
+    <value>Режим просмотра</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_CreateUser" xml:space="preserve">
+    <value>Создать пользователя</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_CreateUserSucessful" xml:space="preserve">
+    <value>Пользователь создан</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_DownloadList_RssTitle" xml:space="preserve">
+    <value>Загрузки</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_RssTitle" xml:space="preserve">
+    <value>События</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Gallery_RssTitle" xml:space="preserve">
+    <value>Галерея</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Guestbook_RssTitle" xml:space="preserve">
+    <value>Гостевая</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_HtmlContent_RssTitle" xml:space="preserve">
+    <value>Html</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_LinkList_RssTitle" xml:space="preserve">
+    <value>Ссылки</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_NewsList_RssTitle" xml:space="preserve">
+    <value>Лента новостей</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_PasswordRecovery_MailSubject" xml:space="preserve">
+    <value>Информация о пользователе</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_RecoverPasswordWizard_HeaderText" xml:space="preserve">
+    <value>Сбросить пароль для имени пользователя</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_RecoverPasswordWizard_PasswordMailBody" xml:space="preserve">
+    <value>Информация о пользователе для: {0}{2}{2}Ваш пароль был сброшен.{2}Ваш новый пароль: {1}{2}{2}Спасибо</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_RecoverPasswordWizard_PasswordMailFailed" xml:space="preserve">
+    <value>Отправка письма не выполнена!</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_RecoverPasswordWizard_PasswordMailSent" xml:space="preserve">
+    <value>Письмо будет отправлено немедленно</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_RecoverPasswordWizard_PasswordMailSubject" xml:space="preserve">
+    <value>Информация о пользователе</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_RecoverPasswordWizard_ResultUserNotFound" xml:space="preserve">
+    <value>Пользователь не найден</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__Cancel" xml:space="preserve">
+    <value>Отмена</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__Save" xml:space="preserve">
+    <value>Сохранить</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb_Search_NoSearchResults" xml:space="preserve">
+    <value>Ничего ненайдено по Вашему критерию</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Search_Rowtitle_Excerpt" xml:space="preserve">
+    <value>Выборка</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Search_Rowtitle_Title" xml:space="preserve">
+    <value>Заглавие</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Search_SearchQuery" xml:space="preserve">
+    <value>Условия поиска</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Search_StartSearch" xml:space="preserve">
+    <value>Поиск</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_AdminUser_DeleteSection" xml:space="preserve">
+    <value>Удалить раздел</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Subpages_RssTitle" xml:space="preserve">
+    <value>Вложенные</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_CMS_Title" xml:space="preserve">
+    <value>Заглавие</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_CMS_Language" xml:space="preserve">
+    <value>Язык</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_CMS_MailSenderAdress" xml:space="preserve">
+    <value>Адрес отправителя</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_CMS_SmtpServer" xml:space="preserve">
+    <value>Smpt-Сервер</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_CMS_FooterLine" xml:space="preserve">
+    <value>Нижняя сноска</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_CMS_WebsiteDescription" xml:space="preserve">
+    <value>Описание сайта</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_CMS_WebsiteKeywords" xml:space="preserve">
+    <value>Ключевые слова</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_CMS_EnableSectionRSS" xml:space="preserve">
+    <value>Включить раздел RSS</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_CMS_SelectTheme" xml:space="preserve">
+    <value>Выбрать тему</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_CMS_RESETWebsite" xml:space="preserve">
+    <value>СБРОСИТЬ Сайт</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_LoginAdmin_Login" xml:space="preserve">
+    <value>Вход</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_LoginAdmin_Login_UserName" xml:space="preserve">
+    <value>Имя</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_LoginAdmin_Remember" xml:space="preserve">
+    <value>Запомнить меня.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_LoginAdmin_ChangePassword" xml:space="preserve">
+    <value>Сменить пароль</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_LoginAdmin_LogIn" xml:space="preserve">
+    <value>Вход</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_LoginAdmin_LogOut" xml:space="preserve">
+    <value>Выход</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_RecoverPassword_Legend" xml:space="preserve">
+    <value>Сбросить пароль пользователя</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_CreateUserButtonDone" xml:space="preserve">
+    <value>Продолжить</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_NewSite" xml:space="preserve">
+    <value>Новая страница</value>
+    <comment>updated 1.0.2</comment>
+  </data>
+  <data name="adm_Navigation_AllowAnonymous" xml:space="preserve">
+    <value>Разрешить анонимным</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_ChangeUser" xml:space="preserve">
+    <value>Сменить пользователя</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_Comment" xml:space="preserve">
+    <value>Коментарий</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_CreateUser" xml:space="preserve">
+    <value>Создать нового пользователя</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_Email" xml:space="preserve">
+    <value>Email</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_IsAdministrator" xml:space="preserve">
+    <value>Это Администратор</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_LastLogin" xml:space="preserve">
+    <value>Последний вход</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_Move" xml:space="preserve">
+    <value>Переместить</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Sections_MoveSection" xml:space="preserve">
+    <value>Переместить раздел по странице</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_Navigation" xml:space="preserve">
+    <value>Навигация</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_NewPageDefaultName" xml:space="preserve">
+    <value>Новая страница</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_PageDeletionWarning" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить эту страницу?</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_PageTitle" xml:space="preserve">
+    <value>Заглавие страницы</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Sections_Section" xml:space="preserve">
+    <value>Раздел</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Sections_SourcePage" xml:space="preserve">
+    <value>Исходная страница</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Sections_TargetPage" xml:space="preserve">
+    <value>Страница назначения</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_UserName" xml:space="preserve">
+    <value>Имя пользователя</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_VirtualPath" xml:space="preserve">
+    <value>Виртуальный путь</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_Visible" xml:space="preserve">
+    <value>Видимый</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_Homepage" xml:space="preserve">
+    <value>Домашняя</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__Delete" xml:space="preserve">
+    <value>Удалить</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Website_EnableSectionRSS" xml:space="preserve">
+    <value>Включить раздел RSS</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Website_FooterLine" xml:space="preserve">
+    <value>Нижняя линия</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Website_Language" xml:space="preserve">
+    <value>Язык</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Website_MailSender" xml:space="preserve">
+    <value>Адрес отправителя</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Website_Reset" xml:space="preserve">
+    <value>СБРОС сайта</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_SelectTheme" xml:space="preserve">
+    <value>Выбирите тему</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Website_SmtpServer" xml:space="preserve">
+    <value>Smtp-Сервер</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Website_Title" xml:space="preserve">
+    <value>Заглавие</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Website_WebsiteDescription" xml:space="preserve">
+    <value>Описание сайта</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Website_WebsiteKeywords" xml:space="preserve">
+    <value>Ключевые слова сайта</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Navigation_VirtualPathErrorMessage" xml:space="preserve">
+    <value>Сайт с таким путем уже существует.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_Button" xml:space="preserve">
+    <value>Сменить пароль</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_ConfirmNewPassword" xml:space="preserve">
+    <value>Подтвердить новый пароль</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_ConfirmNewPasswordRequired" xml:space="preserve">
+    <value>Подтверждение нового пароля обязательно.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_NewPassword" xml:space="preserve">
+    <value>Новый пароль</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_NewPasswordRequired" xml:space="preserve">
+    <value>Новый пароль обязательно.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_NotMatching" xml:space="preserve">
+    <value>Пароли отличаються.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_Password" xml:space="preserve">
+    <value>Пароль</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_PasswordRequired" xml:space="preserve">
+    <value>Пароль обязательно.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_Title" xml:space="preserve">
+    <value>Сменить пароль</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_UserName" xml:space="preserve">
+    <value>Имя</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_ChangePassword_UserNameRequired" xml:space="preserve">
+    <value>Имя обязательно.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Login_ChangePassword" xml:space="preserve">
+    <value>Сменить пароль</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Login_LogIn" xml:space="preserve">
+    <value>Вход</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Login_Password" xml:space="preserve">
+    <value>Пароль</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Login_PasswordRequired" xml:space="preserve">
+    <value>Пароль обязательно.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Login_RememberMe" xml:space="preserve">
+    <value>Запомнить меня.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Login_Title" xml:space="preserve">
+    <value>Вход</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Login_UserName" xml:space="preserve">
+    <value>Имя</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Login_UserNameRequired" xml:space="preserve">
+    <value>Имя обязательно.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_DeleteUser" xml:space="preserve">
+    <value>Удалить текущего пользователя</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_DeleteWarning" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить текущего пользователя?</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_Exception" xml:space="preserve">
+    <value>Обнаружена следующая ошибка:</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_LastAdminRemains" xml:space="preserve">
+    <value>Последний администратор не может быть удален.</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="cls_SitemapEditor_Administration" xml:space="preserve">
+    <value>Администрирование</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="cls_SitemapEditor_CMSSetup" xml:space="preserve">
+    <value>Настройка CMS</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="cls_SitemapEditor_Management" xml:space="preserve">
+    <value>Управление пользователями</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="cls_SitemapEditor_Sections" xml:space="preserve">
+    <value>Разделы/Страницы</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="cls_SitemapEditor_SectionsPages" xml:space="preserve">
+    <value>Страницы и Навигация</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_ComparePassword" xml:space="preserve">
+    <value>Пароли должны совпадать</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_ConfirmPassword" xml:space="preserve">
+    <value>Подтвердите пароль:</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_ConfirmPasswordRequired" xml:space="preserve">
+    <value>Требуеться подтвердить пароль.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_DuplicateUserName" xml:space="preserve">
+    <value>Пожалуйста введите другое имя пользователя.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_Email" xml:space="preserve">
+    <value>E-mail:</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_EmailRequired" xml:space="preserve">
+    <value>E-mail обязательно.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_Password" xml:space="preserve">
+    <value>Пароль:</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_PasswordRequired" xml:space="preserve">
+    <value>Пароль обязательно.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_UserName" xml:space="preserve">
+    <value>Имя пользователя:</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_UserNameRequired" xml:space="preserve">
+    <value>Имя пользователя обязательно.</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_RecoverPassword_FinishButton" xml:space="preserve">
+    <value>Сброс</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__Search" xml:space="preserve">
+    <value>Поиск</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__DeleteSection" xml:space="preserve">
+    <value>Удалить раздел</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__RemoveFromSidebar" xml:space="preserve">
+    <value>Убрать с панели</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__SendToSidebar" xml:space="preserve">
+    <value>Отправить на панель</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__Submit" xml:space="preserve">
+    <value>Подтвердить</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Guestbook_AntiBotImage" xml:space="preserve">
+    <value>Anti Bot Изображение</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Guestbook_Input" xml:space="preserve">
+    <value>Ввод</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Guestbook_Name" xml:space="preserve">
+    <value>Имя</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_Name" xml:space="preserve">
+    <value>Имя</value>
+    <comment>added 1.1.2 Beta</comment>
+  </data>
+  <data name="ctl_ContactForm_RssTitle" xml:space="preserve">
+    <value>Контактная форма</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EasyControl_RssTitle" xml:space="preserve">
+    <value>Простой элемент</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Sections_Move" xml:space="preserve">
+    <value>Переместить</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Users_Admin" xml:space="preserve">
+    <value>Администрирование</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_CopyTo" xml:space="preserve">
+    <value>Скопировать в</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_EMailAddress" xml:space="preserve">
+    <value>E-Mail адрес</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_ErrorMessageEmail" xml:space="preserve">
+    <value>Пожалуйста введите E-Mail адрес</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_ErrorMessageMessage" xml:space="preserve">
+    <value>Пожалуйста введите сообщение</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_ErrorMessageSubject" xml:space="preserve">
+    <value>Пожалуйста введите тему</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_ErrorMessageValidEmail" xml:space="preserve">
+    <value>Пожалуйста введите правильный E-Mail адрес</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_IntroPart1" xml:space="preserve">
+    <value>Перед тем как использовать контактную форму, вы должны настроить SMTP-Server</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_IntroPart2" xml:space="preserve">
+    <value>Страница администрирования</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_Introtext" xml:space="preserve">
+    <value>Вводный текст</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_Message" xml:space="preserve">
+    <value>Сообщение</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_RecipientEMail" xml:space="preserve">
+    <value>Получатель E-Mail</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_Subject" xml:space="preserve">
+    <value>Тема</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ContactForm_ThankYouMessage" xml:space="preserve">
+    <value>Спасибо за сообщение</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Downloadlist_Comment" xml:space="preserve">
+    <value>Коментарий</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Downloadlist_File" xml:space="preserve">
+    <value>Файл</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Downloadlist_Title" xml:space="preserve">
+    <value>Заглавие</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EasyControl_Choose" xml:space="preserve">
+    <value>Выбирите элемент</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EasyControl_SelectControl" xml:space="preserve">
+    <value>Пожалуйста выбирите элемент</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_ErrorMessageMissingFile" xml:space="preserve">
+    <value>Вибирите файл для загрузки</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_Date" xml:space="preserve">
+    <value>Дата</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_Description" xml:space="preserve">
+    <value>Описание</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_ErrorMessageEventDate" xml:space="preserve">
+    <value>Пожалуйста укажите дату события</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_ErrorMessageEventLocation" xml:space="preserve">
+    <value>Пожалуйста укажите место события</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_ErrorMessageEventName" xml:space="preserve">
+    <value>Пожалуйста укажите имя события</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_Event" xml:space="preserve">
+    <value>Событие</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_EventDate" xml:space="preserve">
+    <value>Дата События</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_EventName" xml:space="preserve">
+    <value>Имя События</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_EventTime" xml:space="preserve">
+    <value>Время События</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_Location" xml:space="preserve">
+    <value>Место</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_EventList_ShowFrom" xml:space="preserve">
+    <value>Показать форму</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Gallery_Comment" xml:space="preserve">
+    <value>Коментарий</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Gallery_ErrorMessageImage" xml:space="preserve">
+    <value>Пожалуйста выбирите изображение для загрузки</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Gallery_File" xml:space="preserve">
+    <value>Файл</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Gallery_Title" xml:space="preserve">
+    <value>Заглавие</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Guestbook_Author" xml:space="preserve">
+    <value>Автор</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Guestbook_Date" xml:space="preserve">
+    <value>Дата</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Guestbook_ErrorMessageAntibot" xml:space="preserve">
+    <value>Пожалуйста введите символы с изображения</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Guestbook_ErrorMessageAntibotInvalid" xml:space="preserve">
+    <value>Не правильный Anti Bot код</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Guestbook_ErrorMessageAuthorName" xml:space="preserve">
+    <value>Вы должны указать имя автора</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_Guestbook_ErrorMessageText" xml:space="preserve">
+    <value>Вы должны заполнить текстовое поле</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_LinkList_Comment" xml:space="preserve">
+    <value>Коментарий</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_LinkList_ErrorMessageUrl" xml:space="preserve">
+    <value>Пожалуйста введите url</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_LinkList_ErrorMessageValidUrl" xml:space="preserve">
+    <value>Пожалуйста введите правильный url</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_LinkList_Target" xml:space="preserve">
+    <value>Назначение</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_LinkList_Title" xml:space="preserve">
+    <value>Заглавие</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_LinkList_Url" xml:space="preserve">
+    <value>Url</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_NewsList_Content" xml:space="preserve">
+    <value>Содержимое</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_NewsList_Date" xml:space="preserve">
+    <value>Дата</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_NewsList_ErrorMessageHeadline" xml:space="preserve">
+    <value>Please enter a headline</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_NewsList_Headline" xml:space="preserve">
+    <value>Колонтитул</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_NewsList_News" xml:space="preserve">
+    <value>Новости</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_NewsList_ShowFrom" xml:space="preserve">
+    <value>Показать форму</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_NewsList_ShowUntil" xml:space="preserve">
+    <value>Показывать до</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_SectionAdmin_Info" xml:space="preserve">
+    <value>Информация</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="glb__Add" xml:space="preserve">
+    <value>добавить</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Default_AddSection" xml:space="preserve">
+    <value>Добавить раздел</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Search_ErrorMessageKeyword" xml:space="preserve">
+    <value>Пожалуйста укажите слово для поиска</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="pge_Search_View" xml:space="preserve">
+    <value>Посмотреть</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="adm_Website_SelectTheme" xml:space="preserve">
+    <value>Выбирите тему</value>
+    <comment>added 1.0.0</comment>
+  </data>
+  <data name="ctl_CreateUserWizard_DuplicateEmail" xml:space="preserve">
+    <value>Введенный e-mail адрес уже используеться. Пожалуйста введите другой e-mail адрес.</value>
+    <comment>added 1.0.2</comment>
+  </data>
+  <data name="ctl_EventList_ShowPastEvents" xml:space="preserve">
+    <value>Показать вставку событий</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="ctl_SectionAdmin_DeleteWarning" xml:space="preserve">
+    <value>Вы дествительно хотите удалить раздел "{0}"?</value>
+    <comment>added 1.1.0</comment>
+  </data>
+  <data name="adm_Website_SmtpDomain" xml:space="preserve">
+    <value>Smtp Домен</value>
+    <comment>added 1.1.1</comment>
+  </data>
+  <data name="adm_Website_SmtpPassword" xml:space="preserve">
+    <value>Smtp пароль</value>
+    <comment>added 1.1.1</comment>
+  </data>
+  <data name="adm_Website_SmtpUser" xml:space="preserve">
+    <value>Smtp Пользователь</value>
+    <comment>added 1.1.1</comment>
+  </data>
+  <data name="pge_Login_Failure" xml:space="preserve">
+    <value>Вход не выполнен. Попробуйте еще раз.</value>
+    <comment>added 1.1.1</comment>
+  </data>
+  <data name="adm_Website_Reset_Confirmation" xml:space="preserve">
+    <value>Вы дествительно хотите сбросить сайт? Все данные будут потеряны.</value>
+    <comment>added 1.1.2</comment>
+  </data>
+  <data name="ctl_Gallery_HTMLVersion" xml:space="preserve">
+    <value>HTML Версия</value>
+    <comment>added 1.1.2 Beta</comment>
+  </data>
+  <data name="ctl_Gallery_SilverlightVersion" xml:space="preserve">
+    <value>Silverlight Версия</value>
+    <comment>added 1.1.2 Beta</comment>
+  </data>
+  <data name="pge_ChangePassword_PasswordFailureText" xml:space="preserve">
+    <value>Пароль не правильный.</value>
+    <comment>added 1.1.2 Beta</comment>
+  </data>
+  <data name="adm_Navigation_EditPowerUser" xml:space="preserve">
+    <value>Редактируется Профессионалом</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="adm_Users_IsPowerUser" xml:space="preserve">
+    <value>Профессионал?</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="adm_Users_PowerUser" xml:space="preserve">
+    <value>Профессионал</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="adm_Navigation_Description" xml:space="preserve">
+    <value>Мета тег Описание</value>
+    <comment>added 1.2.1 (SEO Extension)</comment>
+  </data>
+  <data name="adm_Navigation_EditPowerUser1" xml:space="preserve">
+    <value>Доступен для редактирования Профессионалом</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="adm_Navigation_Keywords" xml:space="preserve">
+    <value>Мета тег Ключевые слова</value>
+    <comment>added 1.2.1 (SEO Extension)</comment>
+  </data>
+  <data name="adm_Users_IsPowerUser1" xml:space="preserve">
+    <value>Профессионал?</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="adm_Users_PowerUser1" xml:space="preserve">
+    <value>Профессионал</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_Comment" xml:space="preserve">
+    <value>Комментарий</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_Comments" xml:space="preserve">
+    <value>Комментарии</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_CommentsAuthor" xml:space="preserve">
+    <value>Автор</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_CommentsDate" xml:space="preserve">
+    <value>Дата</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_CommentsErrorMessageAuthor" xml:space="preserve">
+    <value>Введите Ваше имя</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_CommentsErrorMessageTitle" xml:space="preserve">
+    <value>Введите Название</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_CommentsFooter" xml:space="preserve">
+    <value>Опубликовано {0}, {1}</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_CommentsTitle" xml:space="preserve">
+    <value>Название</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_Config" xml:space="preserve">
+    <value>Конфигурация блога</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_ConfigBlogName" xml:space="preserve">
+    <value>Название блога</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_ConfigPing" xml:space="preserve">
+    <value>Отправить ping Weblogs.com</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_ConfigSafed" xml:space="preserve">
+    <value>Изменения сохранены</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_Configuration" xml:space="preserve">
+    <value>Конфигурация блога</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_Entry" xml:space="preserve">
+    <value>Запись блога</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_ErrorMessageComment" xml:space="preserve">
+    <value>Введите комментарий</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_ErrorMessageEntry" xml:space="preserve">
+    <value>Введите текст</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_ErrorMessageTitle" xml:space="preserve">
+    <value>Введите Название</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_NoComments" xml:space="preserve">
+    <value>Нет комментариев</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_RssTitle" xml:space="preserve">
+    <value>Блог</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_Tag" xml:space="preserve">
+    <value>Тег</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_Tags" xml:space="preserve">
+    <value>Теги</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_TagsDescription" xml:space="preserve">
+    <value>Описание</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_TagsErrorMessage" xml:space="preserve">
+    <value>Укажите название тега</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_TagsNumber" xml:space="preserve">
+    <value>Номер</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blog_Title" xml:space="preserve">
+    <value>Название</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_Config" xml:space="preserve">
+    <value>Blogroll конфигурация</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_ConfigName" xml:space="preserve">
+    <value>Название</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_ConfigSafed" xml:space="preserve">
+    <value>Конфигурация cохранена</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_Configuration" xml:space="preserve">
+    <value>Конфигурация</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_ConfigVisible" xml:space="preserve">
+    <value>Видимый</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_Description" xml:space="preserve">
+    <value>Описание</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_ErrorMessageUrl" xml:space="preserve">
+    <value>Введите URL</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_ErrorMessageValidOrder" xml:space="preserve">
+    <value>Введите порядковый номер</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_ErrorMessageValidUrl" xml:space="preserve">
+    <value>Введите правильный URL</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_FeedUrl" xml:space="preserve">
+    <value>RSS URL</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_Order" xml:space="preserve">
+    <value>Позиция</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_RssTitle" xml:space="preserve">
+    <value>Blogroll</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_Title" xml:space="preserve">
+    <value>Название</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_Blogroll_Url" xml:space="preserve">
+    <value>URL</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_TagCloud_ConfigSafed" xml:space="preserve">
+    <value>Изменения сохранены</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_TagCloud_ConfigTitle" xml:space="preserve">
+    <value>Конфигурация облака тегов</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_TagCloud_DefaultTitle" xml:space="preserve">
+    <value>Облако тегов</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_TagCloud_ErrorMessageTitle" xml:space="preserve">
+    <value>Введите название облако тегов</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_TagCloud_RssTitle" xml:space="preserve">
+    <value>Облако тегов</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="ctl_TagCloud_Title" xml:space="preserve">
+    <value>Название облака тегов</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="glb__Back" xml:space="preserve">
+    <value>Назад</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="glb__Close" xml:space="preserve">
+    <value>Закрыть</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="pge_BlogSearch_Title" xml:space="preserve">
+    <value>Количество записей о: {0}</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="pge_Keywords_ErrorMessageTagExists" xml:space="preserve">
+    <value>Тег уже существует</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="pge_Keywords_SelectionSafed" xml:space="preserve">
+    <value>Сохранено</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="pge_Keywords_TagCreated" xml:space="preserve">
+    <value>Тег создан</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+  <data name="pge_Keywords_Title" xml:space="preserve">
+    <value>Выбор тегов</value>
+    <comment>added 1.2.0 Beta</comment>
+  </data>
+</root>
