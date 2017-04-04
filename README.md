@@ -28,8 +28,7 @@ Minimum requirements:
 1. Dot Net Platform 4 Support
 2. Microsoft SQL Server 2008 
 3. ASP.NET 4
-4. Web Service from an Iranian SMS Operator such as [Magfa](https://messaging.magfa.com/ui/)
-5. Shared Hosting Environment Or Dedicated Server
+4. Shared Hosting Environment Or Dedicated Server
 ```
 
 ## Usage example
