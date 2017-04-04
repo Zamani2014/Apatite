@@ -6,7 +6,7 @@
 [![Downloads Stats][npm-downloads]][npm-url]
 
 A software system for the business of real estate; the profession of buying, selling, or renting land, buildings or housing. I've designed this web application system for Arvidfava Co (http://www.Arvidfava.ir). It is open source and you can download it.
-
+### The project is currently in Farsi(Persian)
 ![](https://github.com/Zamani2014/Apatite/blob/master/docs/Home_www_amlakemelal_ir.png)
 
 ## Installation
